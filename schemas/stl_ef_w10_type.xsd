@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<!-- Include any other base types needed-->
+	<xsd:include schemaLocation="stl_ef_base_types.xsd"/>
+	<xsd:include schemaLocation="stl_ef_p10_w10_return_header_type.xsd"/>
+	
+	<xsd:complexType name ="STL_EF_W10_TYPE">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>The St. Louis Electronic File W10 contains all information pertaining to a standard W-10 Employer's Withholding Tax Return.</description>
+				<version>1.0.1.2025.01.02</version>
+			</xsd:documentation>
+		</xsd:annotation>
+			
+		<!--Sequence will enforce the order of ReturnHeader followed by ReturnLiability-->
+		<xsd:sequence>
+			
+			<!--ReturnHeader-->
+			<xsd:element name ="ReturnHeader" type="STL_EF_P10_W10_RETURN_HEADER_TYPE" minOccurs="1" maxOccurs="1" />
+
+			<!--ReturnLiability-->
+			<xsd:element name="ReturnLiability">
+				<xsd:annotation>
+					<xsd:documentation>
+						ReturnLiability contains details of taxable withholding and calculation of amounts due.
+					</xsd:documentation>
+				</xsd:annotation>
+
+				<xsd:complexType>
+					<xsd:all>
+
+						<!--FilingPeriod-->
+						<xsd:element name="FilingPeriod" type="QuarterEndDateType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									FilingPeriod contains the end date of the quarterly or annual tax period.  Valid dates are March 31st, June 30th, September 30th, or December 31st of any year.  Format: YYYY-MM-DD
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+
+						<!--TaxableEarnings-->
+						<xsd:element name="TaxableEarnings" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									TaxableEarnings contains the total wages, salaries, and other compensation earned during the tax period that is subject to the Earnings Tax.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+
+						<!--GrossTaxDue-->
+						<xsd:element name="GrossTaxDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									GrossTaxDue contains the amount of Earnings Tax due during the tax period, calculated as 1 percent of taxable earnings.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						
+					</xsd:all>
+				</xsd:complexType>
+				
+			</xsd:element>	<!--ReturnLiability-->
+		
+		</xsd:sequence>
+	</xsd:complexType>
+		
+</xsd:schema>

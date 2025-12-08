@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<!-- Include any other base types needed-->
+	<xsd:include schemaLocation="stl_ef_p10_w10_returnbatch_header_type.xsd"/>
+	<xsd:include schemaLocation="stl_ef_w10_type.xsd"/>
+
+	<xsd:element name="STL_W10_PEO_ReturnBatch">
+
+		<xsd:annotation>
+			<xsd:documentation> 
+				<description>The W10 PEO ReturnBatch contains one BatchHeader and one or more STLW10 elements.  There must be exactly one STLW10 return for the TOTAL of the batch.  There can be an optional STLW10 return for the portion of the batch that belongs to the PEO.  There must be one or more STLW10 returns for reporting of the subsidiaries.</description>
+				<version>1.0.1.2025.01.02</version>
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:complexType>
+			<xsd:sequence>
+				
+				<!--BatchHeader-->
+				<xsd:element name="BatchHeader" type="STL_EF_BATCH_HEADER_P10_W10_TYPE" minOccurs="1" maxOccurs="1" />
+
+				<!--STL_P10_TOTAL-->
+				<xsd:element name="STL_W10_TOTAL" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="1" >
+					<xsd:annotation>
+						<xsd:documentation>The total return from the PEO.  These value will have total values for its own return and subsidiary returns {required}.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				
+				<!--STL_W10_PEO-->
+				<xsd:element name="STL_W10_PEO" type="STL_EF_W10_TYPE" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>The return for the PEO.  These values are for the PEO only and should not include any values attributed to any subsidiary returns {optional - if the PEO is only filing for subsidiaries}.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+
+				<!--STL_W10_SUBSIDIARY-->
+				<xsd:element name="STL_W10_SUBSIDIARY" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>The return for a subsidiary.  These values are for a single subsidiary return {required - include additional sections for each subsidiary}.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				
+			</xsd:sequence>
+		</xsd:complexType>
+		
+	</xsd:element>
+	
+</xsd:schema>
