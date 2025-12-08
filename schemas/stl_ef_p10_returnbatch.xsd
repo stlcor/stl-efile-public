@@ -2,7 +2,7 @@
 <xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
 
 	<!-- Include any other base types needed-->
-	<xsd:include schemaLocation="stl_ef_p10_w10_returnbatch_header_type.xsd"/>
+	<xsd:include schemaLocation="stl_ef_w10_p10_returnbatch_header_type.xsd"/>
 	<xsd:include schemaLocation="stl_ef_p10_type.xsd"/>
 
 	<xsd:element name="STL_P10_ReturnBatch">
@@ -18,7 +18,7 @@
 			<xsd:sequence>
 
 				<!--BatchHeader-->
-				<xsd:element name="BatchHeader" type="STL_EF_BATCH_HEADER_P10_W10_TYPE" minOccurs="1" maxOccurs="1" />
+				<xsd:element name="BatchHeader" type="STL_EF_BATCH_HEADER_W10_P10_TYPE" minOccurs="1" maxOccurs="1" />
 			
 				<!-- STL_P10 -->
 				<xsd:element name="STL_P10" type="STL_EF_P10_TYPE" minOccurs="1" maxOccurs="unbounded" />

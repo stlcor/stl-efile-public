@@ -4,7 +4,7 @@
 	<!-- Include any other base types needed-->
 	<xsd:include schemaLocation="stl_ef_base_types.xsd"/>
 
-	<xsd:complexType name ="STL_EF_BATCH_HEADER_P10_W10_TYPE">
+	<xsd:complexType name ="STL_EF_BATCH_HEADER_W10_P10_TYPE">
 
 		<xsd:annotation>
 			<xsd:documentation>
