@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The P10 or W10 BatchHeader contains elements to identify the filer, the number of items being filed, and the return type of the returns being filed.</description>
-				<version>1.0.1.2025.01.02</version>
+				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

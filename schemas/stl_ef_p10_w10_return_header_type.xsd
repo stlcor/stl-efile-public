@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The P10 or W10 ReturnHeader contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.  At least one of the two identifier elements (FEIN or AccountID) must contain a valid value.</description>
-				<version>1.0.1.2025.01.02</version>
+				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

@@ -10,7 +10,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The St. Louis Electronic File W10 contains all information pertaining to a standard W-10 Employer's Withholding Tax Return.</description>
-				<version>1.0.1.2025.01.02</version>
+				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 			

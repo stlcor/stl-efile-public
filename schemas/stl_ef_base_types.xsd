@@ -4,7 +4,7 @@
 	<xsd:annotation>
 		<xsd:documentation>
 			<description>St. Louis e-file Tax Schema - Base types commonly used across schema files.</description>
-			<version>1.0.1.2025.01.02</version>
+			<version>1.0.0</version>
 		</xsd:documentation>
 	</xsd:annotation>
 

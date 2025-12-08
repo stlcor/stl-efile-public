@@ -10,7 +10,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The St. Louis Electronic File P10 contains all information pertaining to a standard P-10 Payroll Expense Tax Return.</description>
-				<version>1.0.1.2025.01.02</version>
+				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 			
