@@ -3,7 +3,7 @@
 
 	<!-- Include any other base types needed-->
 	<xsd:include schemaLocation="stl_ef_base_types.xsd"/>
-	<xsd:include schemaLocation="stl_ef_p10_w10_return_header_type.xsd"/>
+	<xsd:include schemaLocation="stl_ef_w10_p10_return_header_type.xsd"/>
 	
 	<xsd:complexType name ="STL_EF_W10_TYPE">
 
@@ -18,7 +18,7 @@
 		<xsd:sequence>
 			
 			<!--ReturnHeader-->
-			<xsd:element name ="ReturnHeader" type="STL_EF_P10_W10_RETURN_HEADER_TYPE" minOccurs="1" maxOccurs="1" />
+			<xsd:element name ="ReturnHeader" type="STL_EF_W10_P10_RETURN_HEADER_TYPE" minOccurs="1" maxOccurs="1" />
 
 			<!--ReturnLiability-->
 			<xsd:element name="ReturnLiability">
