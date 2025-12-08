@@ -7,7 +7,7 @@
 
 		<xsd:annotation>
 			<xsd:documentation>
-				<description>The W-10/P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.</description>
+				<description>The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.</description>
 				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>

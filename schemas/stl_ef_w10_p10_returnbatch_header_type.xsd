@@ -8,78 +8,65 @@
 
 		<xsd:annotation>
 			<xsd:documentation>
-				<description>The P10 or W10 BatchHeader contains elements to identify the filer, the number of items being filed, and the return type of the returns being filed.</description>
+				<description>The W-10 or P-10 Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.</description>
 				<version>1.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
 		<xsd:sequence>
 
-			<!--RemitterName-->
-			<xsd:element name="RemitterName" type="StringType" minOccurs="1" maxOccurs="1">
+			<!-- SubmitterName -->
+			<xsd:element name="SubmitterName" type="StringType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
-					<xsd:documentation>
-						RemitterName contains the name of the entity filing the return(s), for instance: the business name of the taxpayer or the name of the payroll service provider filing returns on behalf of multiple taxpayers.
-					</xsd:documentation>
+					<xsd:documentation>SubmitterName contains the name of the entity submitting the returns, such as the business name of the taxpayer or the name of the payroll service provider filing returns on behalf of multiple taxpayers.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- Either the RemitterFEIN or the RemitterSTLID must be provided (or both can be provided)-->
+			<!-- *** NEEDS ATTENTION *** -->
+			<!-- Either the SubmitterFEIN or the SubmitterSTLID must be provided (or both can be provided) -->
 			<xsd:choice minOccurs="1" maxOccurs="2">
 				
-				<!--RemitterFEIN-->
-				<xsd:element name="RemitterFEIN" type="EINType" maxOccurs="1">
+				<!-- SubmitterFEIN -->
+				<xsd:element name="SubmitterFEIN" type="EINType" maxOccurs="1">
 					<xsd:annotation>
-						<xsd:documentation>
-							RemitterFEIN contains the 9-digit federal employer ID of the remitting entity.
-						</xsd:documentation>
+						<xsd:documentation>SubmitterFEIN contains the 9-digit federal employer ID of the submitting entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 
-				<!--RemitterSTLID-->
-				<xsd:element name="RemitterSTLID" type="STLIdType" maxOccurs="1">
+				<!-- SubmitterSTLID -->
+				<xsd:element name="SubmitterSTLID" type="STLIdType" maxOccurs="1">
 					<xsd:annotation>
-						<xsd:documentation>
-							RemitterSTLID contains the unique 8-digit Entity ID of the remitting entity assigned by STLCOR.
-						</xsd:documentation>
+						<xsd:documentation>SubmitterSTLID contains the unique 8-digit Entity ID of the submitting entity assigned by STLCOR.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 
 			</xsd:choice>
 
-			<!--ReturnType-->
+			<!-- ReturnType -->
 			<xsd:element name="ReturnType" type="ReturnType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
-					<xsd:documentation>
-						ReturnType contains the type of return included in the batch.
-					</xsd:documentation>
+					<xsd:documentation>ReturnType contains the type of return included in the batch.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			
-			<!--TotalItems-->
+			<!-- TotalItems -->
 			<xsd:element name="TotalItems" type="IntegerNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
-					<xsd:documentation>
-						TotalItems contains the number of STLP10 elements contained in the batch.
-					</xsd:documentation>
+					<xsd:documentation>TotalItems contains the number of STLW10 or STLP10 elements contained in the batch.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 
-			<!--AmountDueTotal-->
+			<!-- AmountDueTotal -->
 			<xsd:element name="AmountDueTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
-					<xsd:documentation>
-						AmountDueTotal is the sum of all the AmountDue values included in the document.
-					</xsd:documentation>
+					<xsd:documentation>AmountDueTotal is the sum of all the AmountDue values included in the document.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 
-			<!--RemittanceTotal-->
+			<!-- RemittanceTotal -->
 			<xsd:element name="RemittanceTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
-					<xsd:documentation>
-						RemittanceTotal is the sum of all the Remittance values included in the document.
-					</xsd:documentation>
+					<xsd:documentation>RemittanceTotal is the sum of all the Remittance values included in the document.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 
