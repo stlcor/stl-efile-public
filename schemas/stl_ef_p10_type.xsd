@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The St. Louis Electronic Filing W-10 contains all information pertaining to a single P-10 Payroll Expense Tax return.</description>
-				<version>1.0.0</version>
+				<version>1.0.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 			

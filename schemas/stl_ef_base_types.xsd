@@ -4,7 +4,7 @@
 	<xsd:annotation>
 		<xsd:documentation>
 			<description>St. Louis Earnings and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.</description>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 		</xsd:documentation>
 	</xsd:annotation>
 
@@ -105,28 +105,6 @@
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[0-9]{9}" />
-		</xsd:restriction>
-	</xsd:simpleType>
-
-	<!-- *** NEEDS ATTENTION *** -->
-	<!-- St. Louis Identification Number Type -->
-	<xsd:simpleType name="STLIdType">
-		<xsd:annotation>
-			<xsd:documentation>Base type for a St. Louis Identification Number, a unique eight-digit Entity ID assigned to the taxpayer by STLCOR.</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:string">
-			<xsd:pattern value="[0-9]{8}" />
-		</xsd:restriction>
-	</xsd:simpleType>
-
-	<!-- *** NEEDS ATTENTION *** -->
-	<!-- St. Louis Account Number Type -->
-	<xsd:simpleType name="STLAccountIdType">
-		<xsd:annotation>
-			<xsd:documentation>Base type for a St. Louis Account Identification Number, a unique ten-digit Account ID assigned to the taxpayer by STLCOR.</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:string">
-			<xsd:pattern value="[0-9]{10}" />
 		</xsd:restriction>
 	</xsd:simpleType>
 

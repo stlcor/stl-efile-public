@@ -8,36 +8,20 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.</description>
-				<version>1.0.0</version>
+				<version>1.0.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
 		<xsd:sequence>
 
-			<!-- *** NEEDS ATTENTION *** -->
-			<!-- Either the FEIN or the Account ID must be provided (or both can be provided)-->
-			<xsd:choice minOccurs="1" maxOccurs="2">
-				
-				<!-- FEIN -->
-				<xsd:element name="FEIN" type="EINType" maxOccurs="1">
-					<xsd:annotation>
-						<xsd:documentation>
-							FEIN contains the 9-digit federal employer ID of the taxpayer.
-						</xsd:documentation>
-					</xsd:annotation>
-				</xsd:element>
-
-				<!-- *** NEEDS ATTENTION *** -->
-				<!-- AccountID -->
-				<xsd:element name="AccountID" type="STLAccountIdType" maxOccurs="1">
-					<xsd:annotation>
-						<xsd:documentation>
-							AccountID contains the unique 10-digit Account ID assigned to the taxpayer by STLCOR specific to the taxpayer's Payroll Expense account.
-						</xsd:documentation>
-					</xsd:annotation>
-				</xsd:element>
-				
-			</xsd:choice>
+			<!-- FEIN -->
+			<xsd:element name="FEIN" type="EINType" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						FEIN contains the 9-digit federal employer ID of the taxpayer.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 			
 			<!-- BusinessName -->
 			<xsd:element name="BusinessName" type="BusinessNameType" minOccurs="1" maxOccurs="1">

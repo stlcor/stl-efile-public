@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The W-10 or P-10 Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.</description>
-				<version>1.0.0</version>
+				<version>1.0.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -22,25 +22,12 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- *** NEEDS ATTENTION *** -->
-			<!-- Either the SubmitterFEIN or the SubmitterSTLID must be provided (or both can be provided) -->
-			<xsd:choice minOccurs="1" maxOccurs="2">
-				
-				<!-- SubmitterFEIN -->
-				<xsd:element name="SubmitterFEIN" type="EINType" maxOccurs="1">
-					<xsd:annotation>
-						<xsd:documentation>SubmitterFEIN contains the 9-digit federal employer ID of the submitting entity.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:element>
-
-				<!-- SubmitterSTLID -->
-				<xsd:element name="SubmitterSTLID" type="STLIdType" maxOccurs="1">
-					<xsd:annotation>
-						<xsd:documentation>SubmitterSTLID contains the unique 8-digit Entity ID of the submitting entity assigned by STLCOR.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:element>
-
-			</xsd:choice>
+			<!-- SubmitterFEIN -->
+			<xsd:element name="SubmitterFEIN" type="EINType" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>SubmitterFEIN contains the 9-digit federal employer ID of the submitting entity.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 
 			<!-- ReturnType -->
 			<xsd:element name="ReturnType" type="ReturnType" minOccurs="1" maxOccurs="1">
