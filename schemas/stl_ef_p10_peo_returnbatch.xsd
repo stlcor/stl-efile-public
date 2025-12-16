@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The P10 PEO ReturnBatch contains one BatchHeader and one or more STLP10 elements. There must be exactly one STLP10 return for the TOTAL of the batch. There can be an optional STLP10 return for the portion of the batch that belongs to the PEO. There must be one or more STLP10 returns for reporting of the subsidiaries.</description>
-				<version>1.0.1</version>
+				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

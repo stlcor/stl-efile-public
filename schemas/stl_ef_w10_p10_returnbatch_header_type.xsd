@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>The W-10 or P-10 Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.</description>
-				<version>1.0.1</version>
+				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

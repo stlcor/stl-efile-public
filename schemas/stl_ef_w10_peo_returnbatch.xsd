@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation> 
 				<description>The W10 PEO ReturnBatch contains one BatchHeader and one or more STLW10 elements. There must be exactly one STLW10 return for the TOTAL of the batch. There can be an optional STLW10 return for the portion of the batch that belongs to the PEO. There must be one or more STLW10 returns for reporting of the subsidiaries.</description>
-				<version>1.0.1</version>
+				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
