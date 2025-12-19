@@ -8,7 +8,9 @@
 
 		<xsd:annotation>
 			<xsd:documentation>
-				<description>The St. Louis Electronic Filing W-10 contains all information pertaining to a single P-10 Payroll Expense Tax return.</description>
+				<description>
+					The St. Louis Electronic Filing P-10 contains all information pertaining to a single P-10 Payroll Expense Tax return.
+				</description>
 				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
@@ -22,7 +24,9 @@
 			<!-- ReturnLiability -->
 			<xsd:element name="ReturnLiability">
 				<xsd:annotation>
-					<xsd:documentation>ReturnLiability contains details of taxable payroll and calculation of amounts due.</xsd:documentation>
+					<xsd:documentation>
+						ReturnLiability contains details of payroll subject to the Payroll Expense Tax and calculation of amounts due.
+					</xsd:documentation>
 				</xsd:annotation>
 
 				<xsd:complexType>
@@ -31,14 +35,18 @@
 						<!-- FilingPeriod -->
 						<xsd:element name="FilingPeriod" type="QuarterEndDateType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
-								<xsd:documentation>FilingPeriod contains the end date of the quarterly or annual tax period. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in the YYYY-MM-DD format.</xsd:documentation>
+								<xsd:documentation>
+									FilingPeriod contains the end date of the quarterly or annual tax period. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in the YYYY-MM-DD format.
+								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
 
 						<!-- TaxablePayroll -->
 						<xsd:element name="TaxablePayroll" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
-								<xsd:documentation>TaxablePayroll contains the total taxable payroll within the City of St. Louis during the tax period that is subject to the Payroll Expense Tax.</xsd:documentation>
+								<xsd:documentation>
+									TaxablePayroll contains the total taxable payroll within the City of St. Louis during the tax period that is subject to the Payroll Expense Tax.
+								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
 
@@ -46,7 +54,7 @@
 						<xsd:element name="GrossTaxDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									GrossTaxDue contains the amount of Earnings Tax due during the tax period, calculated as 1 percent of taxable earnings.
+									GrossTaxDue contains the amount of Earnings Tax due during the tax period, calculated as 0.5 percent of taxable earnings.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
@@ -55,7 +63,7 @@
 						<xsd:element name="PriorPaymens" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									PriorPayments contains amounts paid towards this filing period before the return is filed. This includes monthly withholding deposits (W-11) and any other previously applied payments. This element may be omitted if no amounts have been paid previously.
+									PriorPayments contains amounts paid towards this filing period before the return is filed. This includes any other previously applied payments. This element may be omitted if no amounts have been paid previously.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>

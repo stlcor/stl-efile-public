@@ -8,7 +8,9 @@
 
 		<xsd:annotation>
 			<xsd:documentation>
-				<description>The STL_W10_ReturnBatch contains one BatchHeader element and one or more STL_W10 elements.</description>
+				<description>
+					The STL_W10_ReturnBatch contains one BatchHeader element providing details about the batch, followed by one or more STL_W10 elements representing each W-10 return within the batch.
+				</description>
 				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>

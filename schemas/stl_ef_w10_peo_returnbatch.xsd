@@ -8,7 +8,9 @@
 
 		<xsd:annotation>
 			<xsd:documentation> 
-				<description>The W10 PEO ReturnBatch contains one BatchHeader and one or more STLW10 elements. There must be exactly one STLW10 return for the TOTAL of the batch. There can be an optional STLW10 return for the portion of the batch that belongs to the PEO. There must be one or more STLW10 returns for reporting of the subsidiaries.</description>
+				<description>
+					The W10 PEO ReturnBatch contains one BatchHeader and one or more STLW10 elements. There must be exactly one STLW10 return for the TOTAL of the batch. There can be an optional STLW10 return for the portion of the batch that belongs to the PEO. There must be one or more STLW10 returns for reporting of each subsidiary.
+				</description>
 				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
@@ -23,7 +25,9 @@
 				<!-- STL_W10_TOTAL -->
 				<xsd:element name="STL_W10_TOTAL" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="1" >
 					<xsd:annotation>
-						<xsd:documentation>The total return from the PEO. These value will have total values for its own return and subsidiary returns {required}.</xsd:documentation>
+						<xsd:documentation>
+							The total return from the PEO. These value will have total values for its own return and subsidiary returns {required}.
+						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 				
@@ -31,7 +35,9 @@
 				<!-- STL_W10_PEO -->
 				<xsd:element name="STL_W10_PEO" type="STL_EF_W10_TYPE" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
-						<xsd:documentation>The return for the PEO.  These values are for the PEO only and should not include any values attributed to any subsidiary returns {optional - if the PEO is only filing for subsidiaries}.</xsd:documentation>
+						<xsd:documentation>
+							The return for the PEO.  These values are for the PEO only and should not include any values attributed to any subsidiary returns {optional - if the PEO is only filing for subsidiaries}.
+						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 
@@ -39,7 +45,9 @@
 				<!-- STL_W10_SUBSIDIARY -->
 				<xsd:element name="STL_W10_SUBSIDIARY" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="unbounded">
 					<xsd:annotation>
-						<xsd:documentation>The return for a subsidiary.  These values are for a single subsidiary return {required - include additional sections for each subsidiary}.</xsd:documentation>
+						<xsd:documentation>
+							The return for a subsidiary.  These values are for a single subsidiary return {required - include additional sections for each subsidiary}.
+						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 				

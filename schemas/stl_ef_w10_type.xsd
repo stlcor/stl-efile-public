@@ -8,7 +8,9 @@
 
 		<xsd:annotation>
 			<xsd:documentation>
-				<description>The St. Louis Electronic Filing W-10 contains all information pertaining to a single W-10 Employer's Withholding Tax Return.</description>
+				<description>
+					The St. Louis Electronic Filing W-10 contains all information pertaining to a single W-10 Employer's Withholding Tax Return.
+				</description>
 				<version>1.0.2</version>
 			</xsd:documentation>
 		</xsd:annotation>
@@ -23,7 +25,7 @@
 			<xsd:element name="ReturnLiability">
 				<xsd:annotation>
 					<xsd:documentation>
-						ReturnLiability contains details of taxable withholding and calculation of amounts due.
+						ReturnLiability contains details of earnings subject to withholding and calculation of amounts due.
 					</xsd:documentation>
 				</xsd:annotation>
 

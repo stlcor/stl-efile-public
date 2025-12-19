@@ -3,7 +3,9 @@
 
 	<xsd:annotation>
 		<xsd:documentation>
-			<description>St. Louis Earnings and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.</description>
+			<description>
+				St. Louis Earnings and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.
+			</description>
 			<version>1.0.2</version>
 		</xsd:documentation>
 	</xsd:annotation>
@@ -11,7 +13,9 @@
 	<!-- Return Type: allowable values (W-10 or P-10) -->
 	<xsd:simpleType name="ReturnType">
 		<xsd:annotation>
-			<xsd:documentation>Enumeration of ReturnType valid values.</xsd:documentation>
+			<xsd:documentation>
+				Enumeration of ReturnType valid values.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="STLP10" />
@@ -22,7 +26,9 @@
 	<!-- String Type -->
 	<xsd:simpleType name="StringType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a string.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a string.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string"/>
 	</xsd:simpleType>
@@ -30,7 +36,9 @@
 	<!-- Boolean Type: true or false, or 1 or 0 -->
 	<xsd:simpleType name="BooleanType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a boolean. Typically used on an Yes or No field.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a boolean. Typically used on an Yes or No field.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:boolean"/>
 	</xsd:simpleType>
@@ -38,7 +46,9 @@
 	<!-- Integer Type -->
 	<xsd:simpleType name="IntegerType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for an integer.</xsd:documentation>
+			<xsd:documentation>
+				Base type for an integer.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:integer"/>
 	</xsd:simpleType>
@@ -46,7 +56,9 @@
 	<!-- Integer Non-Negative Type -->
 	<xsd:simpleType name="IntegerNNType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a non-negative integer.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a non-negative integer.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:nonNegativeInteger"/>
 	</xsd:simpleType>
@@ -54,7 +66,9 @@
 	<!-- Integer Positive Type -->
 	<xsd:simpleType name="IntegerPosType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a positive integer</xsd:documentation>
+			<xsd:documentation>
+				Base type for a positive integer
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:positiveInteger"/>
 	</xsd:simpleType>
@@ -62,7 +76,9 @@
 	<!-- Long Integer Type -->
 	<xsd:simpleType name="LongIntegerType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a long integer. The permitted range of values is -9,223,372,036,854,775,808 through 9,223,372,036,854,775,807</xsd:documentation>
+			<xsd:documentation>
+				Base type for a long integer. The permitted range of values is -9,223,372,036,854,775,808 through 9,223,372,036,854,775,807
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:long"/>
 	</xsd:simpleType>
@@ -70,7 +86,9 @@
 	<!-- Decimal Type -->
 	<xsd:simpleType name="DecimalType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a two-digit decimal typically used by a decimal amount field.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a two-digit decimal typically used by a decimal amount field including fields containing dollar amounts.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:decimal">
 			<xsd:fractionDigits value="2"/>
@@ -80,7 +98,9 @@
 	<!-- Decimal Non-Negative Type -->
 	<xsd:simpleType name="DecimalNNType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a non-negative two-digit decimal typically used by a non-negative decimal amount field.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a non-negative two-digit decimal typically used by a non-negative decimal amount field  including fields containing dollar amounts.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:decimal">
 			<xsd:fractionDigits value="2"/>
@@ -91,7 +111,9 @@
 	<!-- Social Security Number Type -->
 	<xsd:simpleType name="SSNType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a Social Security Number or Taxpayer Identification Number consisting of nine (9) digits.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a Social Security Number or Taxpayer Identification Number consisting of nine (9) digits.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[0-9]{9}"/>
@@ -101,7 +123,9 @@
 	<!-- Employer Identification Number Type -->
 	<xsd:simpleType name="EINType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a Federal Employer Identification Number consisting of nine (9) digits.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a Federal Employer Identification Number consisting of nine (9) digits.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[0-9]{9}" />
@@ -113,7 +137,9 @@
 	<!-- Generic ZIP Code Type -->
 	<xsd:simpleType name="GenericZIPCodeType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a freeform string to contain all types of postal codes, including international codes.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a freeform string to contain all types of postal codes, including international codes.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
@@ -124,7 +150,9 @@
 	<!-- U.S. ZIP Code Type -->
 	<xsd:simpleType name="USZIPCodeType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a five-digit United States ZIP code, plus an optional dash and an optional four-digit ZIP+4 code.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a five-digit United States ZIP code, plus an optional dash and an optional four-digit ZIP+4 code.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[0-9]{5}(-)?([0-9]{4})?"/>
@@ -134,7 +162,9 @@
 	<!-- Canadian Postal Code Type -->
 	<xsd:simpleType name="CNPostalCodeType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a Canadian Postal Code with the format A#A #A#. The postal code cannot contain the letters D, F, I, O, Q, or U, and cannot start with W or Z. A space or dash between the two three-character groups is permitted but optional.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a Canadian Postal Code with the format A#A #A#. The postal code cannot contain the letters D, F, I, O, Q, or U, and cannot start with W or Z. A space or dash between the two three-character groups is permitted but optional.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][ -]?[0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]"/>
@@ -144,7 +174,9 @@
 	<!-- Business Name Type -->
 	<xsd:simpleType name="BusinessNameType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a business name.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a business name.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
@@ -155,7 +187,9 @@
 	<!-- Street Address Type -->
     <xsd:simpleType name="StreetAddressType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a street address.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a street address.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
@@ -168,7 +202,9 @@
 	<!-- City Type -->
 	<xsd:simpleType name="CityType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a city name.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a city name.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
@@ -181,11 +217,13 @@
     <!-- Country Type -->
 	<xsd:simpleType name="CountryType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a country name.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a two-letter country code as prescribed by ISO 3166-1 alpha-2.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
-			<xsd:minLength value="1"/>
-			<xsd:maxLength value="64"/>
+			<xsd:minLength value="2"/>
+			<xsd:maxLength value="2"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 
@@ -194,7 +232,9 @@
     <!-- State or Province Type -->
 	<xsd:simpleType name="StateOrProvinceType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a state or province name.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a state or province name.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
@@ -207,7 +247,9 @@
 	<!-- Phone Number U.S. Type -->
 	<xsd:simpleType name="PhoneNumberUSType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a United States phone number. The phone number must contain either ten (10) or eleven (11) digits if the country code ("1") is included. Dashes may be included but are not required. Example of valid values include 1-202-555-1212, 202-555-1212, 12025551212, and 2025551212.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a United States phone number. The phone number must contain either ten (10) or eleven (11) digits if the country code ("1") is included. Dashes may be included but are not required. Example of valid values include 1-202-555-1212, 202-555-1212, 12025551212, and 2025551212.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="(1-)?[2-9][0-9]{2}-[0-9]{3}-[0-9]{4}|(1)?[2-9][0-9]{9}"/>
@@ -219,7 +261,9 @@
 	<!-- Phone Number Foreign Type -->
 	<xsd:simpleType name="PhoneNumberForeignType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for an international phone number of up to thirty (30) digits. No dashes, parentheses, or other punctuation is permitted.</xsd:documentation>
+			<xsd:documentation>
+				Base type for an international phone number of up to thirty (30) digits. No dashes, parentheses, or other punctuation is permitted.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:pattern value="[0-9]{1,30}"/>
@@ -229,7 +273,9 @@
 	<!-- Phone Number Multi-Country Type-->
 	<xsd:simpleType name="PhoneNumberMultiCountryType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for a formatted or unformatted United States phone number or an unformatted international phone number.</xsd:documentation>
+			<xsd:documentation>
+				Base type for a formatted or unformatted United States phone number or an unformatted international phone number.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:union memberTypes="PhoneNumberUSType PhoneNumberForeignType" />
 	</xsd:simpleType>
@@ -237,7 +283,9 @@
 	<!-- Quarter End Date Type -->
 	<xsd:simpleType name="QuarterEndDateType">
 		<xsd:annotation>
-			<xsd:documentation>Base type for the end date of a calendar quarter. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in YYYY-MM-DD format.</xsd:documentation>
+			<xsd:documentation>
+				Base type for the end date of a calendar quarter. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in YYYY-MM-DD format.
+			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:date">
 			<xsd:pattern value="[1-9][0-9]{3}\-((03\-31)|(06\-30)|(09\-30)|(12\-31))"/>
