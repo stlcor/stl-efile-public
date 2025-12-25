@@ -60,7 +60,7 @@
 			</xsd:element>
 
 			<!-- StateOrProvince -->
-			<xsd:element name="StateOrProvince" type="StateOrProvinceType" minOccurs="1" maxOccurs="1">
+			<xsd:element name="StateOrProvince" type="StateOrRegionType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
 						State contains the state or region of the taxpayer's address.
@@ -69,7 +69,7 @@
 			</xsd:element>
 
 			<!-- PostalCode -->
-			<xsd:element name="PostalCode" type="GenericZIPCodeType" minOccurs="1" maxOccurs="1">
+			<xsd:element name="PostalCode" type="PostalCodeMultiCountryType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
 						PostalCode contains the ZIP code or postal code of the taxpayer's address.
@@ -81,7 +81,7 @@
 			<xsd:element name="Country" type="CountryType" default="US" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						Country contains the ISO 3166-1 alpha-2 two-letter country code of the taxpayer's address. Default is US.
+						Country contains the ISO 3166-1 alpha-2 two-letter country code of the taxpayer's address. The default value is US.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
