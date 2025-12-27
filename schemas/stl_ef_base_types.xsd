@@ -6,7 +6,7 @@
 			<description>
 				St. Louis Earnings and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.
 			</description>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 		</xsd:documentation>
 	</xsd:annotation>
 

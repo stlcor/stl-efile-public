@@ -11,7 +11,7 @@
 				<description>
 					The St. Louis Electronic Filing W-10 contains all information pertaining to a single W-10 Employer's Withholding Tax Return.
 				</description>
-				<version>1.0.2</version>
+				<version>1.0.3</version>
 			</xsd:documentation>
 		</xsd:annotation>
 			

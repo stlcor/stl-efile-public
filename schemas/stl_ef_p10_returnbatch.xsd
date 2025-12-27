@@ -11,7 +11,7 @@
 				<description>
 					The STL_P10_ReturnBatch contains one BatchHeader element providing details about the batch, followed by one or more STL_P10 elements representing each P-10 return within the batch.
 				</description>
-				<version>1.0.2</version>
+				<version>1.0.3</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

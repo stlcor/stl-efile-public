@@ -11,7 +11,7 @@
 				<description>
 					The St. Louis Electronic Filing P-10 contains all information pertaining to a single P-10 Payroll Expense Tax Return.
 				</description>
-				<version>1.0.2</version>
+				<version>1.0.3</version>
 			</xsd:documentation>
 		</xsd:annotation>
 			

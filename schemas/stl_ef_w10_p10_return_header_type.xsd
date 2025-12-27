@@ -10,7 +10,7 @@
 				<description>
 					The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.
 				</description>
-				<version>1.0.2</version>
+				<version>1.0.3</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
