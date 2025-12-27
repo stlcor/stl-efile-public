@@ -17,7 +17,7 @@
 
 		<xsd:sequence>
 
-			<!-- SubmitterName -->
+			<!-- Submitter Name -->
 			<xsd:element name="SubmitterName" type="StringType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -26,16 +26,16 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- SubmitterFEIN -->
-			<xsd:element name="SubmitterFEIN" type="EINType" maxOccurs="1">
+			<!-- Submitter Account Identifier -->
+			<xsd:element name="SubmitterAccountIdentifier" type="AccountIdentifierType" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						SubmitterFEIN contains the 9-digit federal employer ID of the submitting entity.
+						SubmitterAccountIdentifier contains the 9-digit federal employer ID or 11-digit St. Louis account number of the submitting entity.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- ReturnType -->
+			<!-- Return Type -->
 			<xsd:element name="ReturnType" type="ReturnType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -44,7 +44,7 @@
 				</xsd:annotation>
 			</xsd:element>
 			
-			<!-- TotalItems -->
+			<!-- Total Items -->
 			<xsd:element name="TotalItems" type="IntegerNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -53,7 +53,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- AmountDueTotal -->
+			<!-- Amount Due Total -->
 			<xsd:element name="AmountDueTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -62,7 +62,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- RemittanceTotal -->
+			<!-- Remittance Total -->
 			<xsd:element name="RemittanceTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>

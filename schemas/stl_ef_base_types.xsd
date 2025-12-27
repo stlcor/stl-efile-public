@@ -33,11 +33,11 @@
 		<xsd:restriction base="xsd:string"/>
 	</xsd:simpleType>
 	
-	<!-- Boolean Type: true or false, or 1 or 0 -->
+	<!-- Boolean Type -->
 	<xsd:simpleType name="BooleanType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a boolean. Typically used on an Yes or No field.
+				Base type for a boolean. Permissible values are: true, false, 1, or 0.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:boolean"/>
@@ -67,7 +67,7 @@
 	<xsd:simpleType name="IntegerPosType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a positive integer
+				Base type for a positive integer.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:positiveInteger"/>
@@ -77,7 +77,7 @@
 	<xsd:simpleType name="LongIntegerType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a long integer. The permitted range of values is -9,223,372,036,854,775,808 through 9,223,372,036,854,775,807
+				Base type for a long integer. The permitted range of values is -9,223,372,036,854,775,808 through 9,223,372,036,854,775,807.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:long"/>
@@ -87,7 +87,7 @@
 	<xsd:simpleType name="DecimalType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a two-digit decimal typically used by a decimal amount field including fields containing dollar amounts.
+				Base type for a two-digit decimal typically used by fields containing dollar amounts.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:decimal">
@@ -99,7 +99,7 @@
 	<xsd:simpleType name="DecimalNNType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a non-negative two-digit decimal typically used by a non-negative decimal amount field  including fields containing dollar amounts.
+				Base type for a non-negative two-digit decimal typically used by fields containing dollar amounts.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:decimal">
@@ -112,7 +112,7 @@
 	<xsd:simpleType name="SSNType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a Social Security Number or Taxpayer Identification Number consisting of nine (9) digits. Dashes or spaces should not be included.
+				Base type for a Social Security Number or Taxpayer Identification Number consisting of nine (9) digits. Dashes or spaces must be omitted.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
@@ -124,7 +124,7 @@
 	<xsd:simpleType name="EINType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a Federal Employer Identification Number consisting of nine (9) digits. Dashes or spaces should not be included.
+				Base type for a Federal Employer Identification Number consisting of nine (9) digits. Dashes or spaces must be omitted.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
@@ -136,7 +136,7 @@
 	<xsd:simpleType name="STLAccountNumberType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a St. Louis Earnings Tax Account Number consisting of eleven (11) digits. This number is typically the taxpayer's Employer Identification Number suffixed with two digits. Dashes or spaces should not be included. The St. Louis Earnings Tax Account Number is a legacy format which is supported but not encouraged or required.
+				Base type for a St. Louis Earnings Tax Account Number consisting of eleven (11) digits. This number is typically the taxpayer's Employer Identification Number suffixed with two digits. Dashes or spaces must be omitted. The St. Louis Earnings Tax Account Number is a legacy format which is supported but not encouraged or required.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
@@ -208,13 +208,13 @@
 	<xsd:simpleType name="BusinessNameType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a business name. A business name can contain numbers, punctuation, and letters from the extended Latin Unicode character set.
+				Base type for a business name. A business name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
 			<xsd:maxLength value="255"/>
-			<xsd:pattern value="[\p{Latin}\p{Common}]+"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
 	</xsd:simpleType>	
 
@@ -222,13 +222,13 @@
     <xsd:simpleType name="StreetAddressType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a street address. A street address can contain numbers, punctuation, and letters from the extended Latin Unicode character set.
+				Base type for a street address. A street address can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
 			<xsd:maxLength value="255"/>
-			<xsd:pattern value="[\p{Latin}\p{Common}]+"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	
@@ -236,13 +236,13 @@
 	<xsd:simpleType name="CityType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a city name. A city name can contain numbers, punctuation, and letters from the extended Latin Unicode character set.
+				Base type for a city name. A city name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
 			<xsd:maxLength value="255"/>
-			<xsd:pattern value="[\p{Latin}\p{Common}]+"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	
@@ -263,13 +263,13 @@
 	<xsd:simpleType name="StateOrRegionType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a state, province, or region name. A state, province, or region name can contain numbers, punctuation, and letters from the extended Latin Unicode character set. States, provinces, and regions can be provided as abbreviations in accordance with local standards.
+				Base type for a state, province, or region name. A state, province, or region name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks. States, provinces, and regions can be provided as abbreviations in accordance with local standards.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:minLength value="1"/>
 			<xsd:maxLength value="255"/>
-			<xsd:pattern value="[\p{Latin}\p{Common}]+"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 

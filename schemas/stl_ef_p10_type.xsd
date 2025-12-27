@@ -9,7 +9,7 @@
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>
-					The St. Louis Electronic Filing P-10 contains all information pertaining to a single P-10 Payroll Expense Tax return.
+					The St. Louis Electronic Filing P-10 contains all information pertaining to a single P-10 Payroll Expense Tax Return.
 				</description>
 				<version>1.0.2</version>
 			</xsd:documentation>
@@ -18,10 +18,10 @@
 		<!-- Sequence will enforce the order of ReturnHeader followed by ReturnLiability -->
 		<xsd:sequence>
 			
-			<!-- ReturnHeader -->
+			<!-- Return Header -->
 			<xsd:element name ="ReturnHeader" type="STL_EF_W10_P10_RETURN_HEADER_TYPE" minOccurs="1" maxOccurs="1" />
 			
-			<!-- ReturnLiability -->
+			<!-- Return Liability -->
 			<xsd:element name="ReturnLiability">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -32,7 +32,7 @@
 				<xsd:complexType>
 					<xsd:all>
 
-						<!-- FilingPeriod -->
+						<!-- Filing Period -->
 						<xsd:element name="FilingPeriod" type="QuarterEndDateType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -41,7 +41,7 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!-- TaxablePayroll -->
+						<!-- Taxable Payroll -->
 						<xsd:element name="TaxablePayroll" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -50,7 +50,7 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!-- GrossTaxDue -->
+						<!-- Gross Tax Due -->
 						<xsd:element name="GrossTaxDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -59,7 +59,7 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!-- PriorPayments -->
+						<!-- Prior Payments -->
 						<xsd:element name="PriorPaymens" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -68,7 +68,7 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!-- NetTaxDue -->
+						<!-- Net Tax Due -->
 						<xsd:element name="NetTaxDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -77,25 +77,25 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!--Penalty-->
+						<!-- Penalty -->
 						<xsd:element name="Penalty" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									Penalty contains any calculated penalty for late payment. The penalty is calculated upon the tax balance due at the rate of 5 percent per overdue month or fraction thereof, up to a maximum of 25 percent. This element may be omitted if the filing entity believes there is no penalty due; however, if the Collector of Revenue determines that penalty is in fact due, it will be calculated and deducted from the remittance.
+									Penalty contains any calculated penalty for late payment. The penalty is calculated upon the tax balance due at the rate of 5 percent per overdue month or fraction thereof, up to a maximum of 25 percent. This element may be omitted if the filing entity believes there is no penalty due; however, if the Collector of Revenue determines that penalty is in fact due, it will be calculated and added to the amount due.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
 
-						<!--Interest-->
+						<!-- Interest -->
 						<xsd:element name="Interest" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									Interest contains any calculated interest for late payment. Interest is calculated upon the tax balance due at the rate of 1 percent per overdue month or fraction thereof.	This element may be omitted if the filing entity believes there is no interest due; however, if the Collector of Revenue determines that interest is in fact due, it will be calculated and deducted from the remittance.	
+									Interest contains any calculated interest for late payment. Interest is calculated upon the tax balance due at the rate of 1 percent per overdue month or fraction thereof.	This element may be omitted if the filing entity believes there is no interest due; however, if the Collector of Revenue determines that interest is in fact due, it will be calculated and added to the amount due.	
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
 
-						<!--AmountDue-->
+						<!-- Amount Due -->
 						<xsd:element name="AmountDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
@@ -104,7 +104,7 @@
 							</xsd:annotation>
 						</xsd:element>
 
-						<!--Remittance-->
+						<!-- Remittance -->
 						<xsd:element name="Remittance" type="DecimalNNType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
