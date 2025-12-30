@@ -18,35 +18,33 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				
-				<!-- BatchHeader -->
+				<!-- Batch Header -->
 				<xsd:element name="BatchHeader" type="STL_EF_BATCH_HEADER_W10_P10_TYPE" minOccurs="1" maxOccurs="1" />
 
 				<!-- *** NEEDS ATTENTION *** -->
-				<!-- STL_W10_TOTAL -->
-				<xsd:element name="STL_W10_TOTAL" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="1" >
+				<!-- STL W-10 PEO Total -->
+				<xsd:element name="STLW10PEOTotal" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="1" >
 					<xsd:annotation>
 						<xsd:documentation>
-							The total return from the PEO. These value will have total values for its own return and subsidiary returns {required}.
+							W10PEOTotal contains the combined dollar amounts for all W-10s included in the STL W-10 PEO return.
 						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 				
-				<!-- *** NEEDS ATTENTION *** -->
-				<!-- STL_W10_PEO -->
-				<xsd:element name="STL_W10_PEO" type="STL_EF_W10_TYPE" minOccurs="0" maxOccurs="1">
+				<!-- STL W-10 PEO Return -->
+				<xsd:element name="STLW10PEOReturn" type="STL_EF_W10_TYPE" minOccurs="0" maxOccurs="1">
 					<xsd:annotation>
 						<xsd:documentation>
-							The return for the PEO.  These values are for the PEO only and should not include any values attributed to any subsidiary returns {optional - if the PEO is only filing for subsidiaries}.
+							STLW10PEOReturn contains any required W-10 return by the PEO itself, rather than those of any subsidiary PEO clients. For example, if a PEO directly employs staff that is subject to the Earnings Tax, those earnings would be reported on STLW10PEOReturn. This element is optional if there are no return due for the PEO itself.
 						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
 
-				<!-- *** NEEDS ATTENTION *** -->
-				<!-- STL_W10_SUBSIDIARY -->
-				<xsd:element name="STL_W10_SUBSIDIARY" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="unbounded">
+				<!-- STL W-10 PEO Subsidiary Return -->
+				<xsd:element name="STLW10PEOSubsidiary" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="unbounded">
 					<xsd:annotation>
 						<xsd:documentation>
-							The return for a subsidiary.  These values are for a single subsidiary return {required - include additional sections for each subsidiary}.
+							STLW10PEOSubsidiary contains a W-10 return for a subsidiary or client of the PEO. Each subsidiary must have its own STLW10PEOSubsidiary element.
 						</xsd:documentation>
 					</xsd:annotation>
 				</xsd:element>
