@@ -21,7 +21,6 @@
 				<!-- Batch Header -->
 				<xsd:element name="BatchHeader" type="STL_EF_BATCH_HEADER_W10_P10_TYPE" minOccurs="1" maxOccurs="1" />
 
-				<!-- *** NEEDS ATTENTION *** -->
 				<!-- STL W-10 PEO Total -->
 				<xsd:element name="STLW10PEOTotal" type="STL_EF_W10_TYPE" minOccurs="1" maxOccurs="1" >
 					<xsd:annotation>
