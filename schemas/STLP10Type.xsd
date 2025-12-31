@@ -60,7 +60,7 @@
 						</xsd:element>
 
 						<!-- Prior Payments -->
-						<xsd:element name="PriorPaymens" type="DecimalNNType" minOccurs="0" maxOccurs="1">
+						<xsd:element name="PriorPayments" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
 									PriorPayments contains amounts paid towards this filing period before the return is filed. This includes any other previously applied payments. This element may be omitted if no amounts have been paid previously.

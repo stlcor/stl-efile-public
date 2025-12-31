@@ -4,7 +4,7 @@
 	<xsd:include schemaLocation="STLBatchHeaderType.xsd"/>
 	<xsd:include schemaLocation="STLW10Type.xsd"/>
 
-	<xsd:element name="STLW10BatchType">
+	<xsd:element name="STLW10Batch">
 
 		<xsd:annotation>
 			<xsd:documentation>
@@ -21,7 +21,7 @@
 				<!-- BatchHeader -->
 				<xsd:element name="BatchHeader" type="STLBatchHeaderType" minOccurs="1" maxOccurs="1" />
 				
-				<!-- STLW10 -->
+				<!-- W-10 -->
 				<xsd:element name="STLW10" type="STLW10Type" minOccurs="1" maxOccurs="unbounded" />
 				
 			</xsd:sequence>

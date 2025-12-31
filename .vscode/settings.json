@@ -3,6 +3,10 @@
         {
             "pattern": "**/xml-generator.xml",
             "systemId": "schemas/stl_ef_w10_returnbatch.xsd"
+        },
+        {
+            "pattern": "**/STL-P10-1767222333-efile_batch.xml",
+            "systemId": "schemas/STLP10BatchType.xsd"
         }
     ]
 }

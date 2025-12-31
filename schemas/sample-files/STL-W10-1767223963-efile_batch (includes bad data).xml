@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STLW10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ ../STLW10BatchType.xsd">
+  <BatchHeader>
+    <SubmitterName>Uinta Group</SubmitterName>
+    <SubmitterAccountIdentifier>158125657</SubmitterAccountIdentifier>
+    <ReturnType>STLW10</ReturnType>
+    <TotalItems>50</TotalItems>
+    <AmountDueTotal>70508.76</AmountDueTotal>
+    <RemittanceTotal>70504.63</RemittanceTotal>
+  </BatchHeader>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>299074761</AccountIdentifier>
+      <BusinessName>Shirt-Littel Mesnica LLC</BusinessName>
+      <Street1>38238 Reilly Street</Street1>
+      <City>West Clementine</City>
+      <StateOrRegion>GA</StateOrRegion>
+      <PostalCode>41994-9302</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>180444.06</TaxableEarnings>
+      <GrossTaxDue>1804.44</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1804.44</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1804.44</AmountDue>
+      <Remittance>1804.44</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>045157544</AccountIdentifier>
+      <BusinessName>Hauck-Capicolla Cabinetry Corp</BusinessName>
+      <Street1>032 Simeon Parkway</Street1>
+      <City>Lake Alainastad</City>
+      <StateOrRegion>TX</StateOrRegion>
+      <PostalCode>57057-5343</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>33428.32</TaxableEarnings>
+      <GrossTaxDue>334.28</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>334.28</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>334.28</AmountDue>
+      <Remittance>334.28</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>412947880</AccountIdentifier>
+      <BusinessName>Walsh-Wolff</BusinessName>
+      <Street1>0542 Hams Avenue</Street1>
+      <City>North Bobsonport</City>
+      <StateOrRegion>OH</StateOrRegion>
+      <PostalCode>94675</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>99362.6</TaxableEarnings>
+      <GrossTaxDue>993.63</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>993.63</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>993.63</AmountDue>
+      <Remittance>993.63</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>885638118</AccountIdentifier>
+      <BusinessName>Bi-State</BusinessName>
+      <Street1>533 Huell Street</Street1>
+      <City>Lake Ashleighport</City>
+      <StateOrRegion>KS</StateOrRegion>
+      <PostalCode>96456-3804</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>157947.84</TaxableEarnings>
+      <GrossTaxDue>1579.48</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1579.48</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1579.48</AmountDue>
+      <Remittance>1579.48</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>996101392</AccountIdentifier>
+      <BusinessName>Billboard-Truk Propane and Propane Accessories</BusinessName>
+      <Street1>29176 Rene Avenue</Street1>
+      <City>Port Nestorview</City>
+      <StateOrRegion>SC</StateOrRegion>
+      <PostalCode>27555</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>273916.1</TaxableEarnings>
+      <GrossTaxDue>2739.16</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2739.16</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2739.16</AmountDue>
+      <Remittance>2739.16</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>964592538</AccountIdentifier>
+      <BusinessName>Femur Mills</BusinessName>
+      <Street1>4781 Gudrun Landing</Street1>
+      <City>Corenebury</City>
+      <StateOrRegion>MA</StateOrRegion>
+      <PostalCode>36046</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>158580.74</TaxableEarnings>
+      <GrossTaxDue>1585.81</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1585.81</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1585.81</AmountDue>
+      <Remittance>1585.81</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>940233812</AccountIdentifier>
+      <BusinessName>Gutmann-Tromp Appraisals LLC</BusinessName>
+      <Street1>882 Chadrick Ferry</Street1>
+      <City>Catherineshire</City>
+      <StateOrRegion>ND</StateOrRegion>
+      <PostalCode>87440</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>9312.65</TaxableEarnings>
+      <GrossTaxDue>93.13</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>93.13</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>93.13</AmountDue>
+      <Remittance>93.13</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>801064006</AccountIdentifier>
+      <BusinessName>Smith Inc</BusinessName>
+      <Street1>71453 Telephone Manor</Street1>
+      <City>North Tamia</City>
+      <StateOrRegion>ID</StateOrRegion>
+      <PostalCode>84915</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>8871.3</TaxableEarnings>
+      <GrossTaxDue>88.71</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>88.71</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>88.71</AmountDue>
+      <Remittance>88.71</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>577109095</AccountIdentifier>
+      <BusinessName>Wuckert-Hansen Horse Stables LLC</BusinessName>
+      <Street1>56102 Adams Crossing</Street1>
+      <City>Casperchester</City>
+      <StateOrRegion>MI</StateOrRegion>
+      <PostalCode>14755-0457</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>179952.23</TaxableEarnings>
+      <GrossTaxDue>1799.52</GrossTaxDue>
+      <PriorPayments>953.75</PriorPayments>
+      <NetTaxDue>845.77</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>845.77</AmountDue>
+      <Remittance>845.77</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>990501411</AccountIdentifier>
+      <BusinessName>Pacocha-Lettuce Check Cashing and Title Loan Group</BusinessName>
+      <Street1>5927 Billboard Avenue</Street1>
+      <Street2>Suite 144</Street2>
+      <City>New Mariana</City>
+      <StateOrRegion>ME</StateOrRegion>
+      <PostalCode>58254-0257</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>214883.27</TaxableEarnings>
+      <GrossTaxDue>2148.83</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2148.83</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2148.83</AmountDue>
+      <Remittance>2148.83</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>845767481</AccountIdentifier>
+      <BusinessName>Terry Inc</BusinessName>
+      <Street1>07405 Vargas Avenue</Street1>
+      <Street2>Suite 095</Street2>
+      <City>North Deonfurt</City>
+      <StateOrRegion>IL</StateOrRegion>
+      <PostalCode>49801-7938</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>831.62</TaxableEarnings>
+      <GrossTaxDue>8.32</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>8.32</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>8.32</AmountDue>
+      <Remittance>8.32</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>993940212</AccountIdentifier>
+      <BusinessName>Upper Echelon Launderette LLC</BusinessName>
+      <Street1>131 Davion Trail</Street1>
+      <City>Litzyburgh</City>
+      <StateOrRegion>AZ</StateOrRegion>
+      <PostalCode>07168-2598</PostalCode>
+      <Country>US</Country>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>223564.09</TaxableEarnings>
+      <GrossTaxDue>2235.64</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2235.64</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2235.64</AmountDue>
+      <Remittance>2235.64</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>870957199</AccountIdentifier>
+      <BusinessName>Mosciski Extrusions Inc</BusinessName>
+      <Street1>120 Jeffry Court</Street1>
+      <City>West Clementine</City>
+      <StateOrRegion>DC</StateOrRegion>
+      <PostalCode>70266</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>3779.54</TaxableEarnings>
+      <GrossTaxDue>37.8</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>37.8</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>37.8</AmountDue>
+      <Remittance>37.8</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>35494177228</AccountIdentifier>
+      <BusinessName>Publy</BusinessName>
+      <Street1>1038 Therese Junction</Street1>
+      <Street2>Apt. 984</Street2>
+      <City>New Coltshire</City>
+      <StateOrRegion>NM</StateOrRegion>
+      <PostalCode>12567-9476</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>63858.86</TaxableEarnings>
+      <GrossTaxDue>638.59</GrossTaxDue>
+      <PriorPayments>408.7</PriorPayments>
+      <NetTaxDue>229.89</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>229.89</AmountDue>
+      <Remittance>229.89</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>586114531</AccountIdentifier>
+      <BusinessName>Metz-Chart Petroleum Products LLC</BusinessName>
+      <Street1>883 Evie Expressway</Street1>
+      <City>Port Edwina</City>
+      <StateOrRegion>MN</StateOrRegion>
+      <PostalCode>41993</PostalCode>
+      <Country>US</Country>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>88719.03</TaxableEarnings>
+      <GrossTaxDue>887.19</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>887.19</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>887.19</AmountDue>
+      <Remittance>887.19</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>977704016</AccountIdentifier>
+      <BusinessName>Casper-Emmerich</BusinessName>
+      <Street1>8222 Orlando Avenue</Street1>
+      <City>Oceaneshire</City>
+      <StateOrRegion>FL</StateOrRegion>
+      <PostalCode>58490-9549</PostalCode>
+      <Country>US</Country>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>94417.59</TaxableEarnings>
+      <GrossTaxDue>944.18</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>944.18</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>944.18</AmountDue>
+      <Remittance>944.18</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>538635159</AccountIdentifier>
+      <BusinessName>Interstate Orthotics Inc</BusinessName>
+      <Street1>801 Lucius Place</Street1>
+      <City>Aylinbury</City>
+      <StateOrRegion>DE</StateOrRegion>
+      <PostalCode>49215-3764</PostalCode>
+      <Country>US</Country>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>242464.87</TaxableEarnings>
+      <GrossTaxDue>2424.65</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2424.65</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2424.65</AmountDue>
+      <Remittance>2424.65</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>571931970</AccountIdentifier>
+      <BusinessName>Bailey Staffing Agency</BusinessName>
+      <Street1>998 Berge Park</Street1>
+      <City>South Dewittton</City>
+      <StateOrRegion>MO</StateOrRegion>
+      <PostalCode>82192-9921</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>95290.54</TaxableEarnings>
+      <GrossTaxDue>952.91</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>952.91</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>952.91</AmountDue>
+      <Remittance>952.91</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>331865148</AccountIdentifier>
+      <BusinessName>Treutel-Fresh</BusinessName>
+      <Street1>43602 Murray Fork</Street1>
+      <City>Alexandreton</City>
+      <StateOrRegion>NC</StateOrRegion>
+      <PostalCode>31162</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>150572.66</TaxableEarnings>
+      <GrossTaxDue>1505.73</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1505.73</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1505.73</AmountDue>
+      <Remittance>1505.73</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>544735788</AccountIdentifier>
+      <BusinessName>2 Cute Asbestos Remediation</BusinessName>
+      <Street1>58792 Cronin Drive</Street1>
+      <City>Lake Aliyahland</City>
+      <StateOrRegion>ME</StateOrRegion>
+      <PostalCode>96645</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>78130.62</TaxableEarnings>
+      <GrossTaxDue>781.31</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>781.31</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>781.31</AmountDue>
+      <Remittance>781.31</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>044748823</AccountIdentifier>
+      <BusinessName>Ambonic LLC</BusinessName>
+      <Street1>81526 Goyette Drive</Street1>
+      <Street2>Apt. 206</Street2>
+      <City>West Fridaberg</City>
+      <StateOrRegion>NH</StateOrRegion>
+      <PostalCode>90025</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>4581.5</TaxableEarnings>
+      <GrossTaxDue>45.82</GrossTaxDue>
+      <PriorPayments>27.95</PriorPayments>
+      <NetTaxDue>17.87</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>17.87</AmountDue>
+      <Remittance>17.87</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>282178040</AccountIdentifier>
+      <BusinessName>Intense</BusinessName>
+      <Street1>4039 Verona Freeway</Street1>
+      <Street2>Apt. 822</Street2>
+      <City>Gasland</City>
+      <StateOrRegion>DC</StateOrRegion>
+      <PostalCode>39727-9094</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>31708.68</TaxableEarnings>
+      <GrossTaxDue>317.09</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>317.09</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>317.09</AmountDue>
+      <Remittance>317.09</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>583894767</AccountIdentifier>
+      <BusinessName>Trantow-Conk Used Autos</BusinessName>
+      <Street1>96213 Kessler Boulevard</Street1>
+      <City>New Sonnyport</City>
+      <StateOrRegion>IL</StateOrRegion>
+      <PostalCode>46711</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>41350.46</TaxableEarnings>
+      <GrossTaxDue>413.5</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>413.5</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>413.5</AmountDue>
+      <Remittance>409.37</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>185712224</AccountIdentifier>
+      <BusinessName>Intense Inc</BusinessName>
+      <Street1>4745 Emile Parkway</Street1>
+      <City>Port Braxton</City>
+      <StateOrRegion>OR</StateOrRegion>
+      <PostalCode>30483</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>376518.32</TaxableEarnings>
+      <GrossTaxDue>3765.18</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>3765.18</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>3765.18</AmountDue>
+      <Remittance>3765.18</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>306341964</AccountIdentifier>
+      <BusinessName>Xtreme Auto Parts</BusinessName>
+      <Street1>9534 Savion Manor</Street1>
+      <Street2>Suite 511</Street2>
+      <City>New Bradfordport</City>
+      <StateOrRegion>OK</StateOrRegion>
+      <PostalCode>47942</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>206375.76</TaxableEarnings>
+      <GrossTaxDue>2063.76</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2063.76</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2063.76</AmountDue>
+      <Remittance>2063.76</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>332563020</AccountIdentifier>
+      <BusinessName>Tri-County LLC</BusinessName>
+      <Street1>008 Grunch Spur</Street1>
+      <City>Lake Kaia</City>
+      <StateOrRegion>TX</StateOrRegion>
+      <PostalCode>01554-8799</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>15641.17</TaxableEarnings>
+      <GrossTaxDue>156.41</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>156.41</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>156.41</AmountDue>
+      <Remittance>156.41</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>914241577</AccountIdentifier>
+      <BusinessName>Lebsack-Reeves Dissection and Sons</BusinessName>
+      <Street1>44604 Delilah Pass</Street1>
+      <City>Lake Ansel</City>
+      <StateOrRegion>IA</StateOrRegion>
+      <PostalCode>79102</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>156014.61</TaxableEarnings>
+      <GrossTaxDue>1560.15</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1560.15</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1560.15</AmountDue>
+      <Remittance>1560.15</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>79966985848</AccountIdentifier>
+      <BusinessName>Nader, Monster and Hoppe</BusinessName>
+      <Street1>68890 Marjory Court</Street1>
+      <City>West Leonora</City>
+      <StateOrRegion>WV</StateOrRegion>
+      <PostalCode>24861</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>341128.99</TaxableEarnings>
+      <GrossTaxDue>3411.29</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>3411.29</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>3411.29</AmountDue>
+      <Remittance>3411.29</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>48997352807</AccountIdentifier>
+      <BusinessName>Padberg Contracting</BusinessName>
+      <Street1>238 Wyman Junction</Street1>
+      <City>New Haskellchester</City>
+      <StateOrRegion>CO</StateOrRegion>
+      <PostalCode>67345-7044</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>542362.37</TaxableEarnings>
+      <GrossTaxDue>5423.62</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>5423.62</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>5423.62</AmountDue>
+      <Remittance>5423.62</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>288883027</AccountIdentifier>
+      <BusinessName>Hill-Schultz Orthotics</BusinessName>
+      <Street1>650 Golden Street</Street1>
+      <City>Nogilnyview</City>
+      <StateOrRegion>MO</StateOrRegion>
+      <PostalCode>69972-3251</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>231585.38</TaxableEarnings>
+      <GrossTaxDue>2315.85</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2315.85</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2315.85</AmountDue>
+      <Remittance>2315.85</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>51201110378</AccountIdentifier>
+      <BusinessName>Hane LLC</BusinessName>
+      <Street1>840 Eusebio Expressway</Street1>
+      <City>East Aurelia</City>
+      <StateOrRegion>TX</StateOrRegion>
+      <PostalCode>95855</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>253688.98</TaxableEarnings>
+      <GrossTaxDue>2536.89</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2536.89</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>2536.89</AmountDue>
+      <Remittance>2536.89</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>01654269583</AccountIdentifier>
+      <BusinessName>Chic LLC</BusinessName>
+      <Street1>7490 Klocko Lane</Street1>
+      <City>Germaineburgh</City>
+      <StateOrRegion>MN</StateOrRegion>
+      <PostalCode>63763-4962</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>39278.43</TaxableEarnings>
+      <GrossTaxDue>392.78</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>392.78</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>392.78</AmountDue>
+      <Remittance>392.78</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>306935326</AccountIdentifier>
+      <BusinessName>Block, Kreiger and Aufderhar</BusinessName>
+      <Street1>002 Garfield Avenue</Street1>
+      <City>Nephewmouth</City>
+      <StateOrRegion>OH</StateOrRegion>
+      <PostalCode>18642</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>128538.15</TaxableEarnings>
+      <GrossTaxDue>1285.38</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1285.38</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1285.38</AmountDue>
+      <Remittance>1285.38</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>607735456</AccountIdentifier>
+      <BusinessName>Stark-Goldner Used Appliances Group</BusinessName>
+      <Street1>62488 Missouri Boulevard</Street1>
+      <City>Lake Eulalia</City>
+      <StateOrRegion>WA</StateOrRegion>
+      <PostalCode>38723-9883</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>38856.14</TaxableEarnings>
+      <GrossTaxDue>388.56</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>388.56</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>388.56</AmountDue>
+      <Remittance>388.56</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>503893354</AccountIdentifier>
+      <BusinessName>ProTronix Gaskets</BusinessName>
+      <Street1>58456 Jessy Expressway</Street1>
+      <City>West Hilma</City>
+      <StateOrRegion>WA</StateOrRegion>
+      <PostalCode>51035</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>146070.79</TaxableEarnings>
+      <GrossTaxDue>1460.71</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1460.71</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1460.71</AmountDue>
+      <Remittance>1460.71</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>001598770</AccountIdentifier>
+      <BusinessName>Woods-Herman Lawnmower Repair</BusinessName>
+      <Street1>364 Henderson Boulevard</Street1>
+      <City>Lorifurt</City>
+      <StateOrRegion>MI</StateOrRegion>
+      <PostalCode>11391</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>186735.65</TaxableEarnings>
+      <GrossTaxDue>1867.36</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1867.36</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1867.36</AmountDue>
+      <Remittance>1867.36</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>625144007</AccountIdentifier>
+      <BusinessName>Carter-Ham</BusinessName>
+      <Street1>02611 Herminia Plaza</Street1>
+      <City>South Rasheed "The Workplace"ton</City>
+      <StateOrRegion>HI</StateOrRegion>
+      <PostalCode>74123-8409</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>33646.06</TaxableEarnings>
+      <GrossTaxDue>336.46</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>336.46</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>336.46</AmountDue>
+      <Remittance>336.46</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>551141947</AccountIdentifier>
+      <BusinessName>Hermiston-Krajcik Weight Loss Center LLC</BusinessName>
+      <Street1>7721 Jalon Avenue</Street1>
+      <City>Pfannerstillside</City>
+      <StateOrRegion>NC</StateOrRegion>
+      <PostalCode>74636-1578</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>60696.08</TaxableEarnings>
+      <GrossTaxDue>606.96</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>606.96</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>606.96</AmountDue>
+      <Remittance>606.96</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>420866562</AccountIdentifier>
+      <BusinessName>Stanton Lawn Care and Sons</BusinessName>
+      <Street1>513 Neil "The Backyard Menace" Estates</Street1>
+      <City>Philipchester</City>
+      <StateOrRegion>NV</StateOrRegion>
+      <PostalCode>31211</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>336542.85</TaxableEarnings>
+      <GrossTaxDue>3365.43</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>3365.43</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>3365.43</AmountDue>
+      <Remittance>3365.43</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>715521006</AccountIdentifier>
+      <BusinessName>Big Time Inc</BusinessName>
+      <Street1>5866 Leta Bypass</Street1>
+      <Street2>Suite 084</Street2>
+      <City>New Amayashire</City>
+      <StateOrRegion>TN</StateOrRegion>
+      <PostalCode>23481-9700</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>96772.83</TaxableEarnings>
+      <GrossTaxDue>967.73</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>967.73</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>967.73</AmountDue>
+      <Remittance>967.73</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>97054363317</AccountIdentifier>
+      <BusinessName>Xtreme Plastics</BusinessName>
+      <Street1>2816 Kerluke Lane</Street1>
+      <City>New Tevinchester</City>
+      <StateOrRegion>OR</StateOrRegion>
+      <PostalCode>47195</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>76024.73</TaxableEarnings>
+      <GrossTaxDue>760.25</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>760.25</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>760.25</AmountDue>
+      <Remittance>760.25</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>382233353</AccountIdentifier>
+      <BusinessName>Lynch-Lakin Telecommunications LLC</BusinessName>
+      <Street1>951 Bernhard Pass</Street1>
+      <City>Davonteside</City>
+      <StateOrRegion>DE</StateOrRegion>
+      <PostalCode>95798</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>523524.93</TaxableEarnings>
+      <GrossTaxDue>5235.25</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>5235.25</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>5235.25</AmountDue>
+      <Remittance>5235.25</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>701646839</AccountIdentifier>
+      <BusinessName>Unique Inc</BusinessName>
+      <Street1>4214 Rhianna Avenue</Street1>
+      <City>Lake Alivia</City>
+      <StateOrRegion>NC</StateOrRegion>
+      <PostalCode>94377</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>170965.89</TaxableEarnings>
+      <GrossTaxDue>1709.66</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1709.66</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1709.66</AmountDue>
+      <Remittance>1709.66</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>576136160</AccountIdentifier>
+      <BusinessName>Karmonics Knives and Guns</BusinessName>
+      <Street1>8425 Stanton Boulevard</Street1>
+      <Street2>Apt. 766</Street2>
+      <City>Zacheryberg</City>
+      <StateOrRegion>IL</StateOrRegion>
+      <PostalCode>00540</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>2953.04</TaxableEarnings>
+      <GrossTaxDue>29.53</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>29.53</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>29.53</AmountDue>
+      <Remittance>29.53</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>491990074</AccountIdentifier>
+      <BusinessName>Gislason-McDermott Brewing</BusinessName>
+      <Street1>687 Lane Manor</Street1>
+      <Street2>Suite 080</Street2>
+      <City>Ednaton</City>
+      <StateOrRegion>GA</StateOrRegion>
+      <PostalCode>02161-7223</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>14518.76</TaxableEarnings>
+      <GrossTaxDue>145.19</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>145.19</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>145.19</AmountDue>
+      <Remittance>145.19</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>818079622</AccountIdentifier>
+      <BusinessName>Hahn, Hermann and Ledner</BusinessName>
+      <Street1>80677 Armstrong Avenue</Street1>
+      <City>Wunschbury</City>
+      <StateOrRegion>MT</StateOrRegion>
+      <PostalCode>69015</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>1230.23</TaxableEarnings>
+      <GrossTaxDue>12.3</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>12.3</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>12.3</AmountDue>
+      <Remittance>12.3</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>673202418</AccountIdentifier>
+      <BusinessName>Weisenheimer Wrought Iron</BusinessName>
+      <Street1>109 Buckridge Point</Street1>
+      <City>Jeffreyville</City>
+      <StateOrRegion>NY</StateOrRegion>
+      <PostalCode>35252-8378</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>45116.39</TaxableEarnings>
+      <GrossTaxDue>451.16</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>451.16</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>451.16</AmountDue>
+      <Remittance>451.16</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>947270184</AccountIdentifier>
+      <BusinessName>Crap Windows and Doors</BusinessName>
+      <Street1>530 Sheila Square</Street1>
+      <City>Bulahberg</City>
+      <StateOrRegion>GA</StateOrRegion>
+      <PostalCode>98803-6148</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>132838.51</TaxableEarnings>
+      <GrossTaxDue>1328.39</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1328.39</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1328.39</AmountDue>
+      <Remittance>1328.39</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>771241622</AccountIdentifier>
+      <BusinessName>International Public Relations</BusinessName>
+      <Street1>8187 Hand Avenue</Street1>
+      <City>Davisfort</City>
+      <StateOrRegion>CA</StateOrRegion>
+      <PostalCode>80864</PostalCode>
+      <Country>US</Country>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>404434.69</TaxableEarnings>
+      <GrossTaxDue>4044.35</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>4044.35</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>4044.35</AmountDue>
+      <Remittance>4044.35</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>116340483</AccountIdentifier>
+      <BusinessName>Eccolalia LLC</BusinessName>
+      <Street1>161 Weimann Junction</Street1>
+      <City>Mikeland</City>
+      <StateOrRegion>FL</StateOrRegion>
+      <PostalCode>24207-6705</PostalCode>
+      <Country>US</Country>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2025-12-31</FilingPeriod>
+      <TaxableEarnings>191884.22</TaxableEarnings>
+      <GrossTaxDue>1918.84</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1918.84</NetTaxDue>
+      <Penalty>0</Penalty>
+      <Interest>0</Interest>
+      <AmountDue>1918.84</AmountDue>
+      <Remittance>1918.84</Remittance>
+    </ReturnLiability>
+  </STLW10>
+</STLW10Batch>
