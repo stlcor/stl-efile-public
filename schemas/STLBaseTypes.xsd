@@ -29,16 +29,6 @@
 		</xsd:annotation>
 		<xsd:restriction base="xsd:boolean"/>
 	</xsd:simpleType>
-
-	<!-- Integer Type -->
-	<xsd:simpleType name="IntegerType">
-		<xsd:annotation>
-			<xsd:documentation>
-				Base type for an integer.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:integer"/>
-	</xsd:simpleType>
 	
 	<!-- Integer Non-Negative Type -->
 	<xsd:simpleType name="IntegerNNType">
@@ -48,38 +38,6 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:nonNegativeInteger"/>
-	</xsd:simpleType>
-	
-	<!-- Integer Positive Type -->
-	<xsd:simpleType name="IntegerPosType">
-		<xsd:annotation>
-			<xsd:documentation>
-				Base type for a positive integer.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:positiveInteger"/>
-	</xsd:simpleType>
-	
-	<!-- Long Integer Type -->
-	<xsd:simpleType name="LongIntegerType">
-		<xsd:annotation>
-			<xsd:documentation>
-				Base type for a long integer. The permitted range of values is -9,223,372,036,854,775,808 through 9,223,372,036,854,775,807.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:long"/>
-	</xsd:simpleType>
-	
-	<!-- Decimal Type -->
-	<xsd:simpleType name="DecimalType">
-		<xsd:annotation>
-			<xsd:documentation>
-				Base type for a two-digit decimal typically used by fields containing dollar amounts.
-			</xsd:documentation>
-		</xsd:annotation>
-		<xsd:restriction base="xsd:decimal">
-			<xsd:fractionDigits value="2"/>
-		</xsd:restriction>
 	</xsd:simpleType>
 	
 	<!-- Decimal Non-Negative Type -->
