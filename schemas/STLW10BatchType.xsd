@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<xsd:include schemaLocation="STLBatchHeaderType.xsd"/>
+	<xsd:include schemaLocation="STLW10Type.xsd"/>
+
+	<xsd:element name="STLW10BatchType">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>
+					The STLReturnBatchW10 contains one BatchHeader element providing details about the batch, followed by one or more STLW10 elements representing each W-10 return within the batch.
+				</description>
+				<version>1.1.0</version>
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<!-- BatchHeader -->
+				<xsd:element name="BatchHeader" type="STLBatchHeaderType" minOccurs="1" maxOccurs="1" />
+				
+				<!-- STLW10 -->
+				<xsd:element name="STLW10" type="STLW10Type" minOccurs="1" maxOccurs="unbounded" />
+				
+			</xsd:sequence>
+		</xsd:complexType>
+		
+	</xsd:element> 
+
+</xsd:schema>

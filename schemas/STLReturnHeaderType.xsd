@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<xsd:include schemaLocation="STLBaseTypes.xsd"/>
+
+	<xsd:complexType name="STLReturnHeaderType">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>
+					The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.
+				</description>
+				<version>1.1.0</version>
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:sequence>
+
+			<!-- Account Identifier -->
+			<xsd:element name="AccountIdentifier" type="AccountIdentifierType" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						AccountIdentifier contains the 9-digit federal employer ID of the taxpayer or the legacy 11-digit St. Louis Account Number.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			
+			<!-- Business Name -->
+			<xsd:element name="BusinessName" type="BusinessNameType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						BusinessName contains the legal business name of the taxpayer.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Street 1 -->
+			<xsd:element name="Street1" type="StreetAddressType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Street1 contains the street address of the taxpayer.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Street 2 -->
+			<xsd:element name="Street2" type="StreetAddressType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Street2 contains additional mailing address information from the taxpayer, including suite or unit numbers.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- City -->
+			<xsd:element name="City" type="CityType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						City contains the city of the taxpayer's address.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- State Or Region -->
+			<xsd:element name="StateOrRegion" type="StateOrRegionType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						State contains the state or region of the taxpayer's address.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Postal Code -->
+			<xsd:element name="PostalCode" type="PostalCodeMultiCountryType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						PostalCode contains the U.S. ZIP code or postal code of the taxpayer's address.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Country -->
+			<xsd:element name="Country" type="CountryType" default="US" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Country contains the ISO 3166-1 alpha-2 two-letter country code of the taxpayer's address. The default value is US.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Telephone -->
+			<xsd:element name="Telephone" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						Telephone contains the phone number of the taxpayer. This field is optional.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- AddressChange -->
+			<xsd:element name="AddressChange" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						AddressChange indicates that the address of the taxpayer has changed. The default value is false.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- AmendedReturn -->
+			<xsd:element name="AmendedReturn" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						AmendedReturn indicates that the taxpayer is filing an amended return. The default value is false.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- FinalReturn -->
+			<xsd:element name="FinalReturn" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						FinalReturn indicates that the taxpayer has terminated their business. The default value is false.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+		</xsd:sequence>
+		
+	</xsd:complexType>
+	
+</xsd:schema>

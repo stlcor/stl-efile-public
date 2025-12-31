@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<xsd:include schemaLocation="STLBatchHeaderType.xsd"/>
+	<xsd:include schemaLocation="STLW10Type.xsd"/>
+
+	<xsd:element name="STLW10PEOBatchType">
+
+		<xsd:annotation>
+			<xsd:documentation> 
+				<description>
+					The W-10 PEO Batch contains one BatchHeader and one or more STLW10 elements. There must be exactly one STLW10 return for the total of all returns in the batch. There can be an optional STLW10 return for the portion of the batch that belongs to the PEO. There must be one or more STLW10 returns for each subsidiary.
+				</description>
+				<version>1.1.0</version>
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:complexType>
+			<xsd:sequence>
+				
+				<!-- Batch Header -->
+				<xsd:element name="BatchHeader" type="STLBatchHeaderType" minOccurs="1" maxOccurs="1" />
+
+				<!-- W-10 PEO Total -->
+				<xsd:element name="STLW10PEOTotal" type="STLW10Type" minOccurs="1" maxOccurs="1" >
+					<xsd:annotation>
+						<xsd:documentation>
+							STLW10PEOTotal contains the combined dollar amounts for all W-10s included in the STL W-10 PEO return.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				
+				<!-- W-10 PEO Self Return -->
+				<xsd:element name="STLW10PEOSelfReturn" type="STLW10Type" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							STLW10PEOSelfReturn contains any required W-10 return by the PEO itself, rather than those of any subsidiary PEO clients. For example, if a PEO directly employs staff that is subject to the Earnings Tax, those earnings would be reported on STLW10PEOSelfReturn. This element is optional if there is no return due for the PEO itself.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+
+				<!-- W-10 PEO Subsidiary Return -->
+				<xsd:element name="STLW10PEOSubsidiaryReturn" type="STLW10Type" minOccurs="1" maxOccurs="unbounded">
+					<xsd:annotation>
+						<xsd:documentation>
+							STLW10PEOSubsidiaryReturn contains a W-10 return for a subsidiary or client of the PEO. Each subsidiary must have its own STLW10PEOSubsidiary element.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				
+			</xsd:sequence>
+		</xsd:complexType>
+		
+	</xsd:element>
+	
+</xsd:schema>

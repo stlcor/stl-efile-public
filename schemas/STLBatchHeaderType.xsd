@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	
+	<xsd:include schemaLocation="STLBaseTypes.xsd"/>
+
+	<xsd:complexType name="STLBatchHeaderType">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>
+					The Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.
+				</description>
+				<version>1.1.0</version>
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:sequence>
+
+			<!-- Submitter Name -->
+			<xsd:element name="SubmitterName" type="StringType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						SubmitterName contains the name of the entity submitting the returns, such as the business name of the taxpayer or the name of the payroll service provider filing returns on behalf of multiple taxpayers.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Submitter Account Identifier -->
+			<xsd:element name="SubmitterAccountIdentifier" type="AccountIdentifierType" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						SubmitterAccountIdentifier contains the 9-digit federal employer ID or 11-digit St. Louis account number of the submitting entity.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Return Type -->
+			<xsd:element name="ReturnType" type="ReturnType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						ReturnType contains the type of return included in the batch: W-10, P-10, W-10 PEO, or P-10 PEO.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			
+			<!-- Total Items -->
+			<xsd:element name="TotalItems" type="IntegerNNType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						TotalItems contains the number of STLW10 or STLP10 elements contained in the batch.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Amount Due Total -->
+			<xsd:element name="AmountDueTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						AmountDueTotal is the sum of all the AmountDue values included in the document.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Remittance Total -->
+			<xsd:element name="RemittanceTotal" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						RemittanceTotal is the sum of all the Remittance values included in the document.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+		</xsd:sequence>
+
+	</xsd:complexType>
+
+</xsd:schema>
