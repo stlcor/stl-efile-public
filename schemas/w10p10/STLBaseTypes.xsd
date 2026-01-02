@@ -684,7 +684,7 @@
 			<xsd:element name="StreetAddress1" type="StreetAddressType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="StreetAddress2" type="StreetAddressType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="City" type="CityType" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Region" type="InternationalRegionType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Region" type="InternationalRegionType" minOccurs="0" maxOccurs="1" nillable="true"/>
 			<xsd:element name="InternationalPostalCode" type="InternationalPostalCodeType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="Country" type="CountryType" minOccurs="1" maxOccurs="1"/>
 		</xsd:all>
