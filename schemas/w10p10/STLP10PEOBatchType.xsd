@@ -11,7 +11,7 @@
 				<description>
 					The P-10 PEO Batch contains one BatchHeader and one or more STLP10 elements. There must be exactly one STLP10 return for the total of all returns in the batch. There can be an optional STLP10 return for the portion of the batch that belongs to the PEO. There must be one or more STLP10 returns for each subsidiary.
 				</description>
-				<version>1.1.0</version>
+				<version>1.1.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

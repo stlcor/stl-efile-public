@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<xsd:annotation>
+		<xsd:documentation>
+			<description>
+				St. Louis Individual Earnings Tax Return Electronic Filing Schema: Base types commonly used across schema files.
+			</description>
+			<version>1.1.1</version>
+		</xsd:documentation>
+	</xsd:annotation>
+
+	<!-- String Type -->
+	<xsd:simpleType name="StringType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a string.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string"/>
+	</xsd:simpleType>
+	
+	<!-- Boolean Type -->
+	<xsd:simpleType name="BooleanType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a boolean. Permissible values are: true, false, 1, or 0.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:boolean"/>
+	</xsd:simpleType>
+	
+	<!-- Integer Type -->
+	<xsd:simpleType name="IntegerType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an integer.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:integer"/>
+	</xsd:simpleType>
+
+	<!-- Integer Non-Negative Type -->
+	<xsd:simpleType name="IntegerNNType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a non-negative integer.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:nonNegativeInteger"/>
+	</xsd:simpleType>
+	
+	<!-- Decimal Type -->
+	<xsd:simpleType name="DecimalType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a two-digit decimal typically used by fields containing dollar amounts.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Decimal Non-Negative Type -->
+	<xsd:simpleType name="DecimalNNType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a non-negative two-digit decimal typically used by fields containing dollar amounts.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:fractionDigits value="2"/>
+			<xsd:minInclusive value="0.00"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Ratio Type -->
+	<xsd:simpleType name="RatioType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a ratio expressed as a decimal value between 0 and 1 with up to five (5) decimal places permitted.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:decimal">
+			<xsd:totalDigits value="6"/>
+			<xsd:fractionDigits value="5"/>
+			<xsd:minInclusive value="0.00000"/>
+			<xsd:maxInclusive value="1.00000"/>
+		</xsd:restriction>
+	</xsd:simpleType>	
+
+	<!-- Return Type -->
+	<xsd:simpleType name="ReturnType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Enumeration of ReturnType valid values, which includes:
+				<ul>
+					<li>STLE1: Individual Earnings Tax Return</li>
+				</ul>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="STLE1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Social Security Number Type -->
+	<xsd:simpleType name="SSNType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a Social Security Number or Taxpayer Identification Number consisting of nine (9) digits. Dashes or spaces must be omitted.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{9}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<!-- Employer Identification Number Type -->
+	<xsd:simpleType name="EINType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a Federal Employer Identification Number consisting of nine (9) digits. Dashes or spaces must be omitted.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{9}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- STL Account Number Type -->
+	<xsd:simpleType name="STLAccountNumberType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a St. Louis Earnings Tax Account Number consisting of eleven (11) digits. This number is typically the taxpayer's Employer Identification Number suffixed with two digits. Dashes or spaces must be omitted. The St. Louis Earnings Tax Account Number is a legacy format which is supported but not encouraged or required.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{11}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Account Identifier Type -->
+	<xsd:simpleType name="AccountIdentifierType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an account identification number formatted according to the guidelines of SSNType, EINType, or STLAccountNumberType above.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:union memberTypes="SSNType EINType STLAccountNumberType"/>
+	</xsd:simpleType>
+
+	<!-- U.S. ZIP Code Type -->
+	<xsd:simpleType name="USZIPCodeType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a five-digit United States ZIP code, plus an optional dash or space and an optional (but recommended) four-digit ZIP+4 code.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{5}(\-| )?([0-9]{4})?"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Canadian Postal Code Type -->
+	<xsd:simpleType name="CanadaPostalCodeType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a Canadian Postal Code with the format A#A #A#. The postal code cannot contain the letters D, F, I, O, Q, or U, and cannot start with W or Z. A space or dash between the two three-character groups is permitted but optional.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][ -]?[0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- International Postal Code Type -->
+	<xsd:simpleType name="InternationalPostalCodeType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a freeform string to contain all types of postal codes, including international codes. Postal codes may contain uppercase letters, numbers, dashes, and spaces. Formatting for postal codes is not validated when using the PostalCodeType element. It is recommended that USZIPCodeType be used for American addresses and CanadaPostalCodeType be used for Canadian addresses to enforce valid formatting.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="16"/>
+			<xsd:pattern value="[0-9A-Z\- ]{0,16}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Postal Code Multi-Country Type -->
+	<xsd:simpleType name="PostalCodeMultiCountryType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a postal code of any type formatted according to the guidelines for USZIPCodeType, CanadaPostalCodeType, or InternationalPostalCodeType above.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:union memberTypes="USZIPCodeType CanadaPostalCodeType InternationalPostalCodeType"/>
+	</xsd:simpleType>
+	
+	<!-- Business Name Type -->
+	<xsd:simpleType name="BusinessNameType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a business name. A business name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="255"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>	
+
+	<!-- Street Address Type -->
+    <xsd:simpleType name="StreetAddressType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a street address. A street address can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="255"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<!-- City Type -->
+	<xsd:simpleType name="CityType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a city name. A city name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="255"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+    <!-- Country Type -->
+	<xsd:simpleType name="CountryType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a two-letter country code as prescribed by ISO 3166-1 alpha-2. If no country code is provided, the address will be assumed to be in the United States.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="2"/>
+			<xsd:maxLength value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- State or Region Type -->
+	<xsd:simpleType name="StateOrRegionType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a state, province, or region name. A state, province, or region name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks. States, provinces, and regions can be provided as abbreviations in accordance with local standards.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="255"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Phone Number U.S. Type -->
+	<xsd:simpleType name="PhoneNumberUSType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a United States phone number. The phone number may contain a country code ("1" or "+1"). The three-digit area code and seven-digit phone number are required. Spaces, dashes, and parentheses are permitted in accordance with standard U.S. phone number formatting. Examples of valid values include but are not limited to: 
+				<ul>
+					<li>3146223291</li>
+					<li>+13146223291</li>
+					<li>314-622-3291</li>
+					<li>1-314-622-3291</li>
+					<li>+1 314 622-3291</li>
+					<li>(314) 622-3291</li>
+					<li>+1 (314) 622-3291</li>
+				</ul>
+				See additional pattern examples at <a href="https://regex101.com/r/9EmRlS">RegEx 101</a>.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\+?1?(\-?| ?)\(?[2-9][0-9]{2}\)?(\-?| ?)[0-9]{3}(\-?| ?)[0-9]{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<!-- Phone Number International Type -->
+	<xsd:simpleType name="PhoneNumberInternationalType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an international phone number of a length from eight (8) to thirty (30) characters. The phone number must contain a country code which may be preceded by a plus sign ("+"). Spaces, dashes, and parentheses are permitted in accorance with local formatting standards and customs.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\+?(\-| )?[0-9\(\)\- ]{8,30}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Phone Number Multi-Country Type -->
+	<xsd:simpleType name="PhoneNumberMultiCountryType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a United States or international phone number formatted according to PhoneNumberUSType or PhoneNumberInternationalType above.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:union memberTypes="PhoneNumberUSType PhoneNumberInternationalType"/>
+	</xsd:simpleType>
+
+	<!-- Period End Date Type -->
+	<xsd:simpleType name="PeriodEndDateType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for the end date of a tax period. Valid dates are December 31st of any year in YYYY-MM-DD format:
+				<ul>
+					<li>20##-12-31</li>
+				</ul>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:date">
+			<xsd:pattern value="[1-9][0-9]{3}\-12\-31"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+</xsd:schema>

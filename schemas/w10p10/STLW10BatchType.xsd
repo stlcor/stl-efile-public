@@ -11,7 +11,7 @@
 				<description>
 					The STLReturnBatchW10 contains one BatchHeader element providing details about the batch, followed by one or more STLW10 elements representing each W-10 return within the batch.
 				</description>
-				<version>1.1.0</version>
+				<version>1.1.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

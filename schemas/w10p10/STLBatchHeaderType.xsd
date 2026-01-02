@@ -10,7 +10,7 @@
 				<description>
 					The Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.
 				</description>
-				<version>1.1.0</version>
+				<version>1.1.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
