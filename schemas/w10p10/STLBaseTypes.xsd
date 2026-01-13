@@ -120,11 +120,11 @@
 		<xsd:union memberTypes="SSNType EINType STLAccountNumberType"/>
 	</xsd:simpleType>
 
-	<!-- Attention Line Type -->
-	<xsd:simpleType name="AttentionLineType">
+	<!-- Name Type -->
+	<xsd:simpleType name="NameType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for an attention line to be included in a mailing address to more specifically indicate to whom a mail piece should be delivered. The attention line frequently starts with "Attention:" (often abbreviated as "Attn:") or "In Care Of" (often abbreviated as "c/o"); however, these are only suggestions and not requirements. An attention line can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
+				Base type for a portion of an individual person's name, such as a first, middle, or last name. A name can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
@@ -133,6 +133,21 @@
 			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+
+	<!-- Individual Name Type -->
+	<xsd:complexType name="IndividualNameType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an individual person's name. First name and last name are required. Middle names or initials and suffixes are optional.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="FirstName" type="IndividualNameType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="MiddleName" type="IndividualNameType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="LastName" type="IndividualNameType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Suffix" type="IndividualNameType" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
 
 	<!-- Business Name Type -->
 	<xsd:simpleType name="BusinessNameType">
@@ -146,7 +161,21 @@
 			<xsd:maxLength value="255"/>
 			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
 		</xsd:restriction>
-	</xsd:simpleType>	
+	</xsd:simpleType>
+
+	<!-- Attention Line Type -->
+	<xsd:simpleType name="AttentionLineType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an attention line to be included in a mailing address to more specifically indicate to whom a mail piece should be delivered. The attention line frequently starts with "Attention:" (often abbreviated as "Attn:") or "In Care Of" (often abbreviated as "c/o"); however, these are only suggestions and not requirements. An attention line can contain letters, numbers, and punctuation from the Basic Latin and Latin-1 Supplement Unicode blocks.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+			<xsd:maxLength value="255"/>
+			<xsd:pattern value="[\p{IsBasicLatin}\p{IsLatin-1Supplement}]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 
 	<!-- Street Address Type -->
     <xsd:simpleType name="StreetAddressType">
@@ -629,7 +658,7 @@
 	<xsd:simpleType name="CountryType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a two-letter country code as prescribed by ISO 3166-1 alpha-2. If no country code is provided, the address will be assumed to be in the United States.
+				Base type for a two-letter country code as prescribed by ISO 3166-1 alpha-2.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
