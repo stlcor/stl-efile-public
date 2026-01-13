@@ -2,14 +2,14 @@
 <xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
 
 	<xsd:include schemaLocation="../base/STLBaseTypes.xsd"/>
-	<xsd:include schemaLocation="STLW10P10ReturnHeaderType.xsd"/>
+	<xsd:include schemaLocation="STLE1ReturnHeaderType.xsd"/>
 	
-	<xsd:complexType name="STLW10Type">
+	<xsd:complexType name="STLE1Type">
 
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>
-					The St. Louis Electronic Filing W-10 contains all information pertaining to a single W-10 Employer's Withholding Tax Return.
+					The St. Louis Electronic Filing E-1 contains all information pertaining to a single E-1 Individual Earnings Tax Return.
 				</description>
 				<version>1.1.1</version>
 			</xsd:documentation>
@@ -19,13 +19,13 @@
 		<xsd:sequence>
 			
 			<!-- Return Header-->
-			<xsd:element name ="ReturnHeader" type="STLW10P10ReturnHeaderType" minOccurs="1" maxOccurs="1" />
+			<xsd:element name ="ReturnHeader" type="STLE1ReturnHeaderType" minOccurs="1" maxOccurs="1" />
 
 			<!-- Return Liability -->
 			<xsd:element name="ReturnLiability">
 				<xsd:annotation>
 					<xsd:documentation>
-						ReturnLiability contains details of earnings subject to withholding and calculation of amounts due.
+						ReturnLiability contains details of earnings subject to the Earnings Tax and calculation of amounts due.
 					</xsd:documentation>
 				</xsd:annotation>
 
@@ -33,10 +33,10 @@
 					<xsd:all>
 
 						<!-- Filing Period -->
-						<xsd:element name="FilingPeriod" type="QuarterEndDateType" minOccurs="1" maxOccurs="1">
+						<xsd:element name="FilingPeriod" type="CalendarYearDateType" minOccurs="1" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									FilingPeriod contains the end date of the quarterly or annual tax period. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in the YYYY-MM-DD format.
+									FilingPeriod contains the end date of the calendar year tax period. Valid dates are December 31st of any year in YYYY-MM-DD format.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>

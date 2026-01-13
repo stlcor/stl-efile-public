@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
 	
-	<xsd:include schemaLocation="../../base/STLBaseTypes.xsd"/>
+	<xsd:include schemaLocation="../base/STLBaseTypes.xsd"/>
 
 	<xsd:complexType name="STLW10P10BatchHeaderType">
 
