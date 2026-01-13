@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
 
-	<xsd:include schemaLocation="STLBaseTypes.xsd"/>
-	<xsd:include schemaLocation="STLReturnHeaderType.xsd"/>
+	<xsd:include schemaLocation="../../base/STLBaseTypes.xsd"/>
+	<xsd:include schemaLocation="STLW10P10ReturnHeaderType.xsd"/>
 	
 	<xsd:complexType name="STLW10Type">
 
@@ -19,7 +19,7 @@
 		<xsd:sequence>
 			
 			<!-- Return Header-->
-			<xsd:element name ="ReturnHeader" type="STLReturnHeaderType" minOccurs="1" maxOccurs="1" />
+			<xsd:element name ="ReturnHeader" type="STLW10P10ReturnHeaderType" minOccurs="1" maxOccurs="1" />
 
 			<!-- Return Liability -->
 			<xsd:element name="ReturnLiability">
