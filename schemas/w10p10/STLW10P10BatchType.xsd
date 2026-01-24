@@ -3,13 +3,14 @@
 
 	<xsd:include schemaLocation="STLW10P10BatchHeaderType.xsd"/>
 	<xsd:include schemaLocation="STLW10Type.xsd"/>
+	<xsd:include schemaLocation="STLP10Type.xsd"/>
 
-	<xsd:element name="STLW10Batch">
+	<xsd:element name="STLW10P10Batch">
 
 		<xsd:annotation>
 			<xsd:documentation>
 				<description>
-					The STLReturnBatchW10 contains one BatchHeader element providing details about the batch, followed by one or more STLW10 elements representing each W-10 return within the batch.
+					The STLW10P10Batch contains one BatchHeader element providing details about the batch, followed by one or more STLW10 or STLP10 elements representing each W-10 or P-10 return within the batch.
 				</description>
 				<version>1.1.1</version>
 			</xsd:documentation>
@@ -21,8 +22,11 @@
 				<!-- BatchHeader -->
 				<xsd:element name="BatchHeader" type="STLW10P10BatchHeaderType" minOccurs="1" maxOccurs="1" />
 				
-				<!-- W-10 -->
-				<xsd:element name="STLW10" type="STLW10Type" minOccurs="1" maxOccurs="unbounded" />
+				<!-- W-10 or P-10 Returns -->
+				<xsd:choice minOccurs="1" maxOccurs="unbounded">
+					<xsd:element name="STLW10" type="STLW10Type" />
+					<xsd:element name="STLP10" type="STLP10Type" />
+				</xsd:choice>
 				
 			</xsd:sequence>
 		</xsd:complexType>

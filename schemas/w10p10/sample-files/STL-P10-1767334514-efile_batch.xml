@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STLP10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ ../STLP10BatchType.xsd">
+<STLW10P10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ https://raw.githubusercontent.com/stlcor/stl-efile-public/refs/heads/main/schemas/w10p10/STLW10P10BatchType.xsd">
   <BatchHeader>
     <SubmitterName>CSH</SubmitterName>
     <SubmitterAccountIdentifier>883496258</SubmitterAccountIdentifier>
@@ -1417,4 +1417,4 @@
       <Remittance>111.08</Remittance>
     </ReturnLiability>
   </STLP10>
-</STLP10Batch>
+</STLW10P10Batch>
