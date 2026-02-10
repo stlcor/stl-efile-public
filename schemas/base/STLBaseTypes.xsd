@@ -777,6 +777,18 @@
 		<xsd:union memberTypes="PhoneNumberUSType PhoneNumberInternationalType"/>
 	</xsd:simpleType>
 
+	<!-- Email Address Type -->
+	<xsd:simpleType name="EmailAddressType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for an email address in standard format.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[^@]+@[^\.]+\..+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
 	<!-- Quarter End Date Type -->
 	<xsd:simpleType name="QuarterEndDateType">
 		<xsd:annotation>

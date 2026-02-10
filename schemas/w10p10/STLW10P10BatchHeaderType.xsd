@@ -34,11 +34,20 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- Return Type -->
-			<xsd:element name="ReturnType" type="ReturnType" minOccurs="1" maxOccurs="1">
+			<!-- Submitter Email Address -->
+			<xsd:element name="SubmitterEmailAddress" type="EmailAddressType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						ReturnType contains the type of return included in the batch: W-10, P-10, W-10 PEO, or P-10 PEO.
+						SubmitterEmailAddress contains a valid email address at which the submitter can be contacted. Notifications, exceptions, invoices, and other correspondence regarding the submission will be sent to the supplied address.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Submitter Phone Number -->
+			<xsd:element name="SubmitterPhoneNumber" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						SubmitterPhoneNumber contains a phone number at which the submitter can be contacted.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
@@ -47,7 +56,7 @@
 			<xsd:element name="TotalItems" type="IntegerNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						TotalItems contains the number of STLW10 or STLP10 elements contained in the batch.
+						TotalItems contains the number of STLW10 and/or STLP10 elements contained in the batch.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
