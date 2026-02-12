@@ -44,7 +44,7 @@
 			</xsd:element>
 
 			<!-- Submitter Phone Number -->
-			<xsd:element name="SubmitterPhoneNumber" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
+			<xsd:element name="SubmitterPhoneNumber" type="StringType" minOccurs="0" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
 						SubmitterPhoneNumber contains a phone number at which the submitter can be contacted.

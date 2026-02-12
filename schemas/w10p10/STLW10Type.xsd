@@ -78,19 +78,19 @@
 						</xsd:element>
 
 						<!-- Penalty -->
-						<xsd:element name="Penalty" type="DecimalNNType" minOccurs="0" maxOccurs="1">
+						<xsd:element name="PenaltyDue" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									Penalty contains any calculated penalty for late payment. The penalty is calculated upon the tax balance due at the rate of 5 percent per overdue month or fraction thereof, up to a maximum of 25 percent. This element may be omitted if the filing entity believes there is no penalty due; however, if the Collector of Revenue determines that penalty is in fact due, it will be calculated and added to the amount due.
+									PenaltyDue contains any calculated penalty for late payment. The penalty is calculated upon the tax balance due at the rate of 5 percent per overdue month or fraction thereof, up to a maximum of 25 percent. This element may be omitted if the filing entity believes there is no penalty due; however, if the Collector of Revenue determines that penalty is in fact due, it will be calculated and added to the amount due.
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
 
 						<!-- Interest -->
-						<xsd:element name="Interest" type="DecimalNNType" minOccurs="0" maxOccurs="1">
+						<xsd:element name="InterestDue" type="DecimalNNType" minOccurs="0" maxOccurs="1">
 							<xsd:annotation>
 								<xsd:documentation>
-									Interest contains any calculated interest for late payment. Interest is calculated upon the tax balance due at the rate of 1 percent per overdue month or fraction thereof.	This element may be omitted if the filing entity believes there is no interest due; however, if the Collector of Revenue determines that interest is in fact due, it will be calculated and added to the amount due.	
+									InterestDue contains any calculated interest for late payment. Interest is calculated upon the tax balance due at the rate of 1 percent per overdue month or fraction thereof.	This element may be omitted if the filing entity believes there is no interest due; however, if the Collector of Revenue determines that interest is in fact due, it will be calculated and added to the amount due.	
 								</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
