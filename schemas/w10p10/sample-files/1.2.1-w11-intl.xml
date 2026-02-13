@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STLW10P10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ ../STLW10P10BatchType.xsd">
+  <BatchHeader>
+    <SubmitterName>Steuber Software</SubmitterName>
+    <SubmitterAccountIdentifier>238561055</SubmitterAccountIdentifier>
+    <SubmitterContact>
+      <ContactName>Ivory Wisozk</ContactName>
+      <ContactEmailAddress>ivory.wisozk@steuber.com</ContactEmailAddress>
+    </SubmitterContact>
+    <TotalItems>50</TotalItems>
+    <AmountDueTotal>60994.4</AmountDueTotal>
+    <RemittanceTotal>60949.9</RemittanceTotal>
+  </BatchHeader>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>256903630</AccountIdentifier>
+      <BusinessName>Splorp-Leuschke Aluminum Products</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>964 Goyette Street</StreetAddress1>
+          <City>Othashire</City>
+          <State>WY</State>
+          <ZIPCode>80981</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>2334.79</AmountDue>
+      <Remittance>2334.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>782500607</AccountIdentifier>
+      <BusinessName>Valenzuela y Paz</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>00 Av. Diana</StreetAddress1>
+          <City>Santa Enrique</City>
+          <Region>Monagas</Region>
+          <InternationalPostalCode>7659</InternationalPostalCode>
+          <Country>VE</Country>
+        </InternationalAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jammie Spinka</ContactName>
+        <ContactEmailAddress>jammie.spinka@valenzuela.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>5445.48</AmountDue>
+      <Remittance>5445.48</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>535163854</AccountIdentifier>
+      <BusinessName>Krajcik, Schultz and Smith-Corona</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>0474 Molar Street</StreetAddress1>
+          <City>New Prudence</City>
+          <State>OH</State>
+          <ZIPCode>62878</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1171.13</AmountDue>
+      <Remittance>1171.13</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>317107741</AccountIdentifier>
+      <BusinessName>Diminica</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>506 Aleea Eroilor</StreetAddress1>
+          <City>Mun. Murfatlar</City>
+          <InternationalPostalCode>838003</InternationalPostalCode>
+          <Country>RO</Country>
+        </InternationalAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Adriel Capicolla</ContactName>
+        <ContactEmailAddress>adriel.capicolla@diminica.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(091)962-7885</PhoneNumber>
+          <PhoneExtension>x5957</PhoneExtension>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1618.58</AmountDue>
+      <Remittance>1618.58</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>377478921</AccountIdentifier>
+      <BusinessName>InstaFlex LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>027 Michaela Street</StreetAddress1>
+          <City>Jaydonstad</City>
+          <State>KY</State>
+          <ZIPCode>27984-2741</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Domenica Bradtke</ContactName>
+        <ContactEmailAddress>domenica.bradtke@instaflex.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>08180759994</PhoneNumber>
+          <PhoneExtension>x0674</PhoneExtension>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>171.38</AmountDue>
+      <Remittance>171.38</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>245124471</AccountIdentifier>
+      <BusinessName>NextVantage LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3972 Rosenbaum Expressway</StreetAddress1>
+          <City>Romainechester</City>
+          <State>IL</State>
+          <ZIPCode>65254-8699</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>41.66</AmountDue>
+      <Remittance>41.66</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>463926231</AccountIdentifier>
+      <BusinessName>Crap-Tooth Mayonnaise, Dressing, and Prepared Sauce Manufacturing LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>904 Ally Street</StreetAddress1>
+          <City>South Evelynbury</City>
+          <State>MT</State>
+          <ZIPCode>53192</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kurt Softic</ContactName>
+        <ContactEmailAddress>kurt.softic@craptooth.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3495.92</AmountDue>
+      <Remittance>3495.92</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>778056788</AccountIdentifier>
+      <BusinessName>Ratke, Hill and Jast</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>497 Enrique Place</StreetAddress1>
+          <City>South Athena</City>
+          <State>HI</State>
+          <ZIPCode>19772-0781</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jude Effertz</ContactName>
+        <ContactEmailAddress>jude.effertz@ratke.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>414.183.3149</PhoneNumber>
+          <PhoneExtension>x4552</PhoneExtension>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>2294.15</AmountDue>
+      <Remittance>2294.15</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>252025316</AccountIdentifier>
+      <BusinessName>Hardcore LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>0375 Karine Court</StreetAddress1>
+          <City>Lake Whitney</City>
+          <State>OK</State>
+          <ZIPCode>00154</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kurtis Daugherty</ContactName>
+        <ContactEmailAddress>kurtis.daugherty@hardcore.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>320.78</AmountDue>
+      <Remittance>320.78</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>491029047</AccountIdentifier>
+      <BusinessName>Goldner, Russell and Erdman</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>75267 Pouros Heights</StreetAddress1>
+          <City>West Piper</City>
+          <State>IN</State>
+          <ZIPCode>68744-9460</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3829.42</AmountDue>
+      <Remittance>3829.42</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>798690924</AccountIdentifier>
+      <BusinessName>Witting Automotive</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>70555 Cole Avenue</StreetAddress1>
+          <City>West Julietmouth</City>
+          <State>MN</State>
+          <ZIPCode>59054</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>968.92</AmountDue>
+      <Remittance>959.23</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>778000006</AccountIdentifier>
+      <BusinessName>ЖАҚ ҚазақТех</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>321 Қыдыр көшесі</StreetAddress1>
+          <StreetAddress2>Apt. 227</StreetAddress2>
+          <City>Павлодар</City>
+          <Region>Петропавл</Region>
+          <InternationalPostalCode>021734</InternationalPostalCode>
+          <Country>KZ</Country>
+        </InternationalAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>David Grady</ContactName>
+        <ContactEmailAddress>david.grady@.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1049.65</AmountDue>
+      <Remittance>1049.65</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>018302419</AccountIdentifier>
+      <BusinessName>Acetaminophen TV Repair Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>01732 Holden Estates</StreetAddress1>
+          <City>East Hoytfurt</City>
+          <State>WY</State>
+          <ZIPCode>45538</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>89.65</AmountDue>
+      <Remittance>89.65</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>297375977</AccountIdentifier>
+      <BusinessName>Hegmann Frozen Novelties and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>863 Karina Avenue</StreetAddress1>
+          <City>Altenwerthstad</City>
+          <State>ND</State>
+          <ZIPCode>78884</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>54.19</AmountDue>
+      <Remittance>54.19</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>751287134</AccountIdentifier>
+      <BusinessName>Kozey Sausages Corp</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>32621 Stark Junction</StreetAddress1>
+          <City>Chetside</City>
+          <State>PA</State>
+          <ZIPCode>55116</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1593.96</AmountDue>
+      <Remittance>1593.96</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>87877524735</AccountIdentifier>
+      <BusinessName>O'Connell Corp</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>0592 Jacinthe Point</StreetAddress1>
+          <City>West Lindaport</City>
+          <State>FL</State>
+          <ZIPCode>84973-1748</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Bud Phillips</ContactName>
+        <ContactEmailAddress>bud.phillips@oconnell.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(541)335-7287</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>758.02</AmountDue>
+      <Remittance>750.44</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>099236035</AccountIdentifier>
+      <BusinessName>Հայրապետյան ԲԲԸ</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>29 Վարդանյան Street</StreetAddress1>
+          <City>Ծաղկաձոր</City>
+          <Region>Սյունիքի</Region>
+          <InternationalPostalCode>0061</InternationalPostalCode>
+          <Country>AM</Country>
+        </InternationalAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1208.03</AmountDue>
+      <Remittance>1195.95</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>362613779</AccountIdentifier>
+      <BusinessName>Zapata, Angulo y Pineda</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>95429 Urb. Emma Miranda</StreetAddress1>
+          <City>Don Emma Suárez</City>
+          <Region>Lima</Region>
+          <InternationalPostalCode>LIMA 03</InternationalPostalCode>
+          <Country>PE</Country>
+        </InternationalAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Riley Abshire</ContactName>
+        <ContactEmailAddress>riley.abshire@zapata.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1027.24</AmountDue>
+      <Remittance>1027.24</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>314884849</AccountIdentifier>
+      <BusinessName>Flatley Plastics</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1655 Ransom Street</StreetAddress1>
+          <City>Florianshire</City>
+          <State>VT</State>
+          <ZIPCode>00958</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Reyes Zboncak</ContactName>
+        <ContactEmailAddress>reyes.zboncak@flatley.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>91.41</AmountDue>
+      <Remittance>91.41</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>014959169</AccountIdentifier>
+      <BusinessName>God's Voice Wheel and Tire</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4902 Homeownership Estates</StreetAddress1>
+          <City>North Dora</City>
+          <State>NH</State>
+          <ZIPCode>31642-6720</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1107.26</AmountDue>
+      <Remittance>1107.26</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>217881098</AccountIdentifier>
+      <BusinessName>Adams-McQuennican Deli and Grocery</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>27589 Leopoldo Expressway</StreetAddress1>
+          <City>Abshiremouth</City>
+          <State>NM</State>
+          <ZIPCode>07793-7630</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3403.15</AmountDue>
+      <Remittance>3403.15</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>857026239</AccountIdentifier>
+      <BusinessName>Hodkiewicz-Becker Floral</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7736 Malcolm Point</StreetAddress1>
+          <City>Kylefort</City>
+          <State>MS</State>
+          <ZIPCode>56003</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>761.19</AmountDue>
+      <Remittance>761.19</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>388069456</AccountIdentifier>
+      <BusinessName>Orn LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>136 Vandervort Boulevard</StreetAddress1>
+          <City>Croninhaven</City>
+          <State>TN</State>
+          <ZIPCode>91601</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Bonnie Armstrong</ContactName>
+        <ContactEmailAddress>bonnie.armstrong@orn.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>6107.23</AmountDue>
+      <Remittance>6107.23</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>00139218146</AccountIdentifier>
+      <BusinessName>Brightwise</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>000 Herzog Court</StreetAddress1>
+          <City>North Anissaside</City>
+          <State>NM</State>
+          <ZIPCode>29010-4797</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3237.71</AmountDue>
+      <Remittance>3237.71</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>97815430740</AccountIdentifier>
+      <BusinessName>Connelly LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9880 Helen Boulevard</StreetAddress1>
+          <City>Myriamton</City>
+          <State>MT</State>
+          <ZIPCode>02563</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>226.77</AmountDue>
+      <Remittance>226.77</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>851183016</AccountIdentifier>
+      <BusinessName>Oenaria Whaling Ventures LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>408 Crystal Boulevard</StreetAddress1>
+          <City>Rodgerport</City>
+          <State>MS</State>
+          <ZIPCode>05254-8616</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>748.91</AmountDue>
+      <Remittance>748.91</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>382023750</AccountIdentifier>
+      <BusinessName>Berge Check Cashing and Title Loan Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>600 Rice Court</StreetAddress1>
+          <City>New Katlynnburgh</City>
+          <State>NM</State>
+          <ZIPCode>05854-8761</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>591.48</AmountDue>
+      <Remittance>591.48</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>945324472</AccountIdentifier>
+      <BusinessName>Ol' Jerry's</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>52866 Kozey Point</StreetAddress1>
+          <City>West Chimney Bobview</City>
+          <State>PA</State>
+          <ZIPCode>50981</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3224.43</AmountDue>
+      <Remittance>3224.43</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>329718972</AccountIdentifier>
+      <BusinessName>Pathak Inc</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>84 Shahtar</StreetAddress1>
+          <City>Gamphathang</City>
+          <InternationalPostalCode>83915</InternationalPostalCode>
+          <Country>MM</Country>
+        </InternationalAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Emelia Bernhard</ContactName>
+        <ContactEmailAddress>emelia.bernhard@pathak.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>617.47</AmountDue>
+      <Remittance>617.47</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>582754949</AccountIdentifier>
+      <BusinessName>Jivlio</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>48697 Maureen Valley</StreetAddress1>
+          <City>East Alexanneport</City>
+          <InternationalPostalCode>64989-8425</InternationalPostalCode>
+          <Country>JP</Country>
+        </InternationalAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>155.14</AmountDue>
+      <Remittance>155.14</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>315334184</AccountIdentifier>
+      <BusinessName>Polymorph LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>789 Chechik Street</StreetAddress1>
+          <City>East Rey</City>
+          <State>AK</State>
+          <ZIPCode>99784-0618</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kathleen Mann</ContactName>
+        <ContactEmailAddress>kathleen.mann@polymorph.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>596.67</AmountDue>
+      <Remittance>596.67</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>841948873</AccountIdentifier>
+      <BusinessName>Kulas-Schmitt</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>035 Horace Bypass</StreetAddress1>
+          <City>South Eldridge</City>
+          <State>MS</State>
+          <ZIPCode>09379</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Lisandro Stroman</ContactName>
+        <ContactEmailAddress>lisandro.stroman@kulasschmitt.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>527.16</AmountDue>
+      <Remittance>527.16</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>156648224</AccountIdentifier>
+      <BusinessName>Popadić Security LLC</BusinessName>
+      <Address>
+        <InternationalAddress>
+          <StreetAddress1>45 Nikole Pašića</StreetAddress1>
+          <StreetAddress2>Apt. 947</StreetAddress2>
+          <City>Čačak</City>
+          <InternationalPostalCode>77122</InternationalPostalCode>
+          <Country>ME</Country>
+        </InternationalAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1794.02</AmountDue>
+      <Remittance>1794.02</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>296774070</AccountIdentifier>
+      <BusinessName>Ratke Corp</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>323 Allen Drive</StreetAddress1>
+          <City>Lake Chaunceyville</City>
+          <State>AZ</State>
+          <ZIPCode>09682</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Alejandra Balistreri</ContactName>
+        <ContactEmailAddress>alejandra.balistreri@ratke.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>08050609151</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>794.83</AmountDue>
+      <Remittance>794.83</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>788028083</AccountIdentifier>
+      <BusinessName>Amalgamated Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3915 Hermann Drive</StreetAddress1>
+          <City>North Lavon</City>
+          <State>WV</State>
+          <ZIPCode>37304</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>231.84</AmountDue>
+      <Remittance>231.84</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>802893857</AccountIdentifier>
+      <BusinessName>Unique Plastics</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>992 Al Pass</StreetAddress1>
+          <StreetAddress2>Suite 817</StreetAddress2>
+          <City>Jannieside</City>
+          <State>VT</State>
+          <ZIPCode>61213</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>190.76</AmountDue>
+      <Remittance>190.76</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>798046410</AccountIdentifier>
+      <BusinessName>Weisenheimer-Orn Health Foods LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7163 Shanon Pass</StreetAddress1>
+          <City>Santinaton</City>
+          <State>NM</State>
+          <ZIPCode>43771-5713</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Eugenia Bonzalez</ContactName>
+        <ContactEmailAddress>eugenia.bonzalez@weisenheimerorn.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>444.61</AmountDue>
+      <Remittance>444.61</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>475668896</AccountIdentifier>
+      <BusinessName>Miskovic, Hoeger and Bailey</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>075 Cicero Square</StreetAddress1>
+          <City>Melatoninbury</City>
+          <State>TN</State>
+          <ZIPCode>16053-7977</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Rachael Abernathy</ContactName>
+        <ContactEmailAddress>rachael.abernathy@miskovic.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>305.33</AmountDue>
+      <Remittance>305.33</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>965606733</AccountIdentifier>
+      <BusinessName>Kulas-Kessler</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>338 Klein Station</StreetAddress1>
+          <City>Breannatown</City>
+          <State>UT</State>
+          <ZIPCode>01841-5880</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Gregorio Mosciski</ContactName>
+        <ContactEmailAddress>gregorio.mosciski@kulaskessler.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>3431.02</AmountDue>
+      <Remittance>3431.02</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>381189373</AccountIdentifier>
+      <BusinessName>Larkin Lithography</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>0400 Clare Expressway</StreetAddress1>
+          <City>Port Courtney</City>
+          <State>NC</State>
+          <ZIPCode>82281</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>360.84</AmountDue>
+      <Remittance>360.84</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>731234760</AccountIdentifier>
+      <BusinessName>Eichmann Staffing Agency Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>947 Allene Terrace</StreetAddress1>
+          <StreetAddress2>Apt. 549</StreetAddress2>
+          <City>Lednerbury</City>
+          <State>TN</State>
+          <ZIPCode>37882</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Keira Anderson</ContactName>
+        <ContactEmailAddress>keira.anderson@eichmann.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>1589.89</AmountDue>
+      <Remittance>1589.89</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>382866209</AccountIdentifier>
+      <BusinessName>Grandma's Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>466 Kiehn Junction</StreetAddress1>
+          <City>Grungoborough</City>
+          <State>CT</State>
+          <ZIPCode>55491</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Scruffy Walsh</ContactName>
+        <ContactEmailAddress>scruffy.walsh@grandmas.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>1-753-389-9109</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>80.64</AmountDue>
+      <Remittance>80.64</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>330677978</AccountIdentifier>
+      <BusinessName>Molar-Wiegand Janitorial LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>28354 Lopez Plaza</StreetAddress1>
+          <City>Quitzontown</City>
+          <State>MD</State>
+          <ZIPCode>79485-1465</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>277.52</AmountDue>
+      <Remittance>277.52</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>719151444</AccountIdentifier>
+      <BusinessName>Mansard Fashions Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8989 Kassulke Street</StreetAddress1>
+          <City>Lake Jeanhaven</City>
+          <State>NE</State>
+          <ZIPCode>90235-6943</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>94.28</AmountDue>
+      <Remittance>94.28</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>76145295695</AccountIdentifier>
+      <BusinessName>Diminica Mesnica</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>71153 Vurgus Avenue</StreetAddress1>
+          <City>Hassanland</City>
+          <State>TN</State>
+          <ZIPCode>19705-0375</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>341.24</AmountDue>
+      <Remittance>341.24</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>727194902</AccountIdentifier>
+      <BusinessName>OTC LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>103 Britney Center</StreetAddress1>
+          <City>Dewayneberg</City>
+          <State>IA</State>
+          <ZIPCode>46784</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>236.51</AmountDue>
+      <Remittance>236.51</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>023553520</AccountIdentifier>
+      <BusinessName>Powlowski Lawn Care</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>487 Communist Todd Square</StreetAddress1>
+          <City>Gabriellaville</City>
+          <State>DC</State>
+          <ZIPCode>15344</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>454.41</AmountDue>
+      <Remittance>454.41</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>531920160</AccountIdentifier>
+      <BusinessName>Weimann-Harvey</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>15491 Buford "Mr. Dentist" Highway</StreetAddress1>
+          <StreetAddress2>Suite 617</StreetAddress2>
+          <City>Framiland</City>
+          <State>LA</State>
+          <ZIPCode>84259-1374</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn/>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>508.57</AmountDue>
+      <Remittance>508.57</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>18090257068</AccountIdentifier>
+      <BusinessName>Petaltube Marital Aids Corp</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3704 Zemlak Terrace</StreetAddress1>
+          <City>North Brice</City>
+          <State>MD</State>
+          <ZIPCode>98208-3086</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>757.6</AmountDue>
+      <Remittance>742.45</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>440038622</AccountIdentifier>
+      <BusinessName>Petaltube</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>497 Bauch Fork</StreetAddress1>
+          <City>West Ernie</City>
+          <State>AL</State>
+          <ZIPCode>05172-6511</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <AmountDue>231.56</AmountDue>
+      <Remittance>231.56</Remittance>
+    </ReturnLiability>
+  </STLW11>
+</STLW10P10Batch>

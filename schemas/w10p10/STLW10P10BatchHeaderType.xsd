@@ -38,7 +38,7 @@
 			<xsd:element name="SubmitterContact" type="ContactType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						SubmitterContact contains a name, valid email address, and optional phone number at which the submitter can be contacted. Notifications, exceptions, invoices, and other correspondence regarding the submission will be sent to the supplied email address. The agency may utilize the name and phone number to contact the submitters if questions about the submission arise.
+						SubmitterContact contains a contact name, valid email address, and optional phone number at which the submitter can be contacted. Notifications, exceptions, invoices, and other correspondence regarding the submission will be sent to the supplied email address. The agency may utilize the name and phone number to contact the submitters if questions about the submission arise.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
