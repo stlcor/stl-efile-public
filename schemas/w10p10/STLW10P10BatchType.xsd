@@ -4,6 +4,7 @@
 	<xsd:include schemaLocation="STLW10P10BatchHeaderType.xsd"/>
 	<xsd:include schemaLocation="STLW10Type.xsd"/>
 	<xsd:include schemaLocation="STLP10Type.xsd"/>
+	<xsd:include schemaLocation="STLW11Type.xsd"/>
 
 	<xsd:element name="STLW10P10Batch">
 
@@ -26,6 +27,7 @@
 				<xsd:choice minOccurs="1" maxOccurs="unbounded">
 					<xsd:element name="STLW10" type="STLW10Type" />
 					<xsd:element name="STLP10" type="STLP10Type" />
+					<xsd:element name="STLW11" type="STLW11Type" />
 				</xsd:choice>
 				
 			</xsd:sequence>
