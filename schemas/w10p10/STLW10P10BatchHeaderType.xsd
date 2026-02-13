@@ -10,7 +10,7 @@
 				<description>
 					The Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.
 				</description>
-				<version>1.2.0</version>
+				<version>1.2.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -34,29 +34,11 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- Submitter Email Address -->
-			<xsd:element name="SubmitterEmailAddress" type="EmailAddressType" minOccurs="1" maxOccurs="1">
+			<!-- Submitter Contact -->
+			<xsd:element name="SubmitterContact" type="ContactType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						SubmitterEmailAddress contains a valid email address at which the submitter can be contacted. Notifications, exceptions, invoices, and other correspondence regarding the submission will be sent to the supplied address.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:element>
-
-			<!-- Submitter Phone Number -->
-			<xsd:element name="SubmitterPhoneNumber" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
-				<xsd:annotation>
-					<xsd:documentation>
-						SubmitterPhoneNumber contains a phone number at which the submitter can be contacted. This element is optional.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:element>
-
-			<!-- Submitter Phone Number Extension -->
-			<xsd:element name="SubmitterPhoneNumberExtension" type="StringType" minOccurs="0" maxOccurs="1">
-				<xsd:annotation>
-					<xsd:documentation>
-						SubmitterPhoneNumberExtension contains a phone number extension at which the submitter can be contacted. This element is optional.
+						SubmitterContact contains a name, valid email address, and optional phone number at which the submitter can be contacted. Notifications, exceptions, invoices, and other correspondence regarding the submission will be sent to the supplied email address. The agency may utilize the name and phone number to contact the submitters if questions about the submission arise.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>

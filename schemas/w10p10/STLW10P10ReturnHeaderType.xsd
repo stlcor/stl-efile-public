@@ -10,7 +10,7 @@
 				<description>
 					The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.
 				</description>
-				<version>1.2.0</version>
+				<version>1.2.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -44,10 +44,10 @@
 			</xsd:element>
 
 			<!-- Telephone -->
-			<xsd:element name="Telephone" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
+			<xsd:element name="BusinessContact" type="ContactType" minOccurs="0" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						Telephone contains the phone number of the taxpayer. This field is optional.
+						BusinessContact contains the name and email address of a point of contact for the taxpayer. A phone number may also be included. This field is optional, but submitters are encouraged to utilize it.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>

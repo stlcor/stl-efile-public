@@ -6,7 +6,7 @@
 			<description>
 				St. Louis Withholding and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.
 			</description>
-			<version>1.2.0</version>
+			<version>1.2.1</version>
 		</xsd:documentation>
 	</xsd:annotation>
 
@@ -144,10 +144,10 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:sequence>
-			<xsd:element name="FirstName" type="IndividualNameType" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="MiddleName" type="IndividualNameType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="LastName" type="IndividualNameType" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Suffix" type="IndividualNameType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="FirstName" type="NameType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="MiddleName" type="NameType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="LastName" type="NameType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Suffix" type="NameType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 
@@ -779,6 +779,32 @@
 		<xsd:union memberTypes="PhoneNumberUSType PhoneNumberInternationalType"/>
 	</xsd:simpleType>
 
+	<!-- Phone Number Extension Type -->
+	<xsd:simpleType name="PhoneNumberExtensionType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a phone number extension. The extension is a freeform string.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"/>
+			<xsd:maxLength value="64"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- Phone Number Type -->
+	<xsd:complexType name="PhoneNumberType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a complete phone number consisting of a phone number in U.S. or international format and an optional extension.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="PhoneNumber" type="PhoneNumberMultiCountryType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="PhoneNumberExtension" type="PhoneNumberExtensionType" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
 	<!-- Email Address Type -->
 	<xsd:simpleType name="EmailAddressType">
 		<xsd:annotation>
@@ -790,6 +816,20 @@
 			<xsd:pattern value="[^@]+@[^\.]+\..+"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+
+	<!-- Contact Type -->
+	<xsd:complexType name="ContactType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a contact which includes a name, email address, and optional phone number. The name field is an unformatted string which can include the name of a person, job title, department, or other point of contact.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="ContactName" type="StringType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="ContactEmailAddress" type="EmailAddressType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="ContactPhoneNumber" type="PhoneNumberType" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
 
 	<!-- Quarter End Date Type -->
 	<xsd:simpleType name="QuarterEndDateType">

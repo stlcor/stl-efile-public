@@ -12,7 +12,7 @@
 				<description>
 					The STLW10P10Batch contains one BatchHeader element providing details about the batch, followed by one or more STLW10 or STLP10 elements representing each W-10 or P-10 return within the batch.
 				</description>
-				<version>1.2.0</version>
+				<version>1.2.1</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
