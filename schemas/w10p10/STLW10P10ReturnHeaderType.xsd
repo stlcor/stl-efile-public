@@ -10,7 +10,7 @@
 				<description>
 					The W-10 or P-10 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.
 				</description>
-				<version>1.1.1</version>
+				<version>1.2.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -34,6 +34,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
+			<!-- Address -->
 			<xsd:element name="Address" type="AddressMultiCountryType">
 				<xsd:annotation>
 					<xsd:documentation>

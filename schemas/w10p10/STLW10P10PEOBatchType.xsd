@@ -12,7 +12,7 @@
 				<description>
 					The W-10/P-10 PEO Batch contains one BatchHeader and one or more STLW10 and/or STLP10 elements. There must be exactly one STLW10 and one STLP10 return for the total of all returns in the batch. If the PEO itself is liable for Earnings Tax and/or Payroll Expense Tax, STLW10 and/or STLP10 returns for the portion of the batch that belongs to the PEO are required. There must be one or more STLW10 and/or STLP10 returns for each subsidiary.
 				</description>
-				<version>1.1.1</version>
+				<version>1.2.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 

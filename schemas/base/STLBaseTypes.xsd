@@ -6,7 +6,7 @@
 			<description>
 				St. Louis Withholding and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.
 			</description>
-			<version>1.1.1</version>
+			<version>1.2.0</version>
 		</xsd:documentation>
 	</xsd:annotation>
 
@@ -60,6 +60,7 @@
 				Enumeration of ReturnType valid values, which includes:
 				<ul>
 					<li>STLW10: W-10 Employer's Withholding Return</li>
+					<li>STLW11: W-11 Employer's Monthly Deposit of Earnings Tax Withheld</li>
 					<li>STLP10: Payroll Expense Tax Return</li>
 					<li>STLW10PEO: Professional Employer Organization W-10 Return and Subsidiary Report</li>
 					<li>STLP10PEO: Professional Employer Organization P-10 Return and Subsidiary Report</li>
@@ -68,6 +69,7 @@
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="STLW10"/>
+			<xsd:enumeration value="STLW11"/>
 			<xsd:enumeration value="STLP10"/>
 			<xsd:enumeration value="STLW10PEO"/>
 			<xsd:enumeration value="STLP10PEO"/>

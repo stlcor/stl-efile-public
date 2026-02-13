@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="https://stlouis-mo.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://stlouis-mo.gov/" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+
+	<xsd:include schemaLocation="../base/STLBaseTypes.xsd"/>
+	<xsd:include schemaLocation="STLW10P10ReturnHeaderType.xsd"/>
+	
+	<xsd:complexType name="STLW11Type">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				<description>
+					The St. Louis Electronic Filing W-11 contains all information pertaining to a single W-11 Employer's Monthly Deposit of Earnings Tax Withheld.
+				</description>
+				<version>1.2.0</version>
+			</xsd:documentation>
+		</xsd:annotation>
+			
+		<!-- Sequence will enforce the order of ReturnHeader followed by ReturnLiability -->
+		<xsd:sequence>
+			
+			<!-- Return Header-->
+			<xsd:element name ="ReturnHeader" type="STLW10P10ReturnHeaderType" minOccurs="1" maxOccurs="1" />
+
+			<!-- Return Liability -->
+			<xsd:element name="ReturnLiability">
+				<xsd:annotation>
+					<xsd:documentation>
+						ReturnLiability contains details of earnings subject to withholding and calculation of amounts due.
+					</xsd:documentation>
+				</xsd:annotation>
+
+				<xsd:complexType>
+					<xsd:all>
+
+						<!-- Filing Period -->
+						<xsd:element name="FilingPeriod" type="QuarterEndDateType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									FilingPeriod contains the end date of the quarterly or annual tax period. Valid dates are March 31st, June 30th, September 30th, or December 31st of any year in the YYYY-MM-DD format.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+
+						<!-- Amount Due -->
+						<xsd:element name="AmountDue" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									AmountDue contains the amount of Earnings Tax withheld by the employer in the period.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+
+						<!-- Remittance -->
+						<xsd:element name="Remittance" type="DecimalNNType" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Remittance contains the actual amount of the payment remitted with the W-11. 
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						
+					</xsd:all>
+				</xsd:complexType>
+				
+			</xsd:element>
+		
+		</xsd:sequence>
+	</xsd:complexType>
+		
+</xsd:schema>

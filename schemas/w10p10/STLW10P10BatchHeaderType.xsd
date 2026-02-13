@@ -10,7 +10,7 @@
 				<description>
 					The Batch Header contains elements to identify the filer, the return type of the returns being filed, and the number of items being filed.
 				</description>
-				<version>1.1.1</version>
+				<version>1.2.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -44,10 +44,19 @@
 			</xsd:element>
 
 			<!-- Submitter Phone Number -->
-			<xsd:element name="SubmitterPhoneNumber" type="StringType" minOccurs="0" maxOccurs="1">
+			<xsd:element name="SubmitterPhoneNumber" type="PhoneNumberMultiCountryType" minOccurs="0" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						SubmitterPhoneNumber contains a phone number at which the submitter can be contacted.
+						SubmitterPhoneNumber contains a phone number at which the submitter can be contacted. This element is optional.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+
+			<!-- Submitter Phone Number Extension -->
+			<xsd:element name="SubmitterPhoneNumberExtension" type="StringType" minOccurs="0" maxOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>
+						SubmitterPhoneNumberExtension contains a phone number extension at which the submitter can be contacted. This element is optional.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
