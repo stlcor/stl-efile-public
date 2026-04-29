@@ -6,7 +6,7 @@
 			<description>
 				St. Louis Withholding and Payroll Expense Tax Electronic Filing Schema: Base types commonly used across schema files.
 			</description>
-			<version>1.2.1</version>
+			<version>1.3.0</version>
 		</xsd:documentation>
 	</xsd:annotation>
 
@@ -112,14 +112,26 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
+	<!-- Bulk Filer Identification Type -->
+	<xsd:simpleType name="BulkFilerIDType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Base type for a Bulk Filer (Submitter) identification number consisting of one (1) to three (3) uppercase letters or digits, four (4) digits, a hyphen, and a single digit.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[A-Z0-9]{3}[0-9]{4}-[0-9]{1}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
 	<!-- Account Identifier Type -->
 	<xsd:simpleType name="AccountIdentifierType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for an account identification number formatted according to the guidelines of SSNType, EINType, or STLAccountNumberType above.
+				Base type for an account identification number formatted according to the guidelines of SSNType, EINType, STLAccountNumberType, or BulkFilerIDType above.
 			</xsd:documentation>
 		</xsd:annotation>
-		<xsd:union memberTypes="SSNType EINType STLAccountNumberType"/>
+		<xsd:union memberTypes="SSNType EINType STLAccountNumberType BulkFilerIDType"/>
 	</xsd:simpleType>
 
 	<!-- Name Type -->
