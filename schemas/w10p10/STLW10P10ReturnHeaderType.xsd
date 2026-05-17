@@ -17,7 +17,7 @@
 		<xsd:sequence>
 
 			<!-- Account Identifier -->
-			<xsd:element name="AccountIdentifier" type="AccountIdentifierType" maxOccurs="1">
+			<xsd:element name="AccountIdentifier" type="AccountIdentifierType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
 						AccountIdentifier contains the 9-digit federal employer ID of the taxpayer or the legacy 11-digit St. Louis Account Number.
@@ -35,7 +35,7 @@
 			</xsd:element>
 
 			<!-- Address -->
-			<xsd:element name="Address" type="AddressMultiCountryType">
+			<xsd:element name="Address" type="AddressMultiCountryType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
 						Address contains the mailing address for the taxpayer. The address may be formatted according to U.S., Canadian, or international standards as outlined in the respective USAddresType, CanadaAddressType, and InternationalAddressType base types.
@@ -62,10 +62,10 @@
 			</xsd:element>
 
 			<!-- AmendedReturn -->
-			<xsd:element name="AmendedReturn" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
+			<xsd:element name="AmendedReturn" type="BooleanType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						AmendedReturn indicates that the taxpayer is filing an amended return. The default value is false.
+						AmendedReturn with a value of "true" or "1" indicates that the taxpayer is filing an amended return. The value of AmendedReturn must be specified.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
