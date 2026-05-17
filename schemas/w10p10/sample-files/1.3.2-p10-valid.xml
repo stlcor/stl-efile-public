@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STLW10P10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ ../STLW10P10BatchType.xsd">
+  <BatchHeader>
+    <SubmitterName>Sucher Farms</SubmitterName>
+    <SubmitterAccountIdentifier>KOO0811-6</SubmitterAccountIdentifier>
+    <SubmitterContact>
+      <ContactName>Ted Hessel</ContactName>
+      <ContactEmailAddress>ted.hessel@sucher.com</ContactEmailAddress>
+    </SubmitterContact>
+    <TotalItems>25</TotalItems>
+    <AmountDueTotal>13612.11</AmountDueTotal>
+    <RemittanceTotal>13609.71</RemittanceTotal>
+  </BatchHeader>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>350277564</AccountIdentifier>
+      <BusinessName>Thiel-Flatley Surface Polishing</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2651 Ora Boulevard</StreetAddress1>
+          <City>South Sam</City>
+          <State>DC</State>
+          <ZIPCode>86138</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>963.87</TaxablePayroll>
+      <GrossTaxDue>4.82</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>4.82</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4.82</AmountDue>
+      <Remittance>4.82</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>072382233</AccountIdentifier>
+      <BusinessName>Turner-Keeling Diagnostics Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>90735 Tessie Street</StreetAddress1>
+          <City>Lake Aleen</City>
+          <State>RI</State>
+          <ZIPCode>50734-8709</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>129945.25</TaxablePayroll>
+      <GrossTaxDue>649.73</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>649.73</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>649.73</AmountDue>
+      <Remittance>649.73</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>768657843</AccountIdentifier>
+      <BusinessName>Rippin-Lam</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1148 Lang Drive</StreetAddress1>
+          <City>Blandaside</City>
+          <State>TN</State>
+          <ZIPCode>19132</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Zakary Homeownership</ContactName>
+        <ContactEmailAddress>zakary.homeownership@rippinlam.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>17725.9</TaxablePayroll>
+      <GrossTaxDue>88.63</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>88.63</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>88.63</AmountDue>
+      <Remittance>88.63</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>780290022</AccountIdentifier>
+      <BusinessName>Windler Development</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>09707 Robitussin Fork</StreetAddress1>
+          <City>East Filomena</City>
+          <State>MD</State>
+          <ZIPCode>07627-9044</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>469066.74</TaxablePayroll>
+      <GrossTaxDue>2345.33</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>2345.33</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2345.33</AmountDue>
+      <Remittance>2345.33</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>242711514</AccountIdentifier>
+      <BusinessName>Aggressive</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1384 Estelle Causeway</StreetAddress1>
+          <City>Sweemyland</City>
+          <State>HI</State>
+          <ZIPCode>56648-5083</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>93830.72</TaxablePayroll>
+      <GrossTaxDue>469.15</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>469.15</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>469.15</AmountDue>
+      <Remittance>469.15</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>601022949</AccountIdentifier>
+      <BusinessName>Karmonics LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1205 Rose Junction</StreetAddress1>
+          <City>Lake Abbie</City>
+          <State>MN</State>
+          <ZIPCode>89393-2522</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Wilfred Dibbert</ContactName>
+        <ContactEmailAddress>wilfred.dibbert@karmonics.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>1-079-662-9047</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>0</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>64075.25</TaxablePayroll>
+      <GrossTaxDue>320.38</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>320.38</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>320.38</AmountDue>
+      <Remittance>320.38</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>207016954</AccountIdentifier>
+      <BusinessName>Sunex Landscaping Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6671 Adrianna Boulevard</StreetAddress1>
+          <StreetAddress2>Apt. 897</StreetAddress2>
+          <City>Toyland</City>
+          <State>MA</State>
+          <ZIPCode>16845</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>155847.15</TaxablePayroll>
+      <GrossTaxDue>779.24</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>779.24</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>779.24</AmountDue>
+      <Remittance>779.24</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>530664706</AccountIdentifier>
+      <BusinessName>Elegance Engineering</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5604 Fleta Place</StreetAddress1>
+          <City>Estellafort</City>
+          <State>GA</State>
+          <ZIPCode>16301-7338</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>20632.11</TaxablePayroll>
+      <GrossTaxDue>103.16</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>103.16</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>103.16</AmountDue>
+      <Remittance>103.16</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>983722088</AccountIdentifier>
+      <BusinessName>Chart, Russell and O'Connell</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7845 Isaias Place</StreetAddress1>
+          <StreetAddress2>Apt. 285</StreetAddress2>
+          <City>Port Alta</City>
+          <State>TX</State>
+          <ZIPCode>65711</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>389261.82</TaxablePayroll>
+      <GrossTaxDue>1946.31</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1946.31</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1946.31</AmountDue>
+      <Remittance>1946.31</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>474196412</AccountIdentifier>
+      <BusinessName>Anderson-Torphy Sausages Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>802 Gerlach Boulevard</StreetAddress1>
+          <StreetAddress2>Suite 324</StreetAddress2>
+          <City>Greenfelderville</City>
+          <State>TX</State>
+          <ZIPCode>26781-5584</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>9258.51</TaxablePayroll>
+      <GrossTaxDue>46.29</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>46.29</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>46.29</AmountDue>
+      <Remittance>46.29</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>093895757</AccountIdentifier>
+      <BusinessName>Cassin-Ham</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7758 Vandervort Avenue</StreetAddress1>
+          <City>Clarabellefort</City>
+          <State>ME</State>
+          <ZIPCode>99174-5899</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>58531.04</TaxablePayroll>
+      <GrossTaxDue>292.66</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>292.66</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>292.66</AmountDue>
+      <Remittance>292.66</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>839315723</AccountIdentifier>
+      <BusinessName>Lopez Italian Eatery</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>44586 Zieme Expressway</StreetAddress1>
+          <City>Francochester</City>
+          <State>MI</State>
+          <ZIPCode>40540</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>132567.08</TaxablePayroll>
+      <GrossTaxDue>662.84</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>662.84</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>662.84</AmountDue>
+      <Remittance>662.84</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>754589555</AccountIdentifier>
+      <BusinessName>PixelForge LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>03094 Flowl Ford</StreetAddress1>
+          <City>Arvidmouth</City>
+          <State>HI</State>
+          <ZIPCode>52533</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>206343.17</TaxablePayroll>
+      <GrossTaxDue>1031.72</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1031.72</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1031.72</AmountDue>
+      <Remittance>1031.72</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>06976015361</AccountIdentifier>
+      <BusinessName>Synaptic Savings and Loan Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>67416 Glen Avenue</StreetAddress1>
+          <City>Carrollmouth</City>
+          <State>RI</State>
+          <ZIPCode>68269-7473</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Emerald Kowalski</ContactName>
+        <ContactEmailAddress>emerald.kowalski@synaptic.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>90554.9</TaxablePayroll>
+      <GrossTaxDue>452.77</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>452.77</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>452.77</AmountDue>
+      <Remittance>452.77</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>224901443</AccountIdentifier>
+      <BusinessName>Global</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4576 Fatima Boulevard</StreetAddress1>
+          <City>New Reuben</City>
+          <State>GA</State>
+          <ZIPCode>11438-6448</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Columbus Schimmel</ContactName>
+        <ContactEmailAddress>columbus.schimmel@global.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>47901.41</TaxablePayroll>
+      <GrossTaxDue>239.51</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>239.51</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>239.51</AmountDue>
+      <Remittance>237.11</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>010895169</AccountIdentifier>
+      <BusinessName>Gottlieb LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1518 Toy Heights</StreetAddress1>
+          <City>Richie "The Broken Clock"mouth</City>
+          <State>OK</State>
+          <ZIPCode>75797</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>11992.21</TaxablePayroll>
+      <GrossTaxDue>59.96</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>59.96</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>59.96</AmountDue>
+      <Remittance>59.96</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>888670267</AccountIdentifier>
+      <BusinessName>Hintz-Glung</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>02316 Hermiston Crossing</StreetAddress1>
+          <City>South Elta</City>
+          <State>AK</State>
+          <ZIPCode>05166-1469</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>174807.92</TaxablePayroll>
+      <GrossTaxDue>874.04</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>874.04</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>874.04</AmountDue>
+      <Remittance>874.04</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>90153997658</AccountIdentifier>
+      <BusinessName>White-Eichmann Fine Launderers</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5918 Letitia Boulevard</StreetAddress1>
+          <City>Lake Hildegard</City>
+          <State>ID</State>
+          <ZIPCode>85821-3336</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>94517.48</TaxablePayroll>
+      <GrossTaxDue>472.59</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>472.59</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>472.59</AmountDue>
+      <Remittance>472.59</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>750233907</AccountIdentifier>
+      <BusinessName>Gas, Brekke and Goldner</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>203 Bartell Street</StreetAddress1>
+          <City>New Delmer</City>
+          <State>PA</State>
+          <ZIPCode>57635</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>265386.23</TaxablePayroll>
+      <GrossTaxDue>1326.93</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>1326.93</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1326.93</AmountDue>
+      <Remittance>1326.93</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>361539293</AccountIdentifier>
+      <BusinessName>Livonae</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>41347 Wintheiser Court</StreetAddress1>
+          <City>East Buster</City>
+          <State>MS</State>
+          <ZIPCode>47196</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Cassandre Smith-Corona</ContactName>
+        <ContactEmailAddress>cassandre.smith-corona@livonae.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>77892.44</TaxablePayroll>
+      <GrossTaxDue>389.46</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>389.46</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>389.46</AmountDue>
+      <Remittance>389.46</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>901908951</AccountIdentifier>
+      <BusinessName>Serenity TV Repair Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>922 Jast Avenue</StreetAddress1>
+          <City>Alanshire</City>
+          <State>NY</State>
+          <ZIPCode>51854</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Reyes Cheatabill</ContactName>
+        <ContactEmailAddress>reyes.cheatabill@serenity.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>1800.08</TaxablePayroll>
+      <GrossTaxDue>9</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>9</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>9</AmountDue>
+      <Remittance>9</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>392661803</AccountIdentifier>
+      <BusinessName>Fingle-Rolfson Drywall</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>12528 Kunze Point</StreetAddress1>
+          <City>East Horace</City>
+          <State>TX</State>
+          <ZIPCode>89309-0999</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Naomie Schumm</ContactName>
+        <ContactEmailAddress>naomie.schumm@finglerolfson.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>20785.43</TaxablePayroll>
+      <GrossTaxDue>103.93</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>103.93</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>103.93</AmountDue>
+      <Remittance>103.93</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>562857065</AccountIdentifier>
+      <BusinessName>Strategic Auto Sales</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>691 Balistreri Boulevard</StreetAddress1>
+          <StreetAddress2>Apt. 139</StreetAddress2>
+          <City>West Jefferyshire</City>
+          <State>PA</State>
+          <ZIPCode>64053-4254</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>33324.27</TaxablePayroll>
+      <GrossTaxDue>166.62</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>166.62</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>166.62</AmountDue>
+      <Remittance>166.62</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>001211852</AccountIdentifier>
+      <BusinessName>Mansard-Birdhoffer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>74829 Wyman Junction</StreetAddress1>
+          <City>South Ettie</City>
+          <State>MT</State>
+          <ZIPCode>27407-1844</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>23402.46</TaxablePayroll>
+      <GrossTaxDue>117.01</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>117.01</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>117.01</AmountDue>
+      <Remittance>117.01</Remittance>
+    </ReturnLiability>
+  </STLP10>
+  <STLP10>
+    <ReturnHeader>
+      <AccountIdentifier>81406901288</AccountIdentifier>
+      <BusinessName>Konopelski Barrel Manufacturing Corp</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>00146 Capicolla Boulevard</StreetAddress1>
+          <City>Duanemouth</City>
+          <State>NC</State>
+          <ZIPCode>75676-8259</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Wallace Smehrik</ContactName>
+        <ContactEmailAddress>wallace.smehrik@konopelski.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange/>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn/>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-03-31</FilingPeriod>
+      <TaxablePayroll>132006.45</TaxablePayroll>
+      <GrossTaxDue>660.03</GrossTaxDue>
+      <PriorPayments>0</PriorPayments>
+      <NetTaxDue>660.03</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>660.03</AmountDue>
+      <Remittance>660.03</Remittance>
+    </ReturnLiability>
+  </STLP10>
+</STLW10P10Batch>
