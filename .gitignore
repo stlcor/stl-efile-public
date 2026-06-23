@@ -1,3 +1,8 @@
+##########
+
+# Not ready
+responses/
+
 # General
 .DS_Store
 __MACOSX/
@@ -1278,3 +1283,4 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+.vscode/settings.json

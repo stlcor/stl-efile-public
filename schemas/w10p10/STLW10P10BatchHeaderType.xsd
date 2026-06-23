@@ -47,7 +47,7 @@
 			<xsd:element name="TotalItems" type="IntegerNNType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
-						TotalItems contains the number of STLW10 and/or STLP10 elements contained in the batch.
+						TotalItems contains the number of STLW10, STLP10, and/or STLW11 elements contained in the batch.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
