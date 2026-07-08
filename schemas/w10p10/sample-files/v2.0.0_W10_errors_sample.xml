@@ -1,0 +1,2916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STLW10P10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ /schemas/w10p10/STLW10P10BatchType.xsd">
+  <BatchHeader>
+    <SubmitterName>STLCOR Payroll Services LLC</SubmitterName>
+    <SubmitterAccountIdentifier>BF00003-0</SubmitterAccountIdentifier>
+    <SubmitterContact>
+      <ContactName>Nicholas Findley</ContactName>
+      <ContactEmailAddress>CORIT@stlouis-mo.gov</ContactEmailAddress>
+    </SubmitterContact>
+    <TotalItems>100</TotalItems>
+    <AmountDueTotal>129830.22</AmountDueTotal>
+    <RemittanceTotal>129645.94</RemittanceTotal>
+  </BatchHeader>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>541835551</AccountIdentifier>
+      <BusinessName>Braun-Rau</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5159 PRIORYBROOK RD</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>4115.70</TaxableEarnings>
+      <GrossTaxDue>41.15</GrossTaxDue>
+      <NetTaxDue>41.15</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>41.15</AmountDue>
+      <Remittance>41.15</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>004264623</AccountIdentifier>
+      <BusinessName>Bernier, Mayert and Dietrich</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9424 BATAAN DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63134</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>44158.00</TaxableEarnings>
+      <GrossTaxDue>441.58</GrossTaxDue>
+      <NetTaxDue>441.58</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>441.58</AmountDue>
+      <Remittance>441.58</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>972637438</AccountIdentifier>
+      <BusinessName>Quitzon, Watsica and Nicolas</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3403 EMMA LN</StreetAddress1>
+          <City>GODFREY</City>
+          <State>IL</State>
+          <ZIPCode>62035</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Alexandra Kuphal</ContactName>
+        <ContactEmailAddress>alexandra.kuphal@quitzon.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>yes</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>189907.00</TaxableEarnings>
+      <GrossTaxDue>1899.07</GrossTaxDue>
+      <NetTaxDue>1899.07</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1899.07</AmountDue>
+      <Remittance>1785.12</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>504602055</AccountIdentifier>
+      <BusinessName>Glover, Anderson and Nolan</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6101 WINGHAVEN POINTE DR</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63368</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>461379.10</TaxableEarnings>
+      <GrossTaxDue>4613.79</GrossTaxDue>
+      <NetTaxDue>4613.79</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4613.79</AmountDue>
+      <Remittance>4613.79</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>404338979</AccountIdentifier>
+      <BusinessName>Batz-Huels</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1317 FLINTSHIRE LN</StreetAddress1>
+          <City>LAKE SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63367</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Skylar Ledner</ContactName>
+        <ContactEmailAddress>skylar.ledner@batzhuels.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(213) 399-6247</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>23113.50</TaxableEarnings>
+      <GrossTaxDue>231.13</GrossTaxDue>
+      <NetTaxDue>231.13</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>231.13</AmountDue>
+      <Remittance>231.13</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>327822323</AccountIdentifier>
+      <BusinessName>Beahan, Hauck and Olson</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7740 KAYTLIN SERENITY CT</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62221</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Eliza Marks</ContactName>
+        <ContactEmailAddress>eliza.marks@beahan.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>10484.40</TaxableEarnings>
+      <GrossTaxDue>104.84</GrossTaxDue>
+      <NetTaxDue>104.84</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>104.84</AmountDue>
+      <Remittance>104.84</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>901427143</AccountIdentifier>
+      <BusinessName>Parker Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>624 BELVEDERE DR</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62223</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>47236.80</TaxableEarnings>
+      <GrossTaxDue>472.36</GrossTaxDue>
+      <NetTaxDue>472.36</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>472.36</AmountDue>
+      <Remittance>472.36</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>998896252</AccountIdentifier>
+      <BusinessName>Rohan-Monahan</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>10201 RIVERVIEW DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jessika Sanford</ContactName>
+        <ContactEmailAddress>jessika.sanford@rohanmonahan.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(688) 802-4918</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>124762.50</TaxableEarnings>
+      <GrossTaxDue>1247.62</GrossTaxDue>
+      <NetTaxDue>1247.62</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1247.62</AmountDue>
+      <Remittance>1247.62</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>141604557</AccountIdentifier>
+      <BusinessName>Hartmann-Nitzsche</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1232 BACKER ST</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63130</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>317108.40</TaxableEarnings>
+      <GrossTaxDue>3171.08</GrossTaxDue>
+      <NetTaxDue>3171.08</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3171.08</AmountDue>
+      <Remittance>3171.08</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>830179294</AccountIdentifier>
+      <BusinessName>Kautzer, Schmeler and Douglas</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1033 FOREST AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63122</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Carol Jerde</ContactName>
+        <ContactEmailAddress>carol.jerde@kautzer.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>20178.00</TaxableEarnings>
+      <GrossTaxDue>201.78</GrossTaxDue>
+      <NetTaxDue>201.78</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>201.78</AmountDue>
+      <Remittance>201.78</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>067750916</AccountIdentifier>
+      <BusinessName>Bartoletti, Fadel and Nienow</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1024 RUSKIN AVE</StreetAddress1>
+          <City>EDWARDSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62025</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Iliana Feeney</ContactName>
+        <ContactEmailAddress>iliana.feeney@bartoletti.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>yes</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>265823.50</TaxableEarnings>
+      <GrossTaxDue>2658.23</GrossTaxDue>
+      <NetTaxDue>2658.23</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2658.23</AmountDue>
+      <Remittance>2658.23</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>764617581</AccountIdentifier>
+      <BusinessName>Daugherty LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>200 FANNIE AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63125</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>yes</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>166090.00</TaxableEarnings>
+      <GrossTaxDue>1660.90</GrossTaxDue>
+      <NetTaxDue>1660.90</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1660.90</AmountDue>
+      <Remittance>1660.90</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>965439629</AccountIdentifier>
+      <BusinessName>Mante, Hackett and Upton</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1064 PRIGGE RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63138</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>34433.20</TaxableEarnings>
+      <GrossTaxDue>344.33</GrossTaxDue>
+      <NetTaxDue>344.33</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>344.33</AmountDue>
+      <Remittance>344.33</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>195201417</AccountIdentifier>
+      <BusinessName>Schmidt-Jerde</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8720 BRENTSHIRE WALK</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63144</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>14239.00</TaxableEarnings>
+      <GrossTaxDue>142.39</GrossTaxDue>
+      <NetTaxDue>142.39</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>142.39</AmountDue>
+      <Remittance>142.39</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>020162472</AccountIdentifier>
+      <BusinessName>Hickle-Littel</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1844 NETTLECREEK DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63131</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>82684.80</TaxableEarnings>
+      <GrossTaxDue>826.84</GrossTaxDue>
+      <NetTaxDue>826.84</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>826.84</AmountDue>
+      <Remittance>826.84</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>492718778</AccountIdentifier>
+      <BusinessName>Waters, Kovacek and Moen</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1155 HAWKEN PL</StreetAddress1>
+          <StreetAddress2>UNIT 8</StreetAddress2>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63119</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Karina Pouros</ContactName>
+        <ContactEmailAddress>karina.pouros@waters.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>44596.20</TaxableEarnings>
+      <GrossTaxDue>445.96</GrossTaxDue>
+      <NetTaxDue>445.96</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>445.96</AmountDue>
+      <Remittance>445.96</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>068846644</AccountIdentifier>
+      <BusinessName>Marks Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1085 TRELANE AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63126</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Rosa Gerhold</ContactName>
+        <ContactEmailAddress>rosa.gerhold@marks.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>25543.80</TaxableEarnings>
+      <GrossTaxDue>255.43</GrossTaxDue>
+      <NetTaxDue>255.43</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>255.43</AmountDue>
+      <Remittance>255.43</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>464263388</AccountIdentifier>
+      <BusinessName>Ortiz-D'Amore</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3225 AUBREY AVE</StreetAddress1>
+          <City>GRANITE CITY</City>
+          <State>IL</State>
+          <ZIPCode>62040</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Reinhold Fritsch</ContactName>
+        <ContactEmailAddress>reinhold.fritsch@ortizdamore.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>76489.40</TaxableEarnings>
+      <GrossTaxDue>764.89</GrossTaxDue>
+      <NetTaxDue>764.89</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>764.89</AmountDue>
+      <Remittance>764.89</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>977043863</AccountIdentifier>
+      <BusinessName>Reilly Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>815 JOHN PELLET CT</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>95876.60</TaxableEarnings>
+      <GrossTaxDue>958.76</GrossTaxDue>
+      <NetTaxDue>958.76</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>958.76</AmountDue>
+      <Remittance>958.76</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>253117796</AccountIdentifier>
+      <BusinessName>Maggio LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1018 HILLCREST DR</StreetAddress1>
+          <City>EAST ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62024</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>59567.20</TaxableEarnings>
+      <GrossTaxDue>595.67</GrossTaxDue>
+      <NetTaxDue>595.67</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>595.67</AmountDue>
+      <Remittance>595.67</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>166772632</AccountIdentifier>
+      <BusinessName>O'Keefe, Christiansen and Doyle</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2029 PIGGOTT AVE</StreetAddress1>
+          <City>EAST SAINT LOUIS</City>
+          <State>IL</State>
+          <ZIPCode>62207</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>104988.00</TaxableEarnings>
+      <GrossTaxDue>1049.88</GrossTaxDue>
+      <NetTaxDue>1049.88</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1049.88</AmountDue>
+      <Remittance>1049.88</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>212885591</AccountIdentifier>
+      <BusinessName>Schinner-Gaylord</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3823 IOWA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63118</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>70497.00</TaxableEarnings>
+      <GrossTaxDue>704.97</GrossTaxDue>
+      <NetTaxDue>704.97</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>704.97</AmountDue>
+      <Remittance>704.97</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>80-9528428</AccountIdentifier>
+      <BusinessName>Altenwerth Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8232 APPLETON DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Katlynn Flatley</ContactName>
+        <ContactEmailAddress>katlynn.flatley@altenwerth.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(236) 476-5862</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>32913.10</TaxableEarnings>
+      <GrossTaxDue>329.13</GrossTaxDue>
+      <NetTaxDue>329.13</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>329.13</AmountDue>
+      <Remittance>329.13</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>776695607</AccountIdentifier>
+      <BusinessName>Deckow Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1665 SADDLESPUR LN</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Vincenzo Wiza</ContactName>
+        <ContactEmailAddress>vincenzo.wiza@deckow.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>no</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>134157.20</TaxableEarnings>
+      <GrossTaxDue>1341.57</GrossTaxDue>
+      <NetTaxDue>1341.57</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1341.57</AmountDue>
+      <Remittance>1341.57</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>579702851</AccountIdentifier>
+      <BusinessName>Braun-Rodriguez</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2420 MAYER DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63301</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>no</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>17196.00</TaxableEarnings>
+      <GrossTaxDue>171.96</GrossTaxDue>
+      <NetTaxDue>171.96</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>171.96</AmountDue>
+      <Remittance>171.96</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>595488201</AccountIdentifier>
+      <BusinessName>Spinka, Schultz and Beer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6336 EMMA AVE</StreetAddress1>
+          <StreetAddress2>APT A</StreetAddress2>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63136</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>154629.00</TaxableEarnings>
+      <GrossTaxDue>1546.29</GrossTaxDue>
+      <NetTaxDue>1546.29</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1546.29</AmountDue>
+      <Remittance>1546.29</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>514840337</AccountIdentifier>
+      <BusinessName>Carter LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5340 SPRINGTRAIL DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>331920.00</TaxableEarnings>
+      <GrossTaxDue>3319.20</GrossTaxDue>
+      <NetTaxDue>3319.20</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3319.20</AmountDue>
+      <Remittance>3319.20</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>659227696</AccountIdentifier>
+      <BusinessName>Orn-Kulas</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8500 OLD BONHOMME RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>233244.00</TaxableEarnings>
+      <GrossTaxDue>2332.44</GrossTaxDue>
+      <NetTaxDue>2332.44</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2332.44</AmountDue>
+      <Remittance>2332.44</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>391398302</AccountIdentifier>
+      <BusinessName>Emard, Botsford and Kulas</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3 COG MILL CT</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63368</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>yes</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>45723.00</TaxableEarnings>
+      <GrossTaxDue>457.23</GrossTaxDue>
+      <NetTaxDue>457.23</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>457.23</AmountDue>
+      <Remittance>457.23</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>312771801</AccountIdentifier>
+      <BusinessName>Sauer, Denesik and Quitzon</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4848 ST LOUIS AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>119477.60</TaxableEarnings>
+      <GrossTaxDue>1194.77</GrossTaxDue>
+      <NetTaxDue>1194.77</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1194.77</AmountDue>
+      <Remittance>1146.97</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>672460976</AccountIdentifier>
+      <BusinessName>Thompson and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>277 MAPLE DR</StreetAddress1>
+          <City>FENTON</City>
+          <State>MO</State>
+          <ZIPCode>63026</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Peyton Treutel</ContactName>
+        <ContactEmailAddress>peyton.treutel@thompson.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(983) 208-3178</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>59231.70</TaxableEarnings>
+      <GrossTaxDue>592.31</GrossTaxDue>
+      <NetTaxDue>592.31</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>592.31</AmountDue>
+      <Remittance>592.31</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>778275787</AccountIdentifier>
+      <BusinessName>VonRueden, Kunze and Wilderman</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5 W POINT LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63131</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>427966.00</TaxableEarnings>
+      <GrossTaxDue>4279.66</GrossTaxDue>
+      <NetTaxDue>4279.66</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4279.66</AmountDue>
+      <Remittance>4279.66</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>107339411</AccountIdentifier>
+      <BusinessName>Harris Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1632 WILLIAMSON AVE</StreetAddress1>
+          <City>NEW DOUGLAS</City>
+          <State>IL</State>
+          <ZIPCode>62088</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jameson Torphy</ContactName>
+        <ContactEmailAddress>jameson.torphy@harris.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>331.60</TaxableEarnings>
+      <GrossTaxDue>3.31</GrossTaxDue>
+      <NetTaxDue>3.31</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3.31</AmountDue>
+      <Remittance>3.31</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>120359587</AccountIdentifier>
+      <BusinessName>Batz-Goldner</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5843 MABLE AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63140</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>169717.50</TaxableEarnings>
+      <GrossTaxDue>1697.17</GrossTaxDue>
+      <NetTaxDue>1697.17</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1697.17</AmountDue>
+      <Remittance>1697.17</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>611661536</AccountIdentifier>
+      <BusinessName>Hermann, Frami and Moen</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>140 KINGSBURY CT</StreetAddress1>
+          <City>COLLINSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62234</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>1958.30</TaxableEarnings>
+      <GrossTaxDue>19.58</GrossTaxDue>
+      <NetTaxDue>19.58</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>19.58</AmountDue>
+      <Remittance>19.58</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>29-9656716</AccountIdentifier>
+      <BusinessName>Roberts-Kulas</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>11215 ESSEX AVE</StreetAddress1>
+          <City>BRIDGETON</City>
+          <State>MO</State>
+          <ZIPCode>63044</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>4940.40</TaxableEarnings>
+      <GrossTaxDue>49.40</GrossTaxDue>
+      <NetTaxDue>49.40</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>49.40</AmountDue>
+      <Remittance>49.40</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>799507025</AccountIdentifier>
+      <BusinessName>Tromp-Wilderman</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6331 WEBER RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63123</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>560326.00</TaxableEarnings>
+      <GrossTaxDue>5603.26</GrossTaxDue>
+      <NetTaxDue>5603.26</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>5603.26</AmountDue>
+      <Remittance>5603.26</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>532751646</AccountIdentifier>
+      <BusinessName>Champlin-Breitenberg</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>825 VICTORY DR</StreetAddress1>
+          <City>COLLINSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62234</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Elaina Metz</ContactName>
+        <ContactEmailAddress>elaina.metz@champlinbreitenberg.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(645) 501-1596</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>no</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>7622.40</TaxableEarnings>
+      <GrossTaxDue>76.22</GrossTaxDue>
+      <NetTaxDue>76.22</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>76.22</AmountDue>
+      <Remittance>76.22</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>921952406</AccountIdentifier>
+      <BusinessName>Lang, Walsh and Lang</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5344 DR MARTIN LUTHER KING DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63112</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Helene Hand</ContactName>
+        <ContactEmailAddress>helene.hand@lang.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>234583.00</TaxableEarnings>
+      <GrossTaxDue>2345.83</GrossTaxDue>
+      <NetTaxDue>2345.83</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2345.83</AmountDue>
+      <Remittance>2345.83</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>738784073</AccountIdentifier>
+      <BusinessName>Ritchie-Turcotte</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>10201 CABOT DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>119185.30</TaxableEarnings>
+      <GrossTaxDue>1191.85</GrossTaxDue>
+      <NetTaxDue>1191.85</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1191.85</AmountDue>
+      <Remittance>1191.85</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>719946186</AccountIdentifier>
+      <BusinessName>Lubowitz-Daugherty</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>630 ST MARIE ST</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63031</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>125384.00</TaxableEarnings>
+      <GrossTaxDue>1253.84</GrossTaxDue>
+      <NetTaxDue>1253.84</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1253.84</AmountDue>
+      <Remittance>1253.84</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>327583307</AccountIdentifier>
+      <BusinessName>Rice, Ryan and Miller</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6200 LORAN ST</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63109</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Tanya Osinski</ContactName>
+        <ContactEmailAddress>tanya.osinski@rice.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(877) 764-6683</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>4488.40</TaxableEarnings>
+      <GrossTaxDue>44.88</GrossTaxDue>
+      <NetTaxDue>44.88</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>44.88</AmountDue>
+      <Remittance>44.88</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>898384438</AccountIdentifier>
+      <BusinessName>Cremin-Morar</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9560 DANA AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63123</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>59536.00</TaxableEarnings>
+      <GrossTaxDue>595.36</GrossTaxDue>
+      <NetTaxDue>595.36</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>595.36</AmountDue>
+      <Remittance>595.36</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>730973151</AccountIdentifier>
+      <BusinessName>Huels, O'Conner and Okuneva</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1342 MARSH AVE</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63011</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>457425.40</TaxableEarnings>
+      <GrossTaxDue>4574.25</GrossTaxDue>
+      <NetTaxDue>4574.25</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4574.25</AmountDue>
+      <Remittance>4574.25</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>553022445</AccountIdentifier>
+      <BusinessName>Schultz, Prohaska and Zemlak</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9335 WATSON RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63126</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>99323.90</TaxableEarnings>
+      <GrossTaxDue>993.23</GrossTaxDue>
+      <NetTaxDue>993.23</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>993.23</AmountDue>
+      <Remittance>993.23</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>613243795</AccountIdentifier>
+      <BusinessName>Muller, Schoen and Kiehn</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>767 GRAVOIS BLUFFS BLVD</StreetAddress1>
+          <City>FENTON</City>
+          <State>MO</State>
+          <ZIPCode>63026</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>49300.00</TaxableEarnings>
+      <GrossTaxDue>493.00</GrossTaxDue>
+      <NetTaxDue>493.00</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>493.00</AmountDue>
+      <Remittance>493.00</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>411525312</AccountIdentifier>
+      <BusinessName>Hartmann, Terry and Hagenes</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>18 UPPER CONWAY LN</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Brionna Balistreri</ContactName>
+        <ContactEmailAddress>brionna.balistreri@hartmann.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>87591.00</TaxableEarnings>
+      <GrossTaxDue>875.91</GrossTaxDue>
+      <NetTaxDue>875.91</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>875.91</AmountDue>
+      <Remittance>875.91</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>343797900</AccountIdentifier>
+      <BusinessName>Kulas, Greenfelder and Halvorson</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>77 FAIRMOUNT DR</StreetAddress1>
+          <City>ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62002</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Dagmar Orn</ContactName>
+        <ContactEmailAddress>dagmar.orn@kulas.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(673) 979-2642</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>225452.50</TaxableEarnings>
+      <GrossTaxDue>2254.52</GrossTaxDue>
+      <NetTaxDue>2254.52</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2254.52</AmountDue>
+      <Remittance>2254.52</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>009557813</AccountIdentifier>
+      <BusinessName>Reilly, Hills and Murazik</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7319 BURRWOOD DR</StreetAddress1>
+          <StreetAddress2>APT B</StreetAddress2>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63121</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Karolann Willms</ContactName>
+        <ContactEmailAddress>karolann.willms@reilly.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>36998.00</TaxableEarnings>
+      <GrossTaxDue>369.98</GrossTaxDue>
+      <NetTaxDue>369.98</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>369.98</AmountDue>
+      <Remittance>369.98</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>910390128</AccountIdentifier>
+      <BusinessName>Nicolas Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1923 FERNWOOD TRAIL DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63031</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>86797.40</TaxableEarnings>
+      <GrossTaxDue>867.97</GrossTaxDue>
+      <NetTaxDue>867.97</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>867.97</AmountDue>
+      <Remittance>867.97</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>895122816</AccountIdentifier>
+      <BusinessName>Kris, Ankunding and Jones</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5231 DAGGETT AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63110</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>283341.00</TaxableEarnings>
+      <GrossTaxDue>2833.41</GrossTaxDue>
+      <NetTaxDue>2833.41</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2833.41</AmountDue>
+      <Remittance>2833.41</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>284005721</AccountIdentifier>
+      <BusinessName>Wilderman, Pouros and Bechtelar</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>462 BRIDGET DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63125</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>17104.20</TaxableEarnings>
+      <GrossTaxDue>171.04</GrossTaxDue>
+      <NetTaxDue>171.04</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>171.04</AmountDue>
+      <Remittance>171.04</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>275252092</AccountIdentifier>
+      <BusinessName>Gulgowski-Russel</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1300 HIALEAH PL</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Guido Hagenes</ContactName>
+        <ContactEmailAddress>guido.hagenes@gulgowskirussel.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>2929.10</TaxableEarnings>
+      <GrossTaxDue>29.29</GrossTaxDue>
+      <NetTaxDue>29.29</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>29.29</AmountDue>
+      <Remittance>29.29</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>882679245</AccountIdentifier>
+      <BusinessName>White LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9410 INDIAN MEADOWS DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>42934.20</TaxableEarnings>
+      <GrossTaxDue>429.34</GrossTaxDue>
+      <NetTaxDue>429.34</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>429.34</AmountDue>
+      <Remittance>420.75</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>728693066</AccountIdentifier>
+      <BusinessName>Fisher, Padberg and Wolf</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2647 STAUNTON RD</StreetAddress1>
+          <City>TROY</City>
+          <State>IL</State>
+          <ZIPCode>62294</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Nannie Bergnaum</ContactName>
+        <ContactEmailAddress>nannie.bergnaum@fisher.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(499) 999-8754</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>102683.40</TaxableEarnings>
+      <GrossTaxDue>1026.83</GrossTaxDue>
+      <NetTaxDue>1026.83</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1026.83</AmountDue>
+      <Remittance>1026.83</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>167075998</AccountIdentifier>
+      <BusinessName>Barrows-Sauer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>634 LEONARD AVE</StreetAddress1>
+          <City>VALLEY PARK</City>
+          <State>MO</State>
+          <ZIPCode>63088</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>168801.60</TaxableEarnings>
+      <GrossTaxDue>1688.01</GrossTaxDue>
+      <NetTaxDue>1688.01</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1688.01</AmountDue>
+      <Remittance>1688.01</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>290056410</AccountIdentifier>
+      <BusinessName>Anderson, Runolfsdottir and Weimann</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3741 LINCOLN AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63113</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>82754.40</TaxableEarnings>
+      <GrossTaxDue>827.54</GrossTaxDue>
+      <NetTaxDue>827.54</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>827.54</AmountDue>
+      <Remittance>827.54</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>087464171</AccountIdentifier>
+      <BusinessName>Corwin, Green and Berge</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2719 JAMES COOL PAPA BELL AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63106</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Marty Bins</ContactName>
+        <ContactEmailAddress>marty.bins@corwin.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(870) 730-5081</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>243599.40</TaxableEarnings>
+      <GrossTaxDue>2435.99</GrossTaxDue>
+      <NetTaxDue>2435.99</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2435.99</AmountDue>
+      <Remittance>2435.99</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>552682208</AccountIdentifier>
+      <BusinessName>Rempel, Hudson and Baumbach</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7234 RICHMOND PL</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63143</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>43055.20</TaxableEarnings>
+      <GrossTaxDue>430.55</GrossTaxDue>
+      <NetTaxDue>430.55</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>430.55</AmountDue>
+      <Remittance>430.55</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>51-3940313</AccountIdentifier>
+      <BusinessName>Nader, Glover and Denesik</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1707 HARVEST AVE</StreetAddress1>
+          <City>CAHOKIA</City>
+          <State>IL</State>
+          <ZIPCode>62206</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>37495.50</TaxableEarnings>
+      <GrossTaxDue>374.95</GrossTaxDue>
+      <NetTaxDue>374.95</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>374.95</AmountDue>
+      <Remittance>374.95</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>22-1624738</AccountIdentifier>
+      <BusinessName>Boyle-Dare</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2916 SCARSDALE MANOR DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63303</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>215919.00</TaxableEarnings>
+      <GrossTaxDue>2159.19</GrossTaxDue>
+      <NetTaxDue>2159.19</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2159.19</AmountDue>
+      <Remittance>2159.19</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>40-7698948</AccountIdentifier>
+      <BusinessName>Hammes Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2137 SUTTON AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63117</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Noelia Towne</ContactName>
+        <ContactEmailAddress>noelia.towne@hammes.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>55834.80</TaxableEarnings>
+      <GrossTaxDue>558.34</GrossTaxDue>
+      <NetTaxDue>558.34</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>558.34</AmountDue>
+      <Remittance>558.34</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>188142102</AccountIdentifier>
+      <BusinessName>Bauch-Schaefer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5120 PENNSYLVANIA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63111</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Ashley Kshlerin</ContactName>
+        <ContactEmailAddress>ashley.kshlerin@bauchschaefer.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>91130.60</TaxableEarnings>
+      <GrossTaxDue>911.30</GrossTaxDue>
+      <NetTaxDue>911.30</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>911.30</AmountDue>
+      <Remittance>911.30</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>260970687</AccountIdentifier>
+      <BusinessName>Gerhold PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3922 GUSTINE AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63116</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>446006.80</TaxableEarnings>
+      <GrossTaxDue>4460.06</GrossTaxDue>
+      <NetTaxDue>4460.06</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4460.06</AmountDue>
+      <Remittance>4460.06</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>079338654</AccountIdentifier>
+      <BusinessName>Stark, Von and Moore</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>420 ROSEDALE DR</StreetAddress1>
+          <City>EAST ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62024</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Garett Murphy</ContactName>
+        <ContactEmailAddress>garett.murphy@stark.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>385442.50</TaxableEarnings>
+      <GrossTaxDue>3854.42</GrossTaxDue>
+      <NetTaxDue>3854.42</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3854.42</AmountDue>
+      <Remittance>3854.42</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>392515268</AccountIdentifier>
+      <BusinessName>Grant Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6767 OLIVE BLVD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63130</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Alize Kiehn</ContactName>
+        <ContactEmailAddress>alize.kiehn@grant.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>170422.20</TaxableEarnings>
+      <GrossTaxDue>1704.22</GrossTaxDue>
+      <NetTaxDue>1704.22</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1704.22</AmountDue>
+      <Remittance>1704.22</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>484589109</AccountIdentifier>
+      <BusinessName>Hauck, Bernier and Cormier</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>928 BAINTREE LN</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63011</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>1770.00</TaxableEarnings>
+      <GrossTaxDue>17.70</GrossTaxDue>
+      <NetTaxDue>17.70</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>17.70</AmountDue>
+      <Remittance>16.99</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>665534566</AccountIdentifier>
+      <BusinessName>Block-Batz</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2 WOOD PATH LN</StreetAddress1>
+          <City>ST PETERS</City>
+          <State>MO</State>
+          <ZIPCode>63376</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Johanna Hintz</ContactName>
+        <ContactEmailAddress>johanna.hintz@blockbatz.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>454282.30</TaxableEarnings>
+      <GrossTaxDue>4542.82</GrossTaxDue>
+      <NetTaxDue>4542.82</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4542.82</AmountDue>
+      <Remittance>4542.82</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>389704192</AccountIdentifier>
+      <BusinessName>Koch-Stanton</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2026 ALLEN AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63104</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>true</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>8267.70</TaxableEarnings>
+      <GrossTaxDue>82.67</GrossTaxDue>
+      <NetTaxDue>82.67</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>82.67</AmountDue>
+      <Remittance>82.67</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>663831869</AccountIdentifier>
+      <BusinessName>Gibson-Wehner</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5241 BRASS LANTERN PL</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63128</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Irma Abernathy</ContactName>
+        <ContactEmailAddress>irma.abernathy@gibsonwehner.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(644) 916-7169</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>365952.00</TaxableEarnings>
+      <GrossTaxDue>3659.52</GrossTaxDue>
+      <NetTaxDue>3659.52</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3659.52</AmountDue>
+      <Remittance>3659.52</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>693202231</AccountIdentifier>
+      <BusinessName>Pollich LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>19 LIBERTY CREEK CT</StreetAddress1>
+          <City>WENTZVILLE</City>
+          <State>MO</State>
+          <ZIPCode>63385</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>7643.50</TaxableEarnings>
+      <GrossTaxDue>76.43</GrossTaxDue>
+      <NetTaxDue>76.43</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>76.43</AmountDue>
+      <Remittance>76.43</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>596383043</AccountIdentifier>
+      <BusinessName>Littel and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>10030 MCCARTNEY LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Sam Bailey</ContactName>
+        <ContactEmailAddress>sam.bailey@littel.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(553) 325-4189</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>133707.00</TaxableEarnings>
+      <GrossTaxDue>1337.07</GrossTaxDue>
+      <NetTaxDue>1337.07</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1337.07</AmountDue>
+      <Remittance>1337.07</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>776437682</AccountIdentifier>
+      <BusinessName>Hessel, Deckow and Weissnat</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1811 ANDROS CT</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63136</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>308111.40</TaxableEarnings>
+      <GrossTaxDue>3081.11</GrossTaxDue>
+      <NetTaxDue>3081.11</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>3081.11</AmountDue>
+      <Remittance>3081.11</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>551525253</AccountIdentifier>
+      <BusinessName>Abbott, Paucek and Wilkinson</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>11608 CEDAR WALK DR</StreetAddress1>
+          <StreetAddress2>UNIT 162</StreetAddress2>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63146</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>209254.50</TaxableEarnings>
+      <GrossTaxDue>2092.54</GrossTaxDue>
+      <NetTaxDue>2092.54</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2092.54</AmountDue>
+      <Remittance>2092.54</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>103269725</AccountIdentifier>
+      <BusinessName>Sipes Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2602 MAPLE AVE</StreetAddress1>
+          <City>GLENCOE</City>
+          <State>MO</State>
+          <ZIPCode>63038</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>31576.50</TaxableEarnings>
+      <GrossTaxDue>315.76</GrossTaxDue>
+      <NetTaxDue>315.76</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>315.76</AmountDue>
+      <Remittance>315.76</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>126387313</AccountIdentifier>
+      <BusinessName>Raynor, Wolff and Greenfelder</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>31 PAT DR</StreetAddress1>
+          <City>COLLINSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62234</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Vivianne Shields</ContactName>
+        <ContactEmailAddress>vivianne.shields@raynor.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>23225.40</TaxableEarnings>
+      <GrossTaxDue>232.25</GrossTaxDue>
+      <NetTaxDue>232.25</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>232.25</AmountDue>
+      <Remittance>232.25</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>015698226</AccountIdentifier>
+      <BusinessName>Abshire Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1082 HUMBER CIR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63129</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>61199.60</TaxableEarnings>
+      <GrossTaxDue>611.99</GrossTaxDue>
+      <NetTaxDue>611.99</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>611.99</AmountDue>
+      <Remittance>611.99</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>731506044</AccountIdentifier>
+      <BusinessName>Padberg-Steuber</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>187 GOULDING ST</StreetAddress1>
+          <City>EAST ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62024</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>96762.30</TaxableEarnings>
+      <GrossTaxDue>967.62</GrossTaxDue>
+      <NetTaxDue>967.62</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>967.62</AmountDue>
+      <Remittance>967.62</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>822535979</AccountIdentifier>
+      <BusinessName>Brown, Cormier and Marquardt</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9423 ZANE DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63123</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>yes</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>21402.00</TaxableEarnings>
+      <GrossTaxDue>214.02</GrossTaxDue>
+      <NetTaxDue>214.02</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>214.02</AmountDue>
+      <Remittance>214.02</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>678336637</AccountIdentifier>
+      <BusinessName>Medhurst-Fay</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1200 THORNHILL EST</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>yes</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>32564.40</TaxableEarnings>
+      <GrossTaxDue>325.64</GrossTaxDue>
+      <NetTaxDue>325.64</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>325.64</AmountDue>
+      <Remittance>325.64</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>253824627</AccountIdentifier>
+      <BusinessName>Tromp-Goyette</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8021 TITUS RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63114</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Sigurd Rowe</ContactName>
+        <ContactEmailAddress>sigurd.rowe@trompgoyette.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>no</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>56308.50</TaxableEarnings>
+      <GrossTaxDue>563.08</GrossTaxDue>
+      <NetTaxDue>563.08</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>563.08</AmountDue>
+      <Remittance>563.08</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>031419040</AccountIdentifier>
+      <BusinessName>Torp, McGlynn and Koss</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1029 HICKORY PT</StreetAddress1>
+          <City>COLLINSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62234</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jenifer Dicki</ContactName>
+        <ContactEmailAddress>jenifer.dicki@torp.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(821) 537-7985</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>87738.20</TaxableEarnings>
+      <GrossTaxDue>877.38</GrossTaxDue>
+      <NetTaxDue>877.38</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>877.38</AmountDue>
+      <Remittance>877.38</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>155118515</AccountIdentifier>
+      <BusinessName>Kihn-Collins</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8639 NEALY LN</StreetAddress1>
+          <City>EDWARDSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62025</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>7981.60</TaxableEarnings>
+      <GrossTaxDue>79.81</GrossTaxDue>
+      <NetTaxDue>79.81</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>79.81</AmountDue>
+      <Remittance>79.81</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>907189972</AccountIdentifier>
+      <BusinessName>Kihn, Turcotte and Lubowitz</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>601 KELVIN DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>77677.00</TaxableEarnings>
+      <GrossTaxDue>776.77</GrossTaxDue>
+      <NetTaxDue>776.77</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>776.77</AmountDue>
+      <Remittance>776.77</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>394879364</AccountIdentifier>
+      <BusinessName>Howell LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4213 GIBSON AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63110</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>495.80</TaxableEarnings>
+      <GrossTaxDue>4.95</GrossTaxDue>
+      <NetTaxDue>4.95</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>4.95</AmountDue>
+      <Remittance>4.95</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>52-2628210</AccountIdentifier>
+      <BusinessName>Pfannerstill-Boehm</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>955 CLEMSON</StreetAddress1>
+          <City>FAIRVIEW HEIGHTS</City>
+          <State>IL</State>
+          <ZIPCode>62208</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>40315.50</TaxableEarnings>
+      <GrossTaxDue>403.15</GrossTaxDue>
+      <NetTaxDue>403.15</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>403.15</AmountDue>
+      <Remittance>403.15</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>928840650</AccountIdentifier>
+      <BusinessName>Hintz PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>16839 ASHBERRY CIRCLE DR</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63005</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Andres Morissette</ContactName>
+        <ContactEmailAddress>andres.morissette@hintz.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>776475.20</TaxableEarnings>
+      <GrossTaxDue>7764.75</GrossTaxDue>
+      <NetTaxDue>7764.75</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>7764.75</AmountDue>
+      <Remittance>7764.75</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>946565870</AccountIdentifier>
+      <BusinessName>Block LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2112 AVIGNON DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63303</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Seamus Koch</ContactName>
+        <ContactEmailAddress>seamus.koch@block.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>229832.50</TaxableEarnings>
+      <GrossTaxDue>2298.32</GrossTaxDue>
+      <NetTaxDue>2298.32</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2298.32</AmountDue>
+      <Remittance>2298.32</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>186370566</AccountIdentifier>
+      <BusinessName>Stroman Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>11626 ESPERANZA DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>yes</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>155270.70</TaxableEarnings>
+      <GrossTaxDue>1552.70</GrossTaxDue>
+      <NetTaxDue>1552.70</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1552.70</AmountDue>
+      <Remittance>1552.70</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>37-2494247</AccountIdentifier>
+      <BusinessName>Roob, Schneider and Wintheiser</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>8752 STATE ROUTE 162</StreetAddress1>
+          <City>TROY</City>
+          <State>IL</State>
+          <ZIPCode>62294</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>no</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>25782.50</TaxableEarnings>
+      <GrossTaxDue>257.82</GrossTaxDue>
+      <NetTaxDue>257.82</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>257.82</AmountDue>
+      <Remittance>257.82</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>739135054</AccountIdentifier>
+      <BusinessName>Lebsack, Cormier and Zemlak</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>17 BOYD AVE</StreetAddress1>
+          <City>VALLEY PARK</City>
+          <State>MO</State>
+          <ZIPCode>63088</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>214750.80</TaxableEarnings>
+      <GrossTaxDue>2147.50</GrossTaxDue>
+      <NetTaxDue>2147.50</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2147.50</AmountDue>
+      <Remittance>2147.50</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>097999860</AccountIdentifier>
+      <BusinessName>Smith, Schultz and Okuneva</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>335 HUNTERS GLEN CT</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63011</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>22042.20</TaxableEarnings>
+      <GrossTaxDue>220.42</GrossTaxDue>
+      <NetTaxDue>220.42</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>220.42</AmountDue>
+      <Remittance>207.19</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>452568815</AccountIdentifier>
+      <BusinessName>Kovacek Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>9962 CODDINGTON WAY</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Erick Herzog</ContactName>
+        <ContactEmailAddress>erick.herzog@kovacek.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(426) 674-5812</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>236860.20</TaxableEarnings>
+      <GrossTaxDue>2368.60</GrossTaxDue>
+      <NetTaxDue>2368.60</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2368.60</AmountDue>
+      <Remittance>2368.60</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>647814296</AccountIdentifier>
+      <BusinessName>Heathcote, Dickens and Kunde</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>14461 Greenfield Rd</StreetAddress1>
+          <City>Detroit</City>
+          <State>MI</State>
+          <ZIPCode>48227</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Phyllis Cummings</ContactName>
+        <ContactEmailAddress>phyllis.cummings@heathcote.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>33975.50</TaxableEarnings>
+      <GrossTaxDue>339.75</GrossTaxDue>
+      <NetTaxDue>339.75</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>339.75</AmountDue>
+      <Remittance>339.75</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>805104371</AccountIdentifier>
+      <BusinessName>Murazik-Kuhic</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1279 COLBY DR</StreetAddress1>
+          <City>ST PETERS</City>
+          <State>MO</State>
+          <ZIPCode>63376</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>217013.00</TaxableEarnings>
+      <GrossTaxDue>2170.13</GrossTaxDue>
+      <NetTaxDue>2170.13</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2170.13</AmountDue>
+      <Remittance>2170.13</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>478653339</AccountIdentifier>
+      <BusinessName>Dare, Keeling and Jacobson</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>135 HUNTERS LAKE CT</StreetAddress1>
+          <City>EUREKA</City>
+          <State>MO</State>
+          <ZIPCode>63025</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Zoe Tremblay</ContactName>
+        <ContactEmailAddress>zoe.tremblay@dare.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>17124.00</TaxableEarnings>
+      <GrossTaxDue>171.24</GrossTaxDue>
+      <NetTaxDue>171.24</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>171.24</AmountDue>
+      <Remittance>171.24</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>264552918</AccountIdentifier>
+      <BusinessName>Friesen, Hackett and Miller</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>912 S ELEVENTH ST</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62226</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Yasmine Witting</ContactName>
+        <ContactEmailAddress>yasmine.witting@friesen.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>275180.10</TaxableEarnings>
+      <GrossTaxDue>2751.80</GrossTaxDue>
+      <NetTaxDue>2751.80</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>2751.80</AmountDue>
+      <Remittance>2751.80</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>614711207</AccountIdentifier>
+      <BusinessName>Hayes-Schuppe</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>16328 LAKEVIEW CIR</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>1394.00</TaxableEarnings>
+      <GrossTaxDue>13.94</GrossTaxDue>
+      <NetTaxDue>13.94</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>13.94</AmountDue>
+      <Remittance>13.94</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>078645005</AccountIdentifier>
+      <BusinessName>Johns Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4021 JESSICA DR</StreetAddress1>
+          <City>WENTZVILLE</City>
+          <State>MO</State>
+          <ZIPCode>63385</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>29818.00</TaxableEarnings>
+      <GrossTaxDue>298.18</GrossTaxDue>
+      <NetTaxDue>298.18</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>298.18</AmountDue>
+      <Remittance>298.18</Remittance>
+    </ReturnLiability>
+  </STLW10>
+  <STLW10>
+    <ReturnHeader>
+      <AccountIdentifier>823832345</AccountIdentifier>
+      <BusinessName>Wolff, Goodwin and McDermott</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>220 REDMOND PINES DR</StreetAddress1>
+          <City>WENTZVILLE</City>
+          <State>MO</State>
+          <ZIPCode>63385</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Abigail Kreiger</ContactName>
+        <ContactEmailAddress>abigail.kreiger@wolff.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(479) 554-5883</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <TaxableEarnings>161154.60</TaxableEarnings>
+      <GrossTaxDue>1611.54</GrossTaxDue>
+      <NetTaxDue>1611.54</NetTaxDue>
+      <PenaltyDue>0</PenaltyDue>
+      <InterestDue>0</InterestDue>
+      <AmountDue>1611.54</AmountDue>
+      <Remittance>1611.54</Remittance>
+    </ReturnLiability>
+  </STLW10>
+</STLW10P10Batch>

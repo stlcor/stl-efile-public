@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STLW10P10Batch xmlns="https://stlouis-mo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stlouis-mo.gov/ /schemas/w10p10/STLW10P10BatchType.xsd">
+  <BatchHeader>
+    <SubmitterName>STLCOR Payroll Services LLC</SubmitterName>
+    <SubmitterAccountIdentifier>BF00003-0</SubmitterAccountIdentifier>
+    <SubmitterContact>
+      <ContactName>Nicholas Findley</ContactName>
+      <ContactEmailAddress>CORIT@stlouis-mo.gov</ContactEmailAddress>
+    </SubmitterContact>
+    <TotalItems>100</TotalItems>
+    <AmountDueTotal>151802.46</AmountDueTotal>
+    <RemittanceTotal>151455.44</RemittanceTotal>
+  </BatchHeader>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>158619386</AccountIdentifier>
+      <BusinessName>Bogisich Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2898 WESTMINSTER DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Rasheed Shanahan</ContactName>
+        <ContactEmailAddress>rasheed.shanahan@bogisich.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(391) 360-5162</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>315.80</AmountDue>
+      <Remittance>306.32</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>673393980</AccountIdentifier>
+      <BusinessName>Bednar-Spencer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>439 WHITESTONE FARM DR</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Aubree Kohler</ContactName>
+        <ContactEmailAddress>aubree.kohler@bednarspencer.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(380) 495-4956</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4297.08</AmountDue>
+      <Remittance>4297.08</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>978639885</AccountIdentifier>
+      <BusinessName>Green-McClure</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3260 WELLINGTON DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Karelle Luettgen</ContactName>
+        <ContactEmailAddress>karelle.luettgen@greenmcclure.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4861.06</AmountDue>
+      <Remittance>4861.06</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>658005832</AccountIdentifier>
+      <BusinessName>Bauch-Hermiston</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>13012 RITA JUNE WAY</StreetAddress1>
+          <StreetAddress2>103</StreetAddress2>
+          <City>LOUISVILLE</City>
+          <State>KY</State>
+          <ZIPCode>40223</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>48.28</AmountDue>
+      <Remittance>47.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>751715850</AccountIdentifier>
+      <BusinessName>Kuhlman, Schuppe and Nikolaus</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>12033 ROBYN PARK DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63131</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>18.83</AmountDue>
+      <Remittance>18.83</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>708671368</AccountIdentifier>
+      <BusinessName>Rippin and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5514 EMERALD RIDGE DR</StreetAddress1>
+          <City>COTTLEVILLE</City>
+          <State>MO</State>
+          <ZIPCode>63304</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Keven Waelchi</ContactName>
+        <ContactEmailAddress>keven.waelchi@rippin.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>120.38</AmountDue>
+      <Remittance>120.38</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>554266097</AccountIdentifier>
+      <BusinessName>Reynolds and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>267 VALLEYBROOK CT</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63368</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3558.63</AmountDue>
+      <Remittance>3558.63</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>200760196</AccountIdentifier>
+      <BusinessName>Smitham PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1109 N 42ND ST</StreetAddress1>
+          <City>EAST SAINT LOUIS</City>
+          <State>IL</State>
+          <ZIPCode>62204</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>375.91</AmountDue>
+      <Remittance>375.91</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>904086271</AccountIdentifier>
+      <BusinessName>Champlin, Cormier and Watsica</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>511 N 23RD ST</StreetAddress1>
+          <City>EAST SAINT LOUIS</City>
+          <State>IL</State>
+          <ZIPCode>62205</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2309.01</AmountDue>
+      <Remittance>2309.01</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>503683575</AccountIdentifier>
+      <BusinessName>Christiansen-Jacobi</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6803 COTTAGE GROVE LN</StreetAddress1>
+          <StreetAddress2>UNIT D</StreetAddress2>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63129</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>900.26</AmountDue>
+      <Remittance>900.26</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>254076472</AccountIdentifier>
+      <BusinessName>Russel Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6370 HADDEN BAY DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>105.28</AmountDue>
+      <Remittance>105.28</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>370535647</AccountIdentifier>
+      <BusinessName>Bailey, Wuckert and Kessler</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3726 OAKMOUNT AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63121</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1076.16</AmountDue>
+      <Remittance>1076.16</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>217021734</AccountIdentifier>
+      <BusinessName>Hodkiewicz PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4474 LABADIE AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Emerald Stiedemann</ContactName>
+        <ContactEmailAddress>emerald.stiedemann@hodkiewicz.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>1</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4959.90</AmountDue>
+      <Remittance>4959.90</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>822270515</AccountIdentifier>
+      <BusinessName>Altenwerth-Bahringer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>304 JEFFERSON AVE</StreetAddress1>
+          <City>ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62002</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Alek Fay</ContactName>
+        <ContactEmailAddress>alek.fay@altenwerthbahringer.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(384) 511-7312</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>0</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>148.37</AmountDue>
+      <Remittance>148.37</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>659452924</AccountIdentifier>
+      <BusinessName>McClure, Reichel and Smitham</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1318 NORCHESTER DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>50.47</AmountDue>
+      <Remittance>50.47</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>268151659</AccountIdentifier>
+      <BusinessName>Lowe-McLaughlin</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1522 LANGHOLM DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63031</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>118.75</AmountDue>
+      <Remittance>118.75</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>96609903015</AccountIdentifier>
+      <BusinessName>Wehner-Crist</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1221 FAIRVIEW DR</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63011</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1500.62</AmountDue>
+      <Remittance>1500.62</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>760268580</AccountIdentifier>
+      <BusinessName>Smitham-Haley</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>228 REASOR DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63135</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Brian Barton</ContactName>
+        <ContactEmailAddress>brian.barton@smithamhaley.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1761.79</AmountDue>
+      <Remittance>1761.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>067250806</AccountIdentifier>
+      <BusinessName>Pfeffer PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>734 S FLORISSANT RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63135</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>420.30</AmountDue>
+      <Remittance>420.30</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>665641534</AccountIdentifier>
+      <BusinessName>Bins, Treutel and Sanford</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2617 LOUIS AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63144</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4174.36</AmountDue>
+      <Remittance>4174.36</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>743423234</AccountIdentifier>
+      <BusinessName>Muller, Koss and Cormier</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>735 S MAIN ST</StreetAddress1>
+          <City>CASEYVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62232</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Ned Wilderman</ContactName>
+        <ContactEmailAddress>ned.wilderman@muller.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1077.75</AmountDue>
+      <Remittance>1077.75</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>676992732</AccountIdentifier>
+      <BusinessName>Wyman, Kilback and Fahey</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1601 WHITLOW DR</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62226</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2356.96</AmountDue>
+      <Remittance>2356.96</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>286761259</AccountIdentifier>
+      <BusinessName>Dietrich-Kreiger</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>11932 ROSEVIEW LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63138</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1643.00</AmountDue>
+      <Remittance>1643.00</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>363911693</AccountIdentifier>
+      <BusinessName>Pfeffer, Konopelski and Hahn</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1110 GREEN ST</StreetAddress1>
+          <City>ALTON</City>
+          <State>IL</State>
+          <ZIPCode>62002</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Shanny Schneider</ContactName>
+        <ContactEmailAddress>shanny.schneider@pfeffer.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>733.01</AmountDue>
+      <Remittance>733.01</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>298934289</AccountIdentifier>
+      <BusinessName>Cronin PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>207 N INDEPENDENCE ST</StreetAddress1>
+          <City>MASCOUTAH</City>
+          <State>IL</State>
+          <ZIPCode>62258</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Connie Marks</ContactName>
+        <ContactEmailAddress>connie.marks@cronin.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(469) 686-7876</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>448.10</AmountDue>
+      <Remittance>448.10</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>570440476</AccountIdentifier>
+      <BusinessName>Leffler LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5 GLEN GROVE DR</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62226</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1099.79</AmountDue>
+      <Remittance>1099.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>036727945</AccountIdentifier>
+      <BusinessName>Schuppe, Jenkins and Schuster</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5 SOUTH DR</StreetAddress1>
+          <City>CASEYVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62232</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Arden Denesik</ContactName>
+        <ContactEmailAddress>arden.denesik@schuppe.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>1</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1508.04</AmountDue>
+      <Remittance>1508.04</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>456396608</AccountIdentifier>
+      <BusinessName>Walter, Schinner and Gorczany</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6816 ROBERTS AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63130</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>523.09</AmountDue>
+      <Remittance>523.09</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>241747026</AccountIdentifier>
+      <BusinessName>Lind, Waters and Cassin</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>12907 RAY TROG CT</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63146</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Isaiah Runolfsdottir</ContactName>
+        <ContactEmailAddress>isaiah.runolfsdottir@lind.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>292.42</AmountDue>
+      <Remittance>292.42</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>780196892</AccountIdentifier>
+      <BusinessName>Abshire, Tillman and Schulist</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>211 CUISEAUX CT</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63141</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Amari Kohler</ContactName>
+        <ContactEmailAddress>amari.kohler@abshire.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2567.79</AmountDue>
+      <Remittance>2567.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>706371024</AccountIdentifier>
+      <BusinessName>Kessler-Cassin</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>48 BRADY CIR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63114</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>682.53</AmountDue>
+      <Remittance>648.40</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>467484742</AccountIdentifier>
+      <BusinessName>Ledner, Pollich and Kling</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7430 GRAVOIS AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63123</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>740.78</AmountDue>
+      <Remittance>740.78</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>591306309</AccountIdentifier>
+      <BusinessName>Hansen, Kulas and Walsh</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2 DOGWOOD EST</StreetAddress1>
+          <City>GLEN CARBON</City>
+          <State>IL</State>
+          <ZIPCode>62034</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>5088.51</AmountDue>
+      <Remittance>5088.51</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>996629559</AccountIdentifier>
+      <BusinessName>Predovic-Schinner</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4110 SEVEN HILLS DR</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>207.80</AmountDue>
+      <Remittance>207.80</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>234558972</AccountIdentifier>
+      <BusinessName>Murazik Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1248 BEGONIA DR</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63366</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3147.51</AmountDue>
+      <Remittance>3147.51</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>113604130</AccountIdentifier>
+      <BusinessName>Osinski Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2594 GLADIATOR DR</StreetAddress1>
+          <City>FENTON</City>
+          <State>MO</State>
+          <ZIPCode>63026</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Misty Bashirian</ContactName>
+        <ContactEmailAddress>misty.bashirian@osinski.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4828.86</AmountDue>
+      <Remittance>4828.86</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>790811778</AccountIdentifier>
+      <BusinessName>Johnston, Botsford and Hermiston</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>193 STONELEIGH TOWERS ST</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1424.54</AmountDue>
+      <Remittance>1367.55</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>951947643</AccountIdentifier>
+      <BusinessName>Klein-Kiehn</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4995 OLEATHA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63139</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Toney Wunsch</ContactName>
+        <ContactEmailAddress>toney.wunsch@kleinkiehn.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>5069.01</AmountDue>
+      <Remittance>5069.01</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>415699822</AccountIdentifier>
+      <BusinessName>Dibbert, Weber and Dietrich</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>247 PENWOOD CT</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1006.02</AmountDue>
+      <Remittance>1006.02</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>435867179</AccountIdentifier>
+      <BusinessName>Stoltenberg-Heidenreich</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3301 DEMENIL PL</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63118</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>445.53</AmountDue>
+      <Remittance>445.53</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>124438904</AccountIdentifier>
+      <BusinessName>Kutch, Koch and Klocko</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1104 N SMILEY ST</StreetAddress1>
+          <City>OFALLON</City>
+          <State>IL</State>
+          <ZIPCode>62269</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Hank Gottlieb</ContactName>
+        <ContactEmailAddress>hank.gottlieb@kutch.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(708) 549-8793</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>1</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2959.32</AmountDue>
+      <Remittance>2959.32</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>249685438</AccountIdentifier>
+      <BusinessName>Pfeffer LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>11002 WORCHESTER DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63136</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Helene Mayert</ContactName>
+        <ContactEmailAddress>helene.mayert@pfeffer.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>11.29</AmountDue>
+      <Remittance>11.06</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>491558188</AccountIdentifier>
+      <BusinessName>Dibbert and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5108 THEKLA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Anastacio Hansen</ContactName>
+        <ContactEmailAddress>anastacio.hansen@dibbert.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(304) 520-5072</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1707.39</AmountDue>
+      <Remittance>1707.39</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>420049919</AccountIdentifier>
+      <BusinessName>Kling LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1972 WISSANT LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63146</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Anya Luettgen</ContactName>
+        <ContactEmailAddress>anya.luettgen@kling.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>73.73</AmountDue>
+      <Remittance>73.73</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>359852516</AccountIdentifier>
+      <BusinessName>Strosin Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1577 BRIARCHASE DR</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63367</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2263.47</AmountDue>
+      <Remittance>2263.47</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>912060636</AccountIdentifier>
+      <BusinessName>Hudson PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6436 MCCUNE AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63139</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>1</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3514.80</AmountDue>
+      <Remittance>3514.80</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>725925396</AccountIdentifier>
+      <BusinessName>Powlowski, Hessel and O'Conner</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>322 WOODLAWN TERRACE CT</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63021</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>276.76</AmountDue>
+      <Remittance>276.76</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>597420886</AccountIdentifier>
+      <BusinessName>Hegmann Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2211 OLE CASTLE CT</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>1</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>411.48</AmountDue>
+      <Remittance>411.48</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>479780369</AccountIdentifier>
+      <BusinessName>Farrell-Will</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>37 THE ORCHARDS LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>101.75</AmountDue>
+      <Remittance>101.75</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>291983508</AccountIdentifier>
+      <BusinessName>Runte and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6404 PERNOD AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63139</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Emmanuelle Schinner</ContactName>
+        <ContactEmailAddress>emmanuelle.schinner@runte.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(348) 964-8409</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>972.59</AmountDue>
+      <Remittance>972.59</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>101044037</AccountIdentifier>
+      <BusinessName>Gerlach, Schneider and Morissette</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2369 MEADOWPARK CT</StreetAddress1>
+          <City>MARYLAND HEIGHTS</City>
+          <State>MO</State>
+          <ZIPCode>63043</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>218.14</AmountDue>
+      <Remittance>218.14</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>709495964</AccountIdentifier>
+      <BusinessName>Daugherty-Corkery</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1507 FAIRVIEW AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63132</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>553.06</AmountDue>
+      <Remittance>553.06</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>144824318</AccountIdentifier>
+      <BusinessName>Ryan, Bayer and Moore</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>19 FREEMAN DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63129</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Karine Vandervort</ContactName>
+        <ContactEmailAddress>karine.vandervort@ryan.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(283) 656-7639</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>893.63</AmountDue>
+      <Remittance>893.63</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>36752140206</AccountIdentifier>
+      <BusinessName>Renner-Adams</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>124 GRAHAM RD</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63031</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3529.24</AmountDue>
+      <Remittance>3529.24</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>175800812</AccountIdentifier>
+      <BusinessName>Ryan and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2712 CRIMSON VIEW DR</StreetAddress1>
+          <City>SHILOH</City>
+          <State>IL</State>
+          <ZIPCode>62221</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Braeden Strosin</ContactName>
+        <ContactEmailAddress>braeden.strosin@ryan.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3437.25</AmountDue>
+      <Remittance>3265.38</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>056339088</AccountIdentifier>
+      <BusinessName>Huels-Walker</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1114 DARDENNE ST</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63301</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Stefanie Balistreri</ContactName>
+        <ContactEmailAddress>stefanie.balistreri@huelswalker.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>0.00</AmountDue>
+      <Remittance>0.00</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>146023672</AccountIdentifier>
+      <BusinessName>Pollich, Schumm and Gorczany</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3637 CONNECTICUT ST</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63116</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>995.06</AmountDue>
+      <Remittance>995.06</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>575574447</AccountIdentifier>
+      <BusinessName>Schuppe Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>507 DOUGLAS ST</StreetAddress1>
+          <City>ST JACOB</City>
+          <State>IL</State>
+          <ZIPCode>62281</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jerrell Walsh</ContactName>
+        <ContactEmailAddress>jerrell.walsh@schuppe.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>5276.64</AmountDue>
+      <Remittance>5276.64</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>846831152</AccountIdentifier>
+      <BusinessName>Johnston and Sons</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3333 FOERSTER RD</StreetAddress1>
+          <City>BRIDGETON</City>
+          <State>MO</State>
+          <ZIPCode>63044</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>0</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>770.60</AmountDue>
+      <Remittance>770.60</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>495746890</AccountIdentifier>
+      <BusinessName>Ferry Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1021 TWIN SILOS DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63301</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Ansley Hilpert</ContactName>
+        <ContactEmailAddress>ansley.hilpert@ferry.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>895.45</AmountDue>
+      <Remittance>895.45</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>177331874</AccountIdentifier>
+      <BusinessName>Mills, Carroll and Bergstrom</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>15 SUGAR LEAF DR</StreetAddress1>
+          <City>ST PETERS</City>
+          <State>MO</State>
+          <ZIPCode>63376</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>73.17</AmountDue>
+      <Remittance>73.17</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>728586021</AccountIdentifier>
+      <BusinessName>Ryan, Jacobson and Lemke</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>15314 APPALACHIAN TRL</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Bianka Emmerich</ContactName>
+        <ContactEmailAddress>bianka.emmerich@ryan.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>446.92</AmountDue>
+      <Remittance>446.92</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>795518229</AccountIdentifier>
+      <BusinessName>Dibbert Ltd</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>36 BAYSWATER RD</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63128</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>0.00</AmountDue>
+      <Remittance>0.00</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>620582424</AccountIdentifier>
+      <BusinessName>Upton-Fadel</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2100 SANTA CATALINA DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63303</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>1</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4247.34</AmountDue>
+      <Remittance>4247.34</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>445502926</AccountIdentifier>
+      <BusinessName>Murphy, Wehner and Kshlerin</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1618 LAKE KNOLL DR</StreetAddress1>
+          <City>LAKE SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63367</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1910.59</AmountDue>
+      <Remittance>1910.59</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>469258333</AccountIdentifier>
+      <BusinessName>Gerhold, Roob and Blick</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2011 ARCHWAY DR</StreetAddress1>
+          <City>WENTZVILLE</City>
+          <State>MO</State>
+          <ZIPCode>63385</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1983.30</AmountDue>
+      <Remittance>1923.80</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>636163837</AccountIdentifier>
+      <BusinessName>Donnelly Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1 ORBON PL</StreetAddress1>
+          <City>BELLEVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62221</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>512.80</AmountDue>
+      <Remittance>512.80</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>909640381</AccountIdentifier>
+      <BusinessName>Jaskolski-Hauck</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>605 BIRDNEST WALK</StreetAddress1>
+          <City>NEW MELLE</City>
+          <State>MO</State>
+          <ZIPCode>63385</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kyla Kozey</ContactName>
+        <ContactEmailAddress>kyla.kozey@jaskolskihauck.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1304.82</AmountDue>
+      <Remittance>1304.82</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>444433732</AccountIdentifier>
+      <BusinessName>Metz, Borer and Keeling</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3760 MESERTA LN</StreetAddress1>
+          <City>FLORISSANT</City>
+          <State>MO</State>
+          <ZIPCode>63033</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3250.61</AmountDue>
+      <Remittance>3250.61</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>370919037</AccountIdentifier>
+      <BusinessName>Botsford, Hansen and Roberts</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>18736 STOVALL LN</StreetAddress1>
+          <City>PACIFIC</City>
+          <State>MO</State>
+          <ZIPCode>63069</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>20.53</AmountDue>
+      <Remittance>20.53</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>196370186</AccountIdentifier>
+      <BusinessName>Walsh-Abernathy</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4137 OBEAR AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63107</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kale Kshlerin</ContactName>
+        <ContactEmailAddress>kale.kshlerin@walshabernathy.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1922.48</AmountDue>
+      <Remittance>1922.48</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>52226994525</AccountIdentifier>
+      <BusinessName>Mueller, Armstrong and Torphy</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4638 MINNESOTA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63111</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>200.17</AmountDue>
+      <Remittance>200.17</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>688651144</AccountIdentifier>
+      <BusinessName>Wintheiser Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4573 EMERALD VIEW CT</StreetAddress1>
+          <City>EUREKA</City>
+          <State>MO</State>
+          <ZIPCode>63025</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>true</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1982.68</AmountDue>
+      <Remittance>1982.68</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>173221005</AccountIdentifier>
+      <BusinessName>Willms Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>280 GLANDORE DR</StreetAddress1>
+          <City>BALLWIN</City>
+          <State>MO</State>
+          <ZIPCode>63021</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1659.30</AmountDue>
+      <Remittance>1659.30</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>680293184</AccountIdentifier>
+      <BusinessName>Hudson-Skiles</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6044 CHILDRESS AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63109</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>1</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>625.33</AmountDue>
+      <Remittance>625.33</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>801912857</AccountIdentifier>
+      <BusinessName>Oberbrunner Group</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>6151 COLUMBIA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63139</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Vance Krajcik</ContactName>
+        <ContactEmailAddress>vance.krajcik@oberbrunner.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>35.95</AmountDue>
+      <Remittance>35.95</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>035901222</AccountIdentifier>
+      <BusinessName>Kerluke, Cartwright and Cormier</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4626 GREER AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>793.42</AmountDue>
+      <Remittance>793.42</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>337688097</AccountIdentifier>
+      <BusinessName>Stroman-Stanton</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3103 VINE GROVE AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>603.28</AmountDue>
+      <Remittance>603.28</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>911425598</AccountIdentifier>
+      <BusinessName>Leannon, Lang and Runte</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5154 LEXINGTON AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63115</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>230.88</AmountDue>
+      <Remittance>230.88</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>788308847</AccountIdentifier>
+      <BusinessName>Bashirian, Mertz and Gottlieb</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>2209 ARGONNE MEADOWS DR</StreetAddress1>
+          <City>LAKE SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63367</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>0</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>84.79</AmountDue>
+      <Remittance>84.79</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>614699157</AccountIdentifier>
+      <BusinessName>Schmitt, Leannon and Rice</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>7143 VIRGINIA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63111</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Dashawn Green</ContactName>
+        <ContactEmailAddress>dashawn.green@schmitt.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>78.41</AmountDue>
+      <Remittance>78.41</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>363451360</AccountIdentifier>
+      <BusinessName>Leannon-Hane</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5102 ROSA AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63109</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Shawn Bergnaum</ContactName>
+        <ContactEmailAddress>shawn.bergnaum@leannonhane.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(368) 440-6310</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2964.57</AmountDue>
+      <Remittance>2964.57</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>599772003</AccountIdentifier>
+      <BusinessName>Kozey-Herzog</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>5909 PIGGOTT AVE</StreetAddress1>
+          <City>EAST SAINT LOUIS</City>
+          <State>IL</State>
+          <ZIPCode>62207</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1918.90</AmountDue>
+      <Remittance>1918.90</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>253845543</AccountIdentifier>
+      <BusinessName>Lindgren, Larson and Glover</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3724 PINE GROVE AVE</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63121</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Florian Schneider</ContactName>
+        <ContactEmailAddress>florian.schneider@lindgren.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>76.85</AmountDue>
+      <Remittance>75.31</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>390241021</AccountIdentifier>
+      <BusinessName>Casper PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4220 CORDIN LN</StreetAddress1>
+          <City>BRIDGETON</City>
+          <State>MO</State>
+          <ZIPCode>63044</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>93.52</AmountDue>
+      <Remittance>93.52</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>29356862898</AccountIdentifier>
+      <BusinessName>Stoltenberg-Hoppe</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>55 HIGHLAND PARK DR</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>639.44</AmountDue>
+      <Remittance>626.65</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>369759592</AccountIdentifier>
+      <BusinessName>Weber LLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1132 BOSWORTH DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63137</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>201.52</AmountDue>
+      <Remittance>201.52</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>972857524</AccountIdentifier>
+      <BusinessName>Cronin, Heidenreich and McCullough</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>4761 THRUSH AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63120</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Sabrina Jacobs</ContactName>
+        <ContactEmailAddress>sabrina.jacobs@cronin.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(619) 420-4510</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2382.63</AmountDue>
+      <Remittance>2382.63</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>963655052</AccountIdentifier>
+      <BusinessName>Hayes, Kub and Jerde</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1045 TERRACE DR</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63117</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Josianne Orn</ContactName>
+        <ContactEmailAddress>josianne.orn@hayes.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4018.02</AmountDue>
+      <Remittance>4018.02</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>568497877</AccountIdentifier>
+      <BusinessName>Murazik Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3550 HAMPTON AV</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63139</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Lilliana Reichel</ContactName>
+        <ContactEmailAddress>lilliana.reichel@murazik.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>4019.20</AmountDue>
+      <Remittance>4019.20</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>078165651</AccountIdentifier>
+      <BusinessName>Beier PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>905 TILBURY DR</StreetAddress1>
+          <City>ST CHARLES</City>
+          <State>MO</State>
+          <ZIPCode>63301</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>488.84</AmountDue>
+      <Remittance>488.84</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>769961267</AccountIdentifier>
+      <BusinessName>Bernhard PLC</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>10311 MILLWOOD AVE</StreetAddress1>
+          <City>SAINT ANN</City>
+          <State>MO</State>
+          <ZIPCode>63074</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Jeromy Schoen</ContactName>
+        <ContactEmailAddress>jeromy.schoen@bernhard.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>50.28</AmountDue>
+      <Remittance>50.28</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>685174481</AccountIdentifier>
+      <BusinessName>Collier-Considine</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1502 VANDALIA ST</StreetAddress1>
+          <City>COLLINSVILLE</City>
+          <State>IL</State>
+          <ZIPCode>62234</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Kailyn Sipes</ContactName>
+        <ContactEmailAddress>kailyn.sipes@collierconsidine.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>true</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1831.89</AmountDue>
+      <Remittance>1831.89</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>810913357</AccountIdentifier>
+      <BusinessName>Littel Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>3233 PRINCETON DR</StreetAddress1>
+          <City>GRANITE CITY</City>
+          <State>IL</State>
+          <ZIPCode>62040</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>0</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>3782.06</AmountDue>
+      <Remittance>3782.06</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>525401312</AccountIdentifier>
+      <BusinessName>Rodriguez-Bartell</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>621 CHAPPARAL DR</StreetAddress1>
+          <City>OFALLON</City>
+          <State>MO</State>
+          <ZIPCode>63368</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1652.36</AmountDue>
+      <Remittance>1652.36</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>817400566</AccountIdentifier>
+      <BusinessName>Beier Inc</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>16458 WESTKNOLL CV</StreetAddress1>
+          <City>CHESTERFIELD</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>5105.37</AmountDue>
+      <Remittance>5105.37</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>777358024</AccountIdentifier>
+      <BusinessName>Kunde-Adams</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>209 ALAMOSA DR</StreetAddress1>
+          <City>FREEBURG</City>
+          <State>IL</State>
+          <ZIPCode>62243</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>2644.42</AmountDue>
+      <Remittance>2644.42</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>794282883</AccountIdentifier>
+      <BusinessName>Satterfield-Upton</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1502 CENTENARY CT</StreetAddress1>
+          <City>VALLEY PARK</City>
+          <State>MO</State>
+          <ZIPCode>63088</ZIPCode>
+        </USAddress>
+      </Address>
+      <AddressChange>1</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1350.05</AmountDue>
+      <Remittance>1350.05</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>12077785809</AccountIdentifier>
+      <BusinessName>Watsica, Kuhn and Boyer</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>1426 PEACOCK LN</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63144</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Javonte Altenwerth</ContactName>
+        <ContactEmailAddress>javonte.altenwerth@watsica.com</ContactEmailAddress>
+      </BusinessContact>
+      <AddressChange>false</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>0.00</AmountDue>
+      <Remittance>0.00</Remittance>
+    </ReturnLiability>
+  </STLW11>
+  <STLW11>
+    <ReturnHeader>
+      <AccountIdentifier>145898174</AccountIdentifier>
+      <BusinessName>Kling, Friesen and Watsica</BusinessName>
+      <Address>
+        <USAddress>
+          <StreetAddress1>600 OLIVE ST</StreetAddress1>
+          <City>SAINT LOUIS</City>
+          <State>MO</State>
+          <ZIPCode>63101</ZIPCode>
+        </USAddress>
+      </Address>
+      <BusinessContact>
+        <ContactName>Clementina Johns</ContactName>
+        <ContactEmailAddress>clementina.johns@kling.com</ContactEmailAddress>
+        <ContactPhoneNumber>
+          <PhoneNumber>(712) 748-6742</PhoneNumber>
+        </ContactPhoneNumber>
+      </BusinessContact>
+      <AddressChange>0</AddressChange>
+      <AmendedReturn>false</AmendedReturn>
+      <FinalReturn>false</FinalReturn>
+    </ReturnHeader>
+    <ReturnLiability>
+      <FilingPeriod>2026-06-30</FilingPeriod>
+      <AmountDue>1741.84</AmountDue>
+      <Remittance>1741.84</Remittance>
+    </ReturnLiability>
+  </STLW11>
+</STLW10P10Batch>

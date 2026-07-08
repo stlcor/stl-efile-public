@@ -2,7 +2,7 @@
 
 Schema specifications for bulk electronic filing of St. Louis Earnings and Payroll Expense taxes with the City of St. Louis Collector of Revenue (STLCOR).
 
-**Please note** that the schemas here are a **draft in progress** and are not ready for production use. For questions about bulk electronic filing, please contact CORIT@stlouis-mo.gov.
+For questions about bulk electronic filing, please contact CORIT@stlouis-mo.gov.
 
 ## File processing, errors, and warnings
 
@@ -97,3 +97,9 @@ As such, the $1,060.00 payment will be applied as follows and the taxpayer will 
 | Penalty  |     $100.00 |      $100.00 |                   |
 | Interest |      $20.00 |       $20.00 |                   |
 | Total    |   $1,120.00 |    $1,060.00 |            $60.00 |
+
+## Response and Invoice
+
+Upon receipt of a file, STLCOR will validate the file and perform initial processing. STLCOR will make a response file available with a status of `ACCEPTED_PENDING` or `REJECTED`. If the file is rejected, the response file will include an itemized list of errors.
+
+STLCOR will continue processing the file, logging exceptions, and posting returns to taxpayer accounts. Upon completion of processing, STLCOR will provide an invoice.

@@ -10,7 +10,7 @@
 				<description>
 					The W-10, P-10, or W-11 Return Header contains account identification and demographic information pertaining to the taxpayer for whom the return is being filed.
 				</description>
-				<version>1.3.2</version>
+				<version>2.0.0</version>
 			</xsd:documentation>
 		</xsd:annotation>
 
@@ -43,7 +43,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- Telephone -->
+			<!-- Business Contact -->
 			<xsd:element name="BusinessContact" type="ContactType" minOccurs="0" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -52,7 +52,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- AddressChange -->
+			<!-- Address Change -->
 			<xsd:element name="AddressChange" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -61,7 +61,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- AmendedReturn -->
+			<!-- Amended Return -->
 			<xsd:element name="AmendedReturn" type="BooleanType" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
@@ -70,7 +70,7 @@
 				</xsd:annotation>
 			</xsd:element>
 
-			<!-- FinalReturn -->
+			<!-- Final Return -->
 			<xsd:element name="FinalReturn" type="BooleanType" default="false" minOccurs="1" maxOccurs="1">
 				<xsd:annotation>
 					<xsd:documentation>
