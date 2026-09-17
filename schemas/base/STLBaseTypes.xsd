@@ -116,7 +116,7 @@
 	<xsd:simpleType name="BulkFilerIDType">
 		<xsd:annotation>
 			<xsd:documentation>
-				Base type for a bulk filer identification number consisting of one three (3) uppercase letters or digits, four (4) digits, a hyphen, and a single check digit, i.e., ABC1234-5.
+				Base type for a bulk filer identification number consisting of one (1) to three (3) uppercase letters or digits, four (4) digits, a hyphen, and a single check digit, i.e., ABC1234-5.
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
